@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<form:Documents xmlns:form="http://www.abbyy.com/FlexiCapture/Schemas/Export/FormData.xsd" xmlns:addData="http://www.abbyy.com/FlexiCapture/Schemas/Export/AdditionalFormData.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<_matchall:_matchall addData:ImagePath="00000001.pdf" xmlns:_matchall="http://www.abbyy.com/FlexiCapture/Schemas/Export/matchall.xsd">
+		<_section>
+			<_invoicenum>Ministerie van Financien</_invoicenum>
+		</_section>
+	</_matchall:_matchall>
+</form:Documents>
