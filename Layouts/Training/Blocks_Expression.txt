@@ -1,0 +1,11 @@
+Rect outputRect;
+
+if
+supplier.email.IsNull then
+outputrect = rect( 0mm, 0mm, 0mm, 0mm );
+
+else
+{outputRect = supplier.email.Rect;}
+outputrect.Inflate(0.3mm,0.3mm);
+
+outputregion = outputrect;
