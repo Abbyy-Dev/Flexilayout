@@ -1,0 +1,42 @@
+- Header Fields Elements -
+
+cbc:ID [1..1]    An identifier for this document, assigned by the sender.
+cbc:IssueDate [1..1]    The date, assigned by the sender, on which this document was issued.
+cbc:DueDate [0..1]    The date on which Invoice is due.
+cbc:Note [0..*]    Free-form text pertinent to this document, conveying information that is not contained explicitly in other structures.
+cbc:DocumentCurrencyCode [0..1]    A code signifying the default currency for this document.
+cbc:AccountingCost [0..1]    An accounting cost code, applied to the Invoice as a whole, expressed as text.
+cbc:BuyerReference [0..1]    A reference provided by the buyer used for internal routing of the document.
+cac:OrderReference [0..1]    A reference to the Order with which this Invoice is associated.
+cac:BillingReference [0..*]    A reference to a billing document associated with this document.
+
+- Accounting Supplier Party -
+cac:ID [0..1] - chamber of commerce of the supplier
+cac:PartyName [1..1] - name of the supplier (Parent elements = cac:AccountingSupplierParty, cac:Party)
+cbc:StreetName [0..1] - street of the supplier
+cbc:CityName [1..1] - city of the supplier 
+cbc:PostalZone [0..1] - postcode of the supplier
+cbc:IdentificationCode [0..1] - countrycode of the supplier
+cbc:CompanyID [1..1] - vat number of the supplier
+cbc:RegistrationName [1..1] - name of the supplier
+cbc:ElectronicMail [0..1] - email address of the supplier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
