@@ -1,11 +1,14 @@
 if ( Document.PreviousStageInfo.StageName == "Exceptions" ) {
     Matching.DefinitionsList = "matchall";
 }
+else if (Document.Batch.Properties.Get("supplierid")=="1738")
+{
+   Matching.DefinitionsList = "adriaansbv";
+}
 else if (Document.Batch.Properties.Get("supplierid")=="48227")
 {
    Matching.DefinitionsList = "arriva";
 }
-
 else if (Document.Batch.Properties.Get("supplierid")=="4913")
 {
    Matching.DefinitionsList = "artihove";
@@ -24,6 +27,11 @@ else if (Document.Batch.Properties.Get("supplierid")=="959")
 else if (Document.Batch.Properties.Get("supplierid")=="3909")
 {
    Matching.DefinitionsList = "aebi";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48310")
+{
+   Matching.DefinitionsList = "aetenergyefficiency";
 
 }
 else if (Document.Batch.Properties.Get("supplierid")=="6246")
@@ -99,6 +107,11 @@ else if (Document.Batch.Properties.Get("supplierid")=="48153")
 else if (Document.Batch.Properties.Get("supplierid")=="48171")
 {
    Matching.DefinitionsList = "bend";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48253")
+{
+   Matching.DefinitionsList = "bestdeal";
 
 }
 else if (Document.Batch.Properties.Get("supplierid")=="48263")
@@ -196,6 +209,11 @@ else if (Document.Batch.Properties.Get("supplierid")=="48226")
    Matching.DefinitionsList = "campusmoveo";
 
 }
+else if (Document.Batch.Properties.Get("supplierid")=="48304")
+{
+   Matching.DefinitionsList = "centricnl";
+
+}
 else if (Document.Batch.Properties.Get("supplierid")=="74389")
 {
    Matching.DefinitionsList = "coentunnelcompany";
@@ -279,6 +297,11 @@ else if (Document.Batch.Properties.Get("supplierid")=="85741")
 else if (Document.Batch.Properties.Get("supplierid")=="83")
 {
    Matching.DefinitionsList = "euromaster";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48278")
+{
+   Matching.DefinitionsList = "ministryofmeda";
 
 }
 else if (Document.Batch.Properties.Get("supplierid")=="48228")
@@ -406,9 +429,29 @@ else if (Document.Batch.Properties.Get("supplierid")=="48176")
    Matching.DefinitionsList = "ilfats";
 
 }
+else if (Document.Batch.Properties.Get("supplierid")=="22910")
+{
+   Matching.DefinitionsList = "isero";
+
+}
 else if (Document.Batch.Properties.Get("supplierid")=="48154")
 {
    Matching.DefinitionsList = "supportmits";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48311")
+{
+   Matching.DefinitionsList = "vcsobservation";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48274")
+{
+   Matching.DefinitionsList = "vodafone";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="31641")
+{
+   Matching.DefinitionsList = "vemaschiedam";
 
 }
 else if (Document.Batch.Properties.Get("supplierid")=="48244")
@@ -716,6 +759,16 @@ else if (Document.Batch.Properties.Get("supplierid")=="6223")
    Matching.DefinitionsList = "rijsbergen";
 
 }
+else if (Document.Batch.Properties.Get("supplierid")=="48303")
+{
+   Matching.DefinitionsList = "saabtech";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48293")
+{
+   Matching.DefinitionsList = "schuberth";
+
+}
 else if (Document.Batch.Properties.Get("supplierid")=="48156")
 {
    Matching.DefinitionsList = "scholteverhuis";
@@ -886,6 +939,11 @@ else if (Document.Batch.Properties.Get("supplierid")=="8367")
    Matching.DefinitionsList = "vanderverldenrb";
 
 }
+else if (Document.Batch.Properties.Get("supplierid")=="336")
+{
+   Matching.DefinitionsList = "vanhappen";
+
+}
 else if (Document.Batch.Properties.Get("supplierid")=="8766")
 {
    Matching.DefinitionsList = "vendrigijsselstein";
@@ -939,6 +997,11 @@ else if (Document.Batch.Properties.Get("supplierid")=="909")
 else if (Document.Batch.Properties.Get("supplierid")=="48168")
 {
    Matching.DefinitionsList = "wits";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="4162")
+{
+   Matching.DefinitionsList = "witteveenbos";
 
 }
 else if (Document.Batch.Properties.Get("supplierid")=="48212")
