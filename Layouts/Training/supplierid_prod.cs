@@ -601,6 +601,11 @@ else if (Document.Batch.Properties.Get("supplierid")=="48267")
    Matching.DefinitionsList = "optimaforma";
 
 }
+else if (Document.Batch.Properties.Get("supplierid")=="48391")
+{
+   Matching.DefinitionsList = "palladio";
+
+}
 else if (Document.Batch.Properties.Get("supplierid")=="48252")
 {
    Matching.DefinitionsList = "paagmanbv";
