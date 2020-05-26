@@ -88,6 +88,14 @@ else if (Document.Batch.Properties.Get("supplierid")=="975")
 {
    Matching.DefinitionsList = "autohoogenboom";
 
+}else if (Document.Batch.Properties.Get("supplierid")=="75608")
+{
+   Matching.DefinitionsList = "baminfra";
+
+}else if (Document.Batch.Properties.Get("supplierid")=="48411")
+{
+   Matching.DefinitionsList = "bartversteeg";
+
 }
 else if (Document.Batch.Properties.Get("supplierid")=="48259")
 {
@@ -214,7 +222,11 @@ else if (Document.Batch.Properties.Get("supplierid")=="48304")
    Matching.DefinitionsList = "centricnl";
 
 }
-else if (Document.Batch.Properties.Get("supplierid")=="74389")
+else if (Document.Batch.Properties.Get("supplierid")=="22999")
+{
+   Matching.DefinitionsList = "comparex";
+
+}else if (Document.Batch.Properties.Get("supplierid")=="74389")
 {
    Matching.DefinitionsList = "coentunnelcompany";
 
@@ -237,6 +249,11 @@ else if (Document.Batch.Properties.Get("supplierid")=="48225")
 else if (Document.Batch.Properties.Get("supplierid")=="768")
 {
    Matching.DefinitionsList = "conradbenelux";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="37371")
+{
+   Matching.DefinitionsList = "dekrom";
 
 }
 else if (Document.Batch.Properties.Get("supplierid")=="77058")
@@ -484,6 +501,11 @@ else if (Document.Batch.Properties.Get("supplierid")=="48195")
    Matching.DefinitionsList = "kcmsurvey";
 
 }
+else if (Document.Batch.Properties.Get("supplierid")=="6863")
+{
+   Matching.DefinitionsList = "kpmgadvisory";
+
+}
 else if (Document.Batch.Properties.Get("supplierid")=="48243")
 {
    Matching.DefinitionsList = "ksgtc";
@@ -602,6 +624,16 @@ else if (Document.Batch.Properties.Get("supplierid")=="98565")
 else if (Document.Batch.Properties.Get("supplierid")=="4826")
 {
    Matching.DefinitionsList = "nevip";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="1840")
+{
+   Matching.DefinitionsList = "nebestbv";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="54426")
+{
+   Matching.DefinitionsList = "novacontract";
 
 }
 else if (Document.Batch.Properties.Get("supplierid")=="38884")
@@ -794,6 +826,11 @@ else if (Document.Batch.Properties.Get("supplierid")=="48253")
    Matching.DefinitionsList = "spendlab";
 
 }
+else if (Document.Batch.Properties.Get("supplierid")=="99340")
+{
+   Matching.DefinitionsList = "spienl";
+
+}
 else if (Document.Batch.Properties.Get("supplierid")=="48230")
 {
    Matching.DefinitionsList = "squarez";
@@ -832,6 +869,11 @@ else if (Document.Batch.Properties.Get("supplierid")=="48233")
 else if (Document.Batch.Properties.Get("supplierid")=="1785")
 {
    Matching.DefinitionsList = "nen";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="6926")
+{
+   Matching.DefinitionsList = "vangelderbv";
 
 }
 else if (Document.Batch.Properties.Get("supplierid")=="48167")
