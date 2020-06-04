@@ -1729,11 +1729,9 @@ else if (Document.Batch.Properties.Get("supplierid")=="48394")
 {
    Matching.DefinitionsList = "oukebaas";
 }
-else if (Document.StageInfo.StageName == "Exceptions")
+else if (Document.DocumentDefinition.Name == "")
 {
-   
-    Matching.DefinitionsList = "generic";
-
+	Matching.DefinitionsList = "generic";
 }
 else 
 {
