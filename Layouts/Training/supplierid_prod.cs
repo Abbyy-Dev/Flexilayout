@@ -88,11 +88,18 @@ else if (Document.Batch.Properties.Get("supplierid")=="975")
 {
    Matching.DefinitionsList = "autohoogenboom";
 
-}else if (Document.Batch.Properties.Get("supplierid")=="75608")
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48263")
+{
+   Matching.DefinitionsList = "bfas";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="75608")
 {
    Matching.DefinitionsList = "baminfra";
 
-}else if (Document.Batch.Properties.Get("supplierid")=="48411")
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48411")
 {
    Matching.DefinitionsList = "bartversteeg";
 
