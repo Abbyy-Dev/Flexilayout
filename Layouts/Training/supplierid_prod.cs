@@ -1,6 +1,8 @@
+//================
 if ( Document.PreviousStageInfo.StageName == "Exceptions" ) {
-    Matching.DefinitionsList = "matchall";
+   Matching.DefinitionsList = "matchall";
 }
+//================
 else if (Document.Batch.Properties.Get("supplierid")=="1738")
 {
    Matching.DefinitionsList = "adriaansbv";
@@ -1741,12 +1743,17 @@ else if (Document.Batch.Properties.Get("supplierid")=="48394")
 {
    Matching.DefinitionsList = "oukebaas";
 }
-else if (Document.DocumentDefinition.Name == "")
+else if (Document.Batch.Properties.Get("supplierid")=="60183")
 {
-	Matching.DefinitionsList = "generic";
+   Matching.DefinitionsList = "humancapitalcare";
 }
-else 
+else if (Document.Batch.Properties.Get("Environment") == "g-p")
 {
-       //Matching.ForceMatch = true;
+     Matching.DefinitionsList = "generic";
+}
+else
+{
+        //Matching.ForceMatch = true;
         Matching.DefinitionsList = "matchall";
 }
+

@@ -9,7 +9,7 @@ day = Mid(date,1,2)
 day2 = "0" + Mid(date,1,1)
 
 
-if me.Field("orderdatebuyer").Text <> "" and Len(date) = 7 then
+if me.Field("orderdatebuyer").Text() and Len(date) = 7 then
   me.Field("orderdatebuyer").Text = day2 + "-" + month2 + "-"+ year2
   
 elseif me.Field("orderdatebuyer").Text <> "" and Len(date) > 7 then
@@ -56,3 +56,48 @@ ndate = Replace(cdate,".","-")
 if me.Field("orderdatebuyer").Text <> "" then
 me.Field("orderdatebuyer").Text = ndate
 end if
+
+
+
+
+===one digit date format=======
+
+Dim date, day, month ,year
+
+'7-6-2020
+date = me.Field("duedate").Text
+day = Mid(date,1,1) '7
+month =  Mid(date,3,1) '9
+year = Mid(date,5,4) '2020
+
+'d-mm-yyyy'
+if me.Field("duedate").Text <> "" and Len(day) = 1 then
+  me.Field("duedate").Text = "0" + day + "-" + month + "-" + year
+
+'dd-m-yyyy
+elseif me.Field("duedate").Text <> "" and Len(month) = 1 then
+  me.Field("duedate").Text = day + "-" + "0" + month + "-" + year
+
+'d-m-yyyy
+elseif me.Field("duedate").Text <> "" and Len(month) = 1 and Len(day) = 1 then
+  me.Field("duedate").Text = "0" + day + "-" + "0" + month + "-" + year
+
+'dd-mm-yyyy
+else
+  me.Field("duedate").Text = date
+
+end if
+
+
+
+==========email==============
+
+
+Dim email
+
+email = me.Field("supplieremail").Text
+
+if me.Field("supplieremail").Text <> "" then 
+    me.Field("supplieremail").Text = "info@dtvconsultants.nl"
+end if
+
