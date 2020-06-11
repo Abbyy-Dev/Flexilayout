@@ -1,14 +1,17 @@
-Dim dis, tdis, io, ip, tip, ntip, prod
+Dim discount, quantity, price, t_discount, t_quantity, t_price, ac
 
-dis = me.Field("allowancecharge").Text
-io = me.Field("items_ordered").Text
-ip = me.Field("item_price").Text
+'1.500,25
+discount = me.Field("allowancecharge").Text
+quantity = Replace(me.Field("items_ordered").Text,".","")
+price = Replace(me.Field("item_price").Text,".","")
 
-tdis = Replace(dis,",",".")/100
-tip = Replace(ip,",",".")
-ntip = Replace(tip," ","")
-prod = (io*ntip)*(-tdis)
+t_discount = discount/100
+
+'1500.25
+t_quantity = Replace(quantity,",",".")
+t_price = Replace(price,",",".")
+ac = (t_quantity*t_price)*(-t_discount)
 
 if me.Field("allowancecharge").Text <> "" then
-  me.Field("allowancecharge").Text = prod
+  me.Field("allowancecharge").Text = ac
 end if
