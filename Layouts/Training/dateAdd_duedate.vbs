@@ -33,21 +33,20 @@ if me.Field("duedate").Text <> "" and Len(nduedate) = 8 then
 	
 elseif me.Field("duedate").Text <> "" and Len(nduedate) = 9 then
 	
-	if Len(day2) = 2
+	    if Len(day2) = 2 then
     
-	me.Field("duedate").Text = day2 + "-" + "0" + month2 + "-" + year2
+	        me.Field("duedate").Text = day2 + "-" + "0" + month2 + "-" + year2
 	
-	else
+	    else
 	
-	me.Field("duedate").Text = "0" + day3 + "-" + month3 + "-" + year3
-	
+	        me.Field("duedate").Text = "0" + day3 + "-" + month3 + "-" + year3
+	    end if
+
 elseif me.Field("duedate").Text <> "" and Len(nduedate) = 10 then
 
 	me.Field("duedate").Text = day4 + month4 + "-" + year4
 	    
 end if
-
-
 
 =================== script for testing
 
