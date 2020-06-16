@@ -20,7 +20,11 @@
 1 mars 2020
 11 mars 2020
 
-Dim cdate, day1, day2, month2_3, month2_4, month2_5, month2_7, month2_8, month2_9, year2_3, year2_4, year2_5, year2_7, year2_8, year2_9, month1_3, month1_4, month1_5, month1_7, month1_8, month1_9, year1_3, year1_4, year1_5, year1_7, year1_8, year1_9
+Dim cdate, day1, day2,
+month1_3, month1_4, month1_5, month1_7, month1_8, month1_9,
+year1_3, year1_4, year1_5, year1_7, year1_8, year1_9,
+month2_3, month2_4, month2_5, month2_7, month2_8, month2_9,
+year2_3, year2_4, year2_5, year2_7, year2_8, year2_9
 
 
 cdate = me.Field("orderdatebuyer").Text

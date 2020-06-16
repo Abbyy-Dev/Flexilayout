@@ -1907,6 +1907,74 @@ else if (Document.Batch.Properties.Get("supplierid")=="97606")
 {
    Matching.DefinitionsList = "fmtcbv";
 }
+else if (Document.Batch.Properties.Get("supplierid")=="807")
+{
+   Matching.DefinitionsList = "assaabloynl";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48503")
+{
+   Matching.DefinitionsList = "avilostikstof";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48501")
+{
+   Matching.DefinitionsList = "platformp";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="33519")
+{
+   Matching.DefinitionsList = "hogeschoolvanhall";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="12216")
+{
+   Matching.DefinitionsList = "bccelektrospeciaalzaken";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48502")
+{
+   Matching.DefinitionsList = "pietpeeters";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48504")
+{
+   Matching.DefinitionsList = "debaakadministratiebv";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48421")
+{
+   Matching.DefinitionsList = "aldeghiromain";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="56092")
+{
+   Matching.DefinitionsList = "stijlbv";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="32510")
+{
+   Matching.DefinitionsList = "vikingnl";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48506")
+{
+   Matching.DefinitionsList = "glerum";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48514")
+{
+   Matching.DefinitionsList = "quizzzit";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="7136")
+{
+   Matching.DefinitionsList = "devriesprojektdesign";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48515")
+{
+   Matching.DefinitionsList = "iblumweltplanung";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48509")
+{
+   Matching.DefinitionsList = "gitptrainingopleiding";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="90750")
+{
+   Matching.DefinitionsList = "yoursurprise";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="1333")
+{
+   Matching.DefinitionsList = "nysinghadvocaten";
+}
 else if (Document.Batch.Properties.Get("Environment") == "g-p")
 {
      Matching.DefinitionsList = "generic";
@@ -1916,4 +1984,3 @@ else
         //Matching.ForceMatch = true;
         Matching.DefinitionsList = "matchall";
 }
-
