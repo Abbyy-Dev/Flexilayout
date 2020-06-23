@@ -58,11 +58,24 @@ cdate = me.Field("invoicedate").Text
 nduedate = DateAdd("d",duedate,cdate)
 
 
+============= 25-05-2020 ============
+
+Dim duedate, cdate, nduedate, day, month, year
 
 
+duedate = me.Field("duedate").Text
+cdate = me.Field("invoicedate").Text
+
+nduedate = Replace(DateAdd("d",duedate,cdate),"/","-") '25-05-2020
 
 
+'25-05-2020
+day = Mid(nduedate,1,2)
+month = Mid(nduedate,4,2)
+year = Mid(nduedate,7,4)
 
+if me.Field("duedate").Text <> "" then
 
-
-
+	me.Field("duedate").Text = day + "-" + month + "-" + year
+	    
+end if

@@ -1283,6 +1283,21 @@ else if (Document.Batch.Properties.Get("supplierid")=="9613")
 {
    Matching.DefinitionsList = "topgeschenkennl";
 }
+
+else if (Document.Batch.Properties.Get("supplierid")=="48432")
+{
+   Matching.DefinitionsList = "cooprabobankua";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="59379")
+{
+   Matching.DefinitionsList = "handelsverhuurbedrijf";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="48434")
+{
+   Matching.DefinitionsList = "telecomservicesecurity";
+}
 else if (Document.Batch.Properties.Get("Environment") == "g-p")
 {
      Matching.DefinitionsList = "generic";
@@ -1290,5 +1305,5 @@ else if (Document.Batch.Properties.Get("Environment") == "g-p")
 else
 {
         //Matching.ForceMatch = true;
-        Matching.DefinitionsList = "generic";
+        Matching.DefinitionsList = "matchall";
 }

@@ -27,13 +27,13 @@ if me.Field("invoicedate").Text <> ""  then
   'mrt
   elseif smonth = "mrt" and Len(day) = 1 then
      me.Field("invoicedate").Text = "0" + day + "-" + "03" + "-"+ year  
-  elseif smonth2 = "feb" and Len(day2) = 2 then
+  elseif smonth2 = "mrt" and Len(day2) = 2 then
      me.Field("invoicedate").Text = day2 + "-" + "03" + "-"+ year2
   
   'apr
   elseif smonth = "apr" and Len(day) = 1 then
      me.Field("invoicedate").Text = "0" + day + "-" + "04" + "-"+ year
-  elseif smonth2 = "mei" and Len(day2) = 2 then
+  elseif smonth2 = "apr" and Len(day2) = 2 then
      me.Field("invoicedate").Text = day2 + "-" + "04" + "-"+ year2
     
   'mei
@@ -88,6 +88,6 @@ if me.Field("invoicedate").Text <> ""  then
   end if
 
 else
-     me.Field("invoicedate").Text = ""
+     me.Field("invoicedate").Text = date
   
 end if

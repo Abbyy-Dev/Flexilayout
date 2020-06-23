@@ -129,10 +129,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="48369")
 {
    Matching.DefinitionsList = "banketbakkerij";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="59379")
-{
-   Matching.DefinitionsList = "handelsverhuurbedrijf";
-}
 else if (Document.Batch.Properties.Get("supplierid")=="48365")
 {
    Matching.DefinitionsList = "glomidcomanaged";
@@ -451,10 +447,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="15000")
 else if (Document.Batch.Properties.Get("supplierid")=="48431")
 {
    Matching.DefinitionsList = "firecosystems";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="48432")
-{
-   Matching.DefinitionsList = "cooprabobankua";
 }
 else if (Document.Batch.Properties.Get("supplierid")=="48433")
 {
