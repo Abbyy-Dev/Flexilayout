@@ -34,8 +34,8 @@ august = Mid(date,InStr(date,"août"),4) '4
 
 april = Mid(date,InStr(date,"avril"),5) '5
 
-january = Mid(date,InStr(date,"janvier"),7) '7
-february = Mid(date,InStr(date,"février"),7) '7
+january = Mid(date,InStr(date,"janvier"),7) '14 janvier 2020
+february = Mid(date,InStr(date,"février"),7) '14 février 2020
 october = Mid(date,InStr(date,"octobre"),7) '7
 july = Mid(date,InStr(date,"juillet"),7) '7
 
