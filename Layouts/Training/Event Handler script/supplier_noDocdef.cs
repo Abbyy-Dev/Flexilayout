@@ -149,10 +149,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="4538")
 {
    Matching.DefinitionsList = "bbvakmedianet";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48377")
-{
-   Matching.DefinitionsList = "kbenptalentbv";
-}
 else if (Document.Batch.Properties.Get("supplierid")=="48376")
 {
    Matching.DefinitionsList = "hygeaconsult";

@@ -1158,6 +1158,19 @@ else if (Document.Batch.Properties.Get("supplierid")=="17")
    Matching.DefinitionsList = "ambiusbv";
 
 }
+else if (Document.Batch.Properties.Get("supplierid")=="48537")
+{
+   Matching.DefinitionsList = "pnp";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48377")
+{
+   Matching.DefinitionsList = "kbenp";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="100016")
+{
+   Matching.DefinitionsList = "een200";
+}
 else if (Document.Batch.Properties.Get("Environment") == "g-p")
 {
      Matching.DefinitionsList = "generic";
