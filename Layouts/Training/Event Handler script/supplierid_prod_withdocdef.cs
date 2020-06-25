@@ -882,11 +882,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="34136")
    Matching.DefinitionsList = "vcustorebv";
 
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48454")
-{
-   Matching.DefinitionsList = "blommesteinmartens";
-
-}
 else if (Document.Batch.Properties.Get("supplierid")=="31411")
 {
    Matching.DefinitionsList = "xeroxnl";

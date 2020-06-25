@@ -835,3 +835,9 @@ else if (Document.Batch.Properties.Get("supplierid")=="22999")
    Matching.DefinitionsList = "comparex";
 
 }
+
+else if (Document.Batch.Properties.Get("supplierid")=="48454")
+{
+   Matching.DefinitionsList = "blommesteinmartens";
+
+}
