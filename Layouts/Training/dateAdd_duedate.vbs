@@ -1,3 +1,59 @@
+=================== !!! LATEST !!! 29-10-2019  ==========================================================
+
+Dim duedate, cdate, nduedate, day, month, year, day2, month2, day3, month3, day4, month4
+
+
+duedate = me.Field("duedate").Text '14
+cdate = me.Field("invoicedate").Text '29-10-2019
+
+
+nduedate = DateAdd("d",duedate,cdate) '11/6/2019
+
+'11/6/2019 = 9
+day = Mid(nduedate,4,1)
+month = Mid(nduedate,1,2)
+
+
+'1/29/2019 = 9
+day2 = Mid(nduedate,3,2)
+month2 = Mid(nduedate,1,1)
+
+'5/9/2020 = 8
+day3 = Mid(nduedate,3,1)
+month3 = Mid(nduedate,1,1)
+
+'10/10/2020 = 10
+day4 = Mid(nduedate,4,2)
+month4 = Mid(nduedate,1,2)
+
+year = Right(nduedate,4)
+
+
+if me.Field("duedate").Text <> "30" and Len(nduedate) = 9 then
+ 
+    if Len(day2) = 2 then
+  
+    me.Field("duedate").Text = day2 + "-" + "0" + month2 + "-" + year
+   
+ else 
+   
+    me.Field("duedate").Text = "0" + day + "-" + month + "-" + year
+    
+    end if
+   
+elseif me.Field("duedate").Text <> "30" and Len(nduedate) = 8 then
+
+ me.Field("duedate").Text =  "0" + day3 + "-" + "0" + month3 + "-" + year
+ 
+elseif me.Field("duedate").Text <> "30" and Len(nduedate) = 10 then
+
+ me.Field("duedate").Text  = day4 + "-" + month4 + "-" + year
+
+end if
+
+============================   5/8/2020   ==================================
+
+
 Dim duedate, cdate, nduedate, day, month, year, day2, month2, year2, day3, month3, year3, day4, month4, year4
 
 
@@ -48,7 +104,9 @@ elseif me.Field("duedate").Text <> "" and Len(nduedate) = 10 then
 	    
 end if
 
-=================== script for testing
+
+
+=================== script for testing =========================================================================
 
 Dim duedate, cdate, nduedate
 
@@ -58,7 +116,7 @@ cdate = me.Field("invoicedate").Text
 nduedate = DateAdd("d",duedate,cdate)
 
 
-============= 11-6-2019 ============
+============= 11-6-2019 =========================================================================
 
 Dim duedate, cdate, nduedate, day, month, year
 

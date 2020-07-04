@@ -1,27 +1,21 @@
-Dim date, day, day2, year, nyear,
-maart, nmarch, march
+Dim date, day, day2, year, june
 
 date = me.Field("invoicedate").Text
 
-'8 maart 2020
-day = Mid(date,1,1)
-
-'18 maart 2020
+'18 juni 2020
 day2 = Mid(date,1,2)
 
 '2020'
-year = Mid(date,InStr(date,"2020"),4) '10
+year = Right(date,4) '2020
 
-'march
-march = InStr(date,"maart") '3
-nmarch = Mid(date,march,5) 'maart
-
+'juni
+june = Mid(date,(InStr(date,"juni")),4) '4
 
 
-if me.Field("invoicedate").Text <> "" then
+if me.Field("invoicedate").Text <> "" and june = "juni" then
 
-    me.Field("invoicedate").Text = "03" + year
-
+    me.Field("invoicedate").Text = day2 + "-" + "06" + "-" + year
+    
 end if
 
 

@@ -1,14 +1,18 @@
-Dim dis, tdis, io, ip, tip, prod, nprod
+================ LATEST!!! 10.00% format ==============
 
-dis = me.Field("allowancecharge").Text
-io = me.Field("items_ordered").Text
-ip = me.Field("item_price").Text
+Dim discount, items, price, per, tdiscount, prod, nprod
 
-tdis = Replace(dis,",",".")/100
-tip = Replace(ip,",",".")
-prod = (io*tip)*(-tdis)
+discount = me.Field("allowancecharge").Text
+items = Replace(me.Field("items_ordered").Text,",",".")
+price = Replace(me.Field("item_price").Text,",",".")
+per = Replace(me.Field("per").Text,",",".")
+
+tdiscount = discount/100
+prod = (items*price*per)*(-tdiscount)
 nprod = Round(prod,2)
 
 if me.Field("allowancecharge").Text <> "" then
+
   me.Field("allowancecharge").Text = nprod
+
 end if

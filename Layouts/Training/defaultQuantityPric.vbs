@@ -22,19 +22,3 @@ if me.Field("item_price").Text = "" then
     me.Field("item_price").Text = dPrice
     
 end if
-
-
-
-
-=========================
-
-
-Dim dPrice
-
-dPrice = me.Field("line_amount").Text
-
-if me.Field("line_amount").Text <> "" then
-
-    me.Field("item_price").Text = dPrice
-    
-end if

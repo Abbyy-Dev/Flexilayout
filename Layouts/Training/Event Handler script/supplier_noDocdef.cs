@@ -28,6 +28,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48193")
    Matching.DefinitionsList = "valtech";
 
 }
+}
 else if (Document.Batch.Properties.Get("supplierid")=="48217")
 {
    Matching.DefinitionsList = "vanblitterswijkgpm";
@@ -197,10 +198,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48383")
 {
    Matching.DefinitionsList = "screensuccess";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="207")
-{
-   Matching.DefinitionsList = "trafficservicenl";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="48382")
 {
    Matching.DefinitionsList = "aanmelder";
@@ -239,10 +237,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="48303")
    Matching.DefinitionsList = "saabtech";
 
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48390")
-{
-   Matching.DefinitionsList = "sasinstitutebv";
-}
 else if (Document.Batch.Properties.Get("supplierid")=="94973")
 {
    Matching.DefinitionsList = "aannemingsbedrijfvalk";
@@ -250,10 +244,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="94973")
 else if (Document.Batch.Properties.Get("supplierid")=="48393")
 {
    Matching.DefinitionsList = "freseniuskabinl";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="44005")
-{
-   Matching.DefinitionsList = "ncoitrainingenbv";
 }
 else if (Document.Batch.Properties.Get("supplierid")=="48394")
 {
@@ -299,10 +289,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48403")
 {
    Matching.DefinitionsList = "telenetbvba";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="49182")
-{
-   Matching.DefinitionsList = "derivierennotarissen";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="48398")
 {
    Matching.DefinitionsList = "bruinsmaknw";
@@ -393,11 +380,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="6863")
    Matching.DefinitionsList = "kpmgadvisory";
 
 }
-else if (Document.Batch.Properties.Get("supplierid")=="703")
-{
-   Matching.DefinitionsList = "manutanbv";
 
-}
 else if (Document.Batch.Properties.Get("supplierid")=="48418")
 {
    Matching.DefinitionsList = "unitedtalentbv";
@@ -669,10 +652,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48514")
 {
    Matching.DefinitionsList = "quizzzit";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="7136")
-{
-   Matching.DefinitionsList = "devriesprojektdesign";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="48515")
 {
    Matching.DefinitionsList = "iblumweltplanung";
