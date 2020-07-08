@@ -90,14 +90,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="4317")
 {
    Matching.DefinitionsList = "osrjuridische";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="15428")
-{
-   Matching.DefinitionsList = "kaartje2go";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="2085")
-{
-   Matching.DefinitionsList = "paotechniekmgmt";
-}
 else if (Document.Batch.Properties.Get("supplierid")=="48363")
 {
    Matching.DefinitionsList = "dienstictuitvoering";
@@ -113,10 +105,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="47374")
 else if (Document.Batch.Properties.Get("supplierid")=="48364")
 {
    Matching.DefinitionsList = "sogetinl";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="48371")
-{
-   Matching.DefinitionsList = "wisdompropertynl";
 }
 else if (Document.Batch.Properties.Get("supplierid")=="31751")
 {
@@ -211,21 +199,9 @@ else if (Document.Batch.Properties.Get("supplierid")=="17277")
 {
    Matching.DefinitionsList = "arbouniebv";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48389")
-{
-   Matching.DefinitionsList = "gemeentenijmegen";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="99016")
-{
-   Matching.DefinitionsList = "bpiservicesbv";
-}
 else if (Document.Batch.Properties.Get("supplierid")=="86234")
 {
    Matching.DefinitionsList = "jackoosterwijk";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="3075")
-{
-   Matching.DefinitionsList = "boombv";
 }
 else if (Document.Batch.Properties.Get("supplierid")=="48392")
 {
@@ -244,10 +220,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="94973")
 else if (Document.Batch.Properties.Get("supplierid")=="48393")
 {
    Matching.DefinitionsList = "freseniuskabinl";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="48394")
-{
-   Matching.DefinitionsList = "oukebaas";
 }
 else if (Document.Batch.Properties.Get("supplierid")=="48294")
 {
@@ -544,10 +516,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48481")
 {
    Matching.DefinitionsList = "technologiezentrum";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="66330")
-{
-   Matching.DefinitionsList = "esrainterntransport";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="96517")
 {
    Matching.DefinitionsList = "breijercontractonderhoud";
@@ -591,10 +560,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="56061")
 else if (Document.Batch.Properties.Get("supplierid")=="48488")
 {
    Matching.DefinitionsList = "jbloemdesign";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="48494")
-{
-   Matching.DefinitionsList = "lloydsregister";
 }
 else if (Document.Batch.Properties.Get("supplierid")=="48493")
 {
@@ -661,10 +626,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48509")
 {
    Matching.DefinitionsList = "gitptrainingopleiding";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="90750")
-{
-   Matching.DefinitionsList = "yoursurprise";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="12780")
 {
    Matching.DefinitionsList = "telder";
@@ -820,4 +782,15 @@ else if (Document.Batch.Properties.Get("supplierid")=="48454")
 {
    Matching.DefinitionsList = "blommesteinmartens";
 
+}
+else if (Document.Batch.Properties.Get("supplierid")=="31411")
+{
+   Matching.DefinitionsList = "xeroxnl";
+
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="48598")
+{
+   Matching.DefinitionsList = "ilumyprototyping";
+   
 }

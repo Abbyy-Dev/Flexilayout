@@ -1,48 +1,48 @@
-Dim date, cdate, day, month, year, day2, month2, year2, day3, month3, year3, day4, month4, year4
-
-'20 December 2019
-date = Replace(me.Field("invoicedate").Text," ","-")
-
-'mm-dd-yyyy
-cdate = Replace(DateValue(date),"/","-")
-
-'mm-dd-yyyy = 10
-'m-dd-yyyy = 9
-'mm-d-yyyy = 9
-'m-d-yyyy = 8
-
-'mm-dd-yyyy
-day = Mid(cdate,4,2)
-month = Mid(cdate,1,2)
-year = Mid(cdate,7,4)
-
-'mm-d-yyyy
-day2 = Mid(cdate,4,1)
-month2 = Mid(cdate,1,2)
-year2 = Mid(cdate,6,4)
-
-'m-dd-yyyy
-'1-19-2020
-day3 = Mid(cdate,3,2)
-month3 = Mid(cdate,1,1)
-year3 = Mid(cdate,6,4)
-
-'m-d-yyyy
-day4 = Mid(cdate,3,1)
-month4 = Mid(cdate,1,1)
-year4 = Mid(cdate,5,4)
+Dim date, cdate, day, month, year, day2, month2, day3, month3, day4, month4
 
 
-if me.Field("invoicedate").Text <> "" and Len(cdate) = 10 then
-   me.Field("invoicedate").Text = day + "-" + month + "-" + year
+cdate = me.Field("invoicedate").Text '28 April 2020
 
-elseif me.Field("invoicedate").Text <> "" and Len(cdate) = 9 then
-    if Len(day3) = 2 then
-        me.Field("invoicedate").Text = day3 + "-" + "0" + month3 + "-" + year3
-    else
-        me.Field("invoicedate").Text = "0" + day2 + "-" + month2 + "-" + year2
-    end if
-elseif me.Field("invoicedate").Text <> "" and Len(cdate) = 8 then
-    me.Field("invoicedate").Text = "0" + day4 + "-" + "0" + month4 + "-" + year4
+date = FormatDateTime(cdate,2) '4/28/2020
+
+'11/6/2019 = 9
+day = Mid(date,4,1)
+month = Mid(date,1,2)
+
+
+'1/29/2019 = 9
+day2 = Mid(date,3,2)
+month2 = Mid(date,1,1)
+
+'5/9/2020 = 8
+day3 = Mid(date,3,1)
+month3 = Mid(date,1,1)
+
+'10/10/2020 = 10
+day4 = Mid(date,4,2)
+month4 = Mid(date,1,2)
+
+year = Right(date,4)
+
+
+if me.Field("invoicedate").Text <> "" and Len(date) = 9 then
+ 
+    if Len(day2) = 2 then
+  
+    me.Field("invoicedate").Text = day2 + "-" + "0" + month2 + "-" + year
+   
+ else 
+   
+    me.Field("invoicedate").Text = "0" + day + "-" + month + "-" + year
     
+    end if
+   
+elseif me.Field("invoicedate").Text <> "" and Len(date) = 8 then
+
+ me.Field("invoicedate").Text =  "0" + day3 + "-" + "0" + month3 + "-" + year
+ 
+elseif me.Field("invoicedate").Text <> "" and Len(date) = 10 then
+
+ me.Field("invoicedate").Text  = day4 + "-" + month4 + "-" + year
+
 end if
