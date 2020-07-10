@@ -67,7 +67,85 @@ elseif cdate <> "" and day = "1" then
 end if
 
 
-'setting DueDate
+
+
+=================== 3 digit month ===============
+
+Dim cdate, year, day, x, y, month
+
+'8-okt-2019
+cdate = me.Field("invoicedate").Text
+year = Right(cdate,4) '2019
+day = CStr(InStr(1,cdate,"-")-1) '3-1 = 2
+x = CInt(InStr(1,cdate,"-")+1) '3
+y = CInt(InStr(cdate,year)-5) '3
+month = Mid(cdate,x,y)'okt
+
+if me.Field("invoicedate").Text <> "" and day = "2" then
+    if month = "jan" then
+       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "01" & "-" & year
+    elseif month = "febr" then
+       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "02" & "-" & year
+    elseif month = "mrt" then
+       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "03" & "-" & year
+    elseif month = "apr" then
+       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "04" & "-" & year
+    elseif month = "mei" then
+       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "05" & "-" & year
+    elseif month = "juni" then
+       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "06" & "-" & year
+    elseif month = "aug" then
+       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "07" & "-" & year
+    elseif month = "août " then
+       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "08" & "-" & year
+    elseif month = "sep" then
+       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "09" & "-" & year
+    elseif month = "okt" then
+       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "10" & "-" & year
+    elseif month = "nov" then
+       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "11" & "-" & year
+    elseif month = "dec" then
+       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "12" & "-" & year
+    else 
+       me.Field("invoicedate").Text = cdate
+    end if
+elseif me.Field("invoicedate").Text <> "" and day = "1" then
+    if month = "jan" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "01" & "-" & year
+    elseif month = "febr" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "02" & "-" & year
+    elseif month = "mrt" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "03" & "-" & year
+    elseif month = "apr" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "04" & "-" & year
+    elseif month = "mei" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "05" & "-" & year
+    elseif month = "juni" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "06" & "-" & year
+    elseif month = "aug" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "07" & "-" & year
+    elseif month = "août " then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "08" & "-" & year
+    elseif month = "sep" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "09" & "-" & year
+    elseif month = "okt" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "10" & "-" & year
+    elseif month = "nov" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "11" & "-" & year
+    elseif month = "dec" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "12" & "-" & year
+    else 
+       me.Field("invoicedate").Text = cdate
+    end if
+end if
+
+
+
+
+
+
+====================  setting DueDate  ================================
+
 Dim ddate, idate, ndate, cdate, year, month, x, y, day
 '11-06-2020
 idate = me.Field("invoicedate").Text
@@ -83,9 +161,9 @@ y = CStr(Instr(1,cdate,"/")+1)
 day = Mid(cdate,y,x)
 
 
-if ddate <> "" and month = "1" and Len(day) = 2 then
+if ddate <> "30" and month = "1" and Len(day) = 2 then
     me.Field("duedate").Text = day & "-" & "0" & Mid(cdate,1,month) & "-" & year
-elseif ddate <> "" and month = "1" and Len(day) = 1 then
+elseif ddate <> "30" and month = "1" and Len(day) = 1 then
     me.Field("duedate").Text = "0" & day & "-" & Mid(cdate,1,month) & "-" & year
 else
     me.Field("duedate").Text = day & "-" & Mid(cdate,1,month) & "-" & year

@@ -299,10 +299,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48405")
 {
    Matching.DefinitionsList = "sirmaaiead";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="80540")
-{
-   Matching.DefinitionsList = "volkerinfra";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="48409")
 {
    Matching.DefinitionsList = "nrcmediabv";
@@ -666,11 +663,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48191")
    Matching.DefinitionsList = "newnexusm";
    
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48208")
-{
-   Matching.DefinitionsList = "margolin";
 
-}
 else if (Document.Batch.Properties.Get("supplierid")=="48246")
 {
    Matching.DefinitionsList = "marcella";
@@ -776,5 +769,22 @@ else if (Document.Batch.Properties.Get("supplierid")=="31411")
 else if (Document.Batch.Properties.Get("supplierid")=="48598")
 {
    Matching.DefinitionsList = "ilumyprototyping";
+   
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="48383")
+{
+   Matching.DefinitionsList = "screensuccess";
+   
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="100108")
+{
+   Matching.DefinitionsList = "bistrobelle";
+   
+}
+else if (Document.Batch.Properties.Get("supplierid")=="56092")
+{
+   Matching.DefinitionsList = "stijlbv";
    
 }
