@@ -168,3 +168,20 @@ elseif ddate <> "30" and month = "1" and Len(day) = 1 then
 else
     me.Field("duedate").Text = day & "-" & Mid(cdate,1,month) & "-" & year
 end if
+
+
+
+========================== date 07-06-20 ===============
+
+
+Dim cdate, year, dm
+
+'17-06-20
+cdate = me.Field("invoicedate").Text
+year = Right(cdate,2) '20
+dm = Mid(cdate,1,6) '17-06-
+
+
+if me.Field("invoicedate").Text <> "" then
+    me.Field("invoicedate").Text = dm & "20" & year
+end if

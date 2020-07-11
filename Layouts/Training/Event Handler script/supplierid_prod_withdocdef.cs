@@ -496,10 +496,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="98565")
 {
    Matching.DefinitionsList = "multibel";
 
-}
-else if (Document.Batch.Properties.Get("supplierid")=="4826")
-{
-   Matching.DefinitionsList = "nevip";
 
 }
 else if (Document.Batch.Properties.Get("supplierid")=="1840")
@@ -659,11 +655,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48215")
    Matching.DefinitionsList = "stahlhofer";
 
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48207")
-{
-   Matching.DefinitionsList = "stamcoinfra";
 
-}
 else if (Document.Batch.Properties.Get("supplierid")=="48188")
 {
    Matching.DefinitionsList = "steamad";
