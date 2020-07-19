@@ -1801,6 +1801,14 @@ else if (Document.Batch.Properties.Get("supplierid")=="100162")
 }
 
 
+else if (Document.Batch.Properties.Get("supplierid")=="100045")
+{
+   Matching.DefinitionsList = "promotec";
+
+}
+
+
+
 
 else if (Document.Batch.Properties.Get("Environment") == "g-p")
 {
