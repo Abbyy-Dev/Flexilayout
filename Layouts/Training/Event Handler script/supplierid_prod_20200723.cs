@@ -2235,14 +2235,176 @@ else if (Document.Batch.Properties.Get("supplierid")=="100075")
 }
 
 
-else if (Document.Batch.Properties.Get("supplierid")=="100075")
+else if (Document.Batch.Properties.Get("supplierid")=="100165")
 {
-   Matching.DefinitionsList = "samslimited";
+   Matching.DefinitionsList = "bloemenweelde";
 
 }
 
 
 
+else if (Document.Batch.Properties.Get("supplierid")=="100163")
+{
+   Matching.DefinitionsList = "eetcafedebontehaas";
+
+}
+
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="49594")
+{
+   Matching.DefinitionsList = "infopact";
+
+}
+
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="100197")
+{
+   Matching.DefinitionsList = "natuurnetwerk";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="100066")
+{
+   Matching.DefinitionsList = "uniquesourcesadvies";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="32624")
+{
+   Matching.DefinitionsList = "quercustechservices";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="46650")
+{
+   Matching.DefinitionsList = "topgiving";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="857")
+{
+   Matching.DefinitionsList = "stillinterntransport";
+
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="788077")
+{
+   Matching.DefinitionsList = "sovonvogelonderzoek";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="100194")
+{
+   Matching.DefinitionsList = "moveadvies";
+
+}
+
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="5717")
+{
+   Matching.DefinitionsList = "vanboekelbouwinfra";
+
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="6346")
+{
+   Matching.DefinitionsList = "maxiliabv";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="6346")
+{
+   Matching.DefinitionsList = "maxiliabv";
+
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="100208")
+{
+   Matching.DefinitionsList = "hapjesaanhuis";
+
+}
+
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="100171")
+{
+   Matching.DefinitionsList = "bruistengww";
+
+}
+
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="100093")
+{
+   Matching.DefinitionsList = "scholtusdocservices";
+
+}
+
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="30000")
+{
+   Matching.DefinitionsList = "gemeenteede";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="31751")
+{
+   Matching.DefinitionsList = "multigift";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="48376")
+{
+   Matching.DefinitionsList = "hygeaconsult";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="48375")
+{
+   Matching.DefinitionsList = "jorritthoenfotografie";
+
+}
+
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="34361")
+{
+   Matching.DefinitionsList = "weeversnieuwstad";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="100044")
+{
+   Matching.DefinitionsList = "loodswezen";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="75572")
+{
+   Matching.DefinitionsList = "vermeulengroep";
+
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="100033")
+{
+   Matching.DefinitionsList = "verenigdebedrijvenjwb";
+
+}
 
 
 else if (Document.Batch.Properties.Get("Environment") == "g-p")
