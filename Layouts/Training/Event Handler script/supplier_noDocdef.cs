@@ -95,38 +95,17 @@ else if (Document.Batch.Properties.Get("supplierid")=="48363")
 {
    Matching.DefinitionsList = "dienstictuitvoering";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48366")
-{
-   Matching.DefinitionsList = "pictoright";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="47374")
-{
-   Matching.DefinitionsList = "dpgmediabv";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="48364")
-{
-   Matching.DefinitionsList = "sogetinl";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="31751")
 {
    Matching.DefinitionsList = "multigift";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48369")
-{
-   Matching.DefinitionsList = "banketbakkerij";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="48370")
-{
-   Matching.DefinitionsList = "thermofishersci";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="48374")
 {
    Matching.DefinitionsList = "dirkzwagerlegaltax";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48373")
-{
-   Matching.DefinitionsList = "bakkermeelmuts";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="69313")
 {
    Matching.DefinitionsList = "procapbv";
@@ -180,60 +159,18 @@ else if (Document.Batch.Properties.Get("supplierid")=="48382")
 {
    Matching.DefinitionsList = "aanmelder";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48384")
-{
-   Matching.DefinitionsList = "lacretio";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="17277")
-{
-   Matching.DefinitionsList = "arbouniebv";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="86234")
 {
    Matching.DefinitionsList = "jackoosterwijk";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48392")
-{
-   Matching.DefinitionsList = "ingenieursbureau";
-}
 
-else if (Document.Batch.Properties.Get("supplierid")=="48303")
-{
-   Matching.DefinitionsList = "saabtech";
-
-}
-else if (Document.Batch.Properties.Get("supplierid")=="94973")
-{
-   Matching.DefinitionsList = "aannemingsbedrijfvalk";
-}
 else if (Document.Batch.Properties.Get("supplierid")=="48393")
 {
    Matching.DefinitionsList = "freseniuskabinl";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48294")
-{
-   Matching.DefinitionsList = "demeeuwverhuur";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="48395")
-{
-   Matching.DefinitionsList = "korfcatering";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="48401")
-{
-   Matching.DefinitionsList = "lankhorsttouwfabrieken";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="48670")
-{
-   Matching.DefinitionsList = "nedmobiel";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="47950")
-{
-   Matching.DefinitionsList = "kinlybenelux";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="8800")
-{
-   Matching.DefinitionsList = "buyitdirect";
-}
+
+
 else if (Document.Batch.Properties.Get("supplierid")=="99091")
 {
    Matching.DefinitionsList = "nieuwegeinsecc";
@@ -284,10 +221,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48408")
 {
    Matching.DefinitionsList = "corineclaveaux";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="32624")
-{
-   Matching.DefinitionsList = "quercustech";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="48406")
 {
    Matching.DefinitionsList = "koninklijknl";
@@ -314,10 +248,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="464")
    Matching.DefinitionsList = "transposafesh";
 
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48412")
-{
-   Matching.DefinitionsList = "ballonexpress";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="48411")
 {
    Matching.DefinitionsList = "bartversteeg";
@@ -486,18 +417,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48477")
 {
    Matching.DefinitionsList = "instituutpsychotraumanl";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48478")
-{
-   Matching.DefinitionsList = "raafwesgrafischontwerp";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="16849")
-{
-   Matching.DefinitionsList = "transportbedrijfdehaan";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="48481")
-{
-   Matching.DefinitionsList = "technologiezentrum";
-}
+
 
 else if (Document.Batch.Properties.Get("supplierid")=="96517")
 {
@@ -531,10 +451,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48483")
 {
    Matching.DefinitionsList = "duurzaamnl";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48484")
-{
-   Matching.DefinitionsList = "teamchange";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="56061")
 {
    Matching.DefinitionsList = "cioplatformnl";
@@ -567,10 +484,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48503")
 {
    Matching.DefinitionsList = "avilostikstof";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48501")
-{
-   Matching.DefinitionsList = "platformp";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="33519")
 {
    Matching.DefinitionsList = "hogeschoolvanhall";
