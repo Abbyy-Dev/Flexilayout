@@ -232,10 +232,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="48409")
 {
    Matching.DefinitionsList = "nrcmediabv";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="82187")
-{
-   Matching.DefinitionsList = "siemensmobility";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="464")
 {
    Matching.DefinitionsList = "transposafesh";
@@ -277,10 +274,7 @@ else if (Document.Batch.Properties.Get("supplierid")=="91689")
 {
    Matching.DefinitionsList = "hydroflexhydraulics";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="421")
-{
-   Matching.DefinitionsList = "hegetubv";
-}
+
 else if (Document.Batch.Properties.Get("supplierid")=="90942")
 {
    Matching.DefinitionsList = "hobrandbv";
