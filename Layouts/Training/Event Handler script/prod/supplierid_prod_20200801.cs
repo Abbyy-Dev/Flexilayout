@@ -3053,32 +3053,14 @@ else if (Document.Batch.Properties.Get("supplierid")=="100242")
    Matching.DefinitionsList = "tapijn";
 
 }
-
 else if (Document.Batch.Properties.Get("supplierid")=="58883")
 {
    Matching.DefinitionsList = "abtbv";
 
 }
 
-else if (Document.Batch.Properties.Get("supplierid")=="48454")
-{
-   Matching.DefinitionsList = "blommesteinmartens";
-
-}
 
 
-else if (Document.Batch.Properties.Get("supplierid")=="100243")
-{
-   Matching.DefinitionsList = "culinaircatering";
-
-}
-
-
-else if (Document.Batch.Properties.Get("supplierid")=="72412")
-{
-   Matching.DefinitionsList = "presencetranslateinteract";
-
-}
 
 else if (Document.Batch.Properties.Get("Environment") == "g-p")
 {
