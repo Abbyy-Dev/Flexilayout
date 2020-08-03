@@ -1,0 +1,29 @@
+1 Output the value of all attributes having the name schemeID
+//@schemeID
+
+2 Select all following sibling element of cbc:ID (a child of parent cac:PostalAddress element) that has the attribute name schemeID and having the value DUNS
+//cac:AccountingCustomerParty/cac:Party/cac:PostalAddress/cbc:ID/following-sibling::*
+
+3 Get the Buyer’s address and output values in this sequence (Street, Postal Code City,Country Code)
+concat(//cac:AccountingCustomerParty/cac:Party/cac:PostalAddress/cbc:StreetName, ', ', //cac:AccountingCustomerParty/cac:Party/cac:PostalAddress/cbc:PostalZone, ', ', //cac:AccountingCustomerParty/cac:Party/cac:PostalAddress/cbc:CityName, ', ', //cac:AccountingCustomerParty/cac:Party/cac:PostalAddress/cac:Country/*)
+
+4 Select all elements with attribute schemeID and have values NL:VAT, NL:KVK  or NL:OIN
+//@schemeID[.="NL:VAT" or .="NL:KVK" or .="NL:OIN"]
+
+5 Select all child values of parent cac:LegalMonetaryTotal, only amounts that are greater than 180.00
+//cac:LegalMonetaryTotal/child::*[.>180.00]/text()
+
+6 Select the first three child elements of parent Invoice element
+/Invoice/child::*[1] | /Invoice/child::*[2] | /Invoice/child::*[3]
+
+7 Select element values of parent cac:AccountingSupplierParty whose attribute begins with the letter Z
+//cac:AccountingSupplierParty/descendant::*[starts-with(@schemeAgencyID, "ZZZ")]/text()
+
+8 Select the first 2 child elements of cac:PostalAddress with a maximum value of 7 characters long
+//cac:PostalAddress/child::*[string-length(.)=7]
+
+9 Determine the sum of all child elements of cac:LegalMonetaryTotal, which round off to 189
+sum(//cac:LegalMonetaryTotal/child::*[round(.)=189])
+
+10 Select all the elements before the element cac:OrderReference
+//cac:OrderReference/preceding-sibling::*
