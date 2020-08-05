@@ -1,0 +1,25 @@
+1. Select several path of all attribute and text nodes having the name listID and listAgencyID
+//@listID | //@listAgencyID
+
+2. Select text values of cbc:ID element node which a child of  cac:PartyIdentification having the attribute name schemeID where value is DE:VAT or NL:OIN
+//cac:PartyIdentification/child::*[@schemeID="DE:VAT" or @schemeID="NL:OIN"]/text()
+
+3. Select all child nodes of InvoiceLine having the attribute currencyID where value is EUR
+//cac:InvoiceLine/child::*[@currencyID="EUR"]
+
+4. Select  all nodes of cbc:Name which is a child of cac:PartyName having the attribute schemeID where value is NL:OIN of the cbc:ID which is a child of cac:PartyIdentification
+//cac:PartyIdentification/cbc:ID[@schemeID="NL:OIN"]/parent::*/following-sibling::*[position()=1]/child::*/text()
+
+5. Select all attribute nodes of cbc:CompanyID having the attribute schemeID where value is DE:VAT (you may use attribute function for this)
+//cbc:CompanyID/@schemeID[.="DE:VAT"]
+
+6. Select the attribute nodes of element with text value of DE02300308800010495008
+/Invoice/descendant::*[text()="DE02300308800010495008"]
+
+7. Select the first 3 attribute nodes from the child of cac:LegalMonetaryTotal
+//cac:LegalMonetaryTotal//child::*[position()<4]
+
+8. Select all text nodes having the attribute currencyID where value is EUR and text value must not should not be equal to 0.00
+/Invoice/descendant::*[@currencyID="EUR" and text()!=0.00]/text()
+
+9. Select all text nodes having the attribute unitCode with value EA and length of string is less than 5
