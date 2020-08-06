@@ -101,11 +101,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="31751")
    Matching.DefinitionsList = "multigift";
 }
 
-else if (Document.Batch.Properties.Get("supplierid")=="48374")
-{
-   Matching.DefinitionsList = "dirkzwagerlegaltax";
-}
-
 else if (Document.Batch.Properties.Get("supplierid")=="69313")
 {
    Matching.DefinitionsList = "procapbv";

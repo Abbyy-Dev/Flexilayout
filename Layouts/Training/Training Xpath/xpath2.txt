@@ -14,12 +14,13 @@
 //cbc:CompanyID/@schemeID[.="DE:VAT"]
 
 6. Select the attribute nodes of element with text value of DE02300308800010495008
-/Invoice/descendant::*[text()="DE02300308800010495008"]
+/Invoice/descendant::*[text()="DE02300308800010495008"]/attribute()
 
 7. Select the first 3 attribute nodes from the child of cac:LegalMonetaryTotal
-//cac:LegalMonetaryTotal//child::*[position()<4]
+//cac:LegalMonetaryTotal//child::*[position()<4]/attribute()
 
 8. Select all text nodes having the attribute currencyID where value is EUR and text value must not should not be equal to 0.00
 /Invoice/descendant::*[@currencyID="EUR" and text()!=0.00]/text()
 
 9. Select all text nodes having the attribute unitCode with value EA and length of string is less than 5
+//@unitCode[.="EA" and string-length()<5]
