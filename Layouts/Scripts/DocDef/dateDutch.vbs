@@ -177,6 +177,36 @@ elseif ddate <> "30" and Len(month) = 1 and Len(day2) = 1 then 'd/m/yyyy
     me.Field("duedate").Text = "0" & day2 & "-" & "0" & Mid(nduedate,1,month) & "-" & year
 end if
 
+
+=========================='25-2-2019======================================
+
+Dim duedate, cdate, ndate, nduedate, day, day2, month, z, year
+
+cdate = me.Field("invoicedate").Text '25-2-2019
+ndate = Mid(cdate,1,2) & "/" & Mid(cdate,4,2) & "/" & Right(cdate,4) '06/07/2020
+duedate = me.Field("duedate").Text '20
+nduedate = CStr(DateAdd("d",duedate,ndate)) '06/27/2020
+
+'m/d/yyyy
+'05/11/2019
+'5/-12-2019
+
+year = Right(nduedate,4)
+month = CStr(Instr(1,nduedate,"/")-1) '1 char
+y = CStr(Instr(1,nduedate,"/")+1) 'pos(/) 2+1 = pos 3
+day = Mid(nduedate,y,1)
+day2 = Mid(nduedate,y,2)
+
+if duedate <> "30" and Len(day2) = 1 and Len(month) = 1 then 'dd/m/yyyy
+    me.Field("duedate").Text = day2 & "-" & "0" & Mid(nduedate,1,month) & "-" & year
+elseif ddate <> "30" and Len(day) = 1 and Len(month) = 2 then 'd/mm/yyyy
+    me.Field("duedate").Text = "0" & day & "-" & "0" & Mid(nduedate,1,month) & "-" & year
+elseif ddate <> "30" and Len(day2) = 2 and Len(month) = 2 then 'dd/mm/yyyy
+    me.Field("duedate").Text = "0" & day2 & "-" & Mid(nduedate,1,month) & "-" & year
+elseif ddate <> "30" and Len(day) = 1 and Len(month) = 1 then 'd/m/yyyy
+    me.Field("duedate").Text = "0" & day & "-" & "0" & Mid(nduedate,1,month) & "-" & year
+end if
+
 ========================== date 07-06-20 ===============
 
 
