@@ -1,0 +1,28 @@
+1. Select all text of cbc:IdentificationCode only when child element values of cac:PostalAddress are not null/empty
+//cac:PostalAddress/child::*[.!=""]/cbc:IdentificationCode/text()
+
+2. Merge the value of attribute schemeID of element cbc:ID which is a child of element cac:PartyIdentification. Separate each value using slash (/) symbol
+concat(//cac:AccountingCustomerParty/cac:Party/cac:PartyIdentification/cbc:ID/@schemeID, "/" ,//cac:AccountingSupplierParty/cac:Party/cac:PartyIdentification/cbc:ID/@schemeID)
+
+3. Select all text of all elements of the Invoice having text value that is starting with character 30
+/Invoice/descendant::*[starts-with(.,"30")]/text()
+
+4. Select all ancestors of element cbc:CompanyID with attribute value of FR:SIRET
+//cbc:CompanyID/@*[.="FR:SIRET"]/ancestor::*
+
+5. Select all attributes of element cbc:ID which is a child of element cac:TaxCategory but only with sibling element cbc:Percent having a value of 0
+//cac:TaxCategory/cbc:Percent[text()="0"]/preceding-sibling::*/@*
+
+6. Combine text values of  line article number and line description and separate each value using column (:) symbol
+concat(//cac:SellersItemIdentification/child::*/text(), ":", //cac:InvoiceLine/cac:Item/cbc:Name/text())
+
+7. Select text  value of element cbc:ActualDeliveryDate only when the City name of delivery address is Lelystad
+//cbc:CityName[text()="Lelystad"]/ancestor::*//cbc:ActualDeliveryDate/text()
+
+8. Get the average of all VAT Base amounts only if the VAT Percentage is not empty. Otherwise, throw the message "VAT Percent should not be null"
+if (//cbc:Percent[.!=""]) then
+avg(//cbc:TaxableAmount/text())
+else "VAT Percent should not be null"
+
+9. Select text of all elements value with length of more than 1000 characters and with an attribute value of  “LGCStandartGmbH50628360111.pdf”
+//@*[.="LGCStandartGmbH50628360111.pdf"]/ancestor::*//cbc:EmbeddedDocumentBinaryObject[string-length()>1000]/text()
