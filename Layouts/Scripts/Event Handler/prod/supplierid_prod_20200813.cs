@@ -3334,12 +3334,62 @@ else if (Document.Batch.Properties.Get("supplierid")=="48423")
    Matching.DefinitionsList = "veronikekartman";
 }
 
-else if (Document.Batch.Properties.Get("supplierid")=="48423")
+else if (Document.Batch.Properties.Get("supplierid")=="100274")
 {
-   Matching.DefinitionsList = "veronikekartman";
+   Matching.DefinitionsList = "wegschaptunneldordtse";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="4415")
+{
+   Matching.DefinitionsList = "waterschaphd";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="48573")
+{
+   Matching.DefinitionsList = "adhoconderhoud";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="100276")
+{
+   Matching.DefinitionsList = "beersbarrels";
 }
 
 
+else if (Document.Batch.Properties.Get("supplierid")=="56061")
+{
+   Matching.DefinitionsList = "cioplatformnl";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="100273")
+{
+   Matching.DefinitionsList = "dareiusbv";
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="48298")
+{
+   Matching.DefinitionsList = "davincilaboratorybv";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="48437")
+{
+   Matching.DefinitionsList = "dezandkamer";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="48440")
+{
+   Matching.DefinitionsList = "disanbenelux";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="100280")
+{
+   Matching.DefinitionsList = "favandam";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="59423")
+{
+   Matching.DefinitionsList = "grandhotelpostplaza";
+}
 
 
 

@@ -1,0 +1,14 @@
+1 /Invoice/descendant::*[starts-with(local-name(),"Name")]
+
+2 concat("This UBL have ",  count(//cac:InvoiceLine/cac:Item/cac:ClassifiedTaxCategory/cbc:Percent), " tax applied and have ", count(//cac:InvoiceLine), " lines")
+
+3 //cac:InvoiceLine/cac:Price/../cbc:ID/text()
+
+4 //cac:ClassifiedTaxCategory/cbc:Percent/ancestor::*//cac:InvoiceLine/cbc:Note[@languageID="nl"]/text()
+
+5 concat("The ", substring(//cac:AccountingCustomerParty/cac:Party/cac:PartyName/cbc:Name,1), " of the company is Globiq")
+
+6 concat("Note ", //cac:InvoiceLine/cbc:Note[last() and attribute()="6"]/text())
+
+7 if ( //cbc:LineExtensionAmount = "" ) then
+//cbc:LineExtensionAmount else "Line Extension amount cannot be null"
