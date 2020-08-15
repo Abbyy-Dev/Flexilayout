@@ -1,14 +1,25 @@
 1 /Invoice/descendant::*[starts-with(local-name(),"Name")]
 
-2 concat("This UBL have ",  count(//cac:InvoiceLine/cac:Item/cac:ClassifiedTaxCategory/cbc:Percent), " tax applied and have ", count(//cac:InvoiceLine), " lines")
+2 concat("This UBL have ",  count(//cac:TaxSubtotal), " tax applied and have ", count(//cac:InvoiceLine), " lines")
 
 3 //cac:InvoiceLine/cac:Price/../cbc:ID/text()
 
 4 //cac:ClassifiedTaxCategory/cbc:Percent/ancestor::*//cac:InvoiceLine/cbc:Note[@languageID="nl"]/text()
 
-5 concat("The ", substring(//cac:AccountingCustomerParty/cac:Party/cac:PartyName/cbc:Name,1), " of the company is Globiq")
+5 concat("The ", substring(//cac:AccountingCustomerParty/cac:Party/cac:PartyName/cbc:Name,8), " of the company is Globiq")
 
-6 concat("Note ", //cac:InvoiceLine/cbc:Note[last() and attribute()="6"]/text())
+6 concat(Invoice/cac:InvoiceLine[last()]/cbc:Note[@languageLocaleID="6"]/text(),'-',Invoice/cbc:Note)
 
-7 if ( //cbc:LineExtensionAmount = "" ) then
-//cbc:LineExtensionAmount else "Line Extension amount cannot be null"
+7 if ( //cac:LegalMonetaryTotal/cbc:LineExtensionAmount = "" ) then 
+
+//cac:LegalMonetaryTotal/cbc:LineExtensionAmount/text() - sum(//cac:InvoiceLine/cbc:LineExtensionAmount)
+
+else "Total Line Extension amount cannot be null"
+
+8 every $id in //cac:InvoiceLine/child::* satisfies $id/cbc:ID[text()="5"]
+
+9 if ( max(//cac:LegalMonetaryTotal/child::*) = //Invoice/cac:LegalMonetaryTotal/cbc:TaxInclusiveAmount ) then
+
+round( avg(//cac:LegalMonetaryTotal/child::*) + sum(//cac:InvoiceLine/cbc:InvoicedQuantity))
+
+else "Line Extension amount cannot be null"

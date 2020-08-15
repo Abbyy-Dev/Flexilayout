@@ -3391,6 +3391,26 @@ else if (Document.Batch.Properties.Get("supplierid")=="59423")
    Matching.DefinitionsList = "grandhotelpostplaza";
 }
 
+else if (Document.Batch.Properties.Get("supplierid")=="40615")
+{
+   Matching.DefinitionsList = "logmenirelandlimited";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="48438")
+{
+   Matching.DefinitionsList = "compaconbv";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="4317")
+{
+   Matching.DefinitionsList = "osrjuridische";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="48514")
+{
+   Matching.DefinitionsList = "quizzzit";
+}
+
 
 
 //===========
