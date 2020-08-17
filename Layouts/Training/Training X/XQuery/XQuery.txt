@@ -1,0 +1,71 @@
+for $y in //cac:InvoiceLine
+let $e := concat($y/cbc:ID, ': ', $y//cbc:Name,' = ', $y/cbc:LineExtensionAmount)
+where $y != ""
+order by number($e)
+return $e
+
+================
+
+for $a in /Invoice/child::*
+where $a[@*!=""]
+return $a
+
+================
+
+for $g in //cac:InvoiceLine/child::*
+let $d :=$g/../cbc:ID
+let $c :=$g/cbc:Name
+where $d="1" or $d="2" or $d="3"
+order by $c
+return $c
+
+================
+
+<Prices>	
+{
+	for $all in //cac:InvoiceLine
+	let $price := $all//cbc:PriceAmount
+	where $all/cbc:InvoicedQuantity="1"
+	order by number($price)
+	return $price
+}
+</Prices>	
+
+================
+
+<results>
+{
+for $h in //cac:LegalMonetaryTotal/child::*/@*
+order by $h
+where $h != "0.00"
+
+return 
+
+<li>
+{
+$h
+}
+</li>
+}
+</results>
+
+================
+
+<ul>
+{
+for $c in //cac:InvoiceLine/descendant::*
+where $c/@*[.= "EUR"]
+order by number($c)
+
+return
+
+
+<li>
+{
+ $c/data()
+}
+</li>
+}
+</ul>
+
+================
