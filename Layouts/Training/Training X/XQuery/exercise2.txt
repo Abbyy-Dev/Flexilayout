@@ -1,0 +1,12 @@
+for $a in //cac:InvoiceLine
+let $d := $a//cbc:Name,
+	$e := $a/cbc:LineExtensionAmount
+where $d !="" and $e !=""
+return 
+<Lines>
+{
+$d || ' ' || $e
+}
+</Lines>
+
+===============================
