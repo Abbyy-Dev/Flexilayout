@@ -3493,16 +3493,10 @@ else if (Document.Batch.Properties.Get("supplierid")=="48569")
 
 
 
-else if (Document.Batch.Properties.Get("supplierid")=="48569")
+else if (Document.Batch.Properties.Get("supplierid")=="72785")
 {
-   Matching.DefinitionsList = "vofingenieursbureau";
+   Matching.DefinitionsList = "bechtledirectbv";
 }
-
-
-
-
-
-
 
 
 

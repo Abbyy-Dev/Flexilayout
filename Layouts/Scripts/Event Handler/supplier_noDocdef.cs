@@ -405,14 +405,8 @@ else if (Document.Batch.Properties.Get("supplierid")=="56061")
 {
    Matching.DefinitionsList = "cioplatformnl";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48488")
-{
-   Matching.DefinitionsList = "jbloemdesign";
-}
-else if (Document.Batch.Properties.Get("supplierid")=="48493")
-{
-   Matching.DefinitionsList = "medimarebv";
-}
+
+
 else if (Document.Batch.Properties.Get("supplierid")=="48498")
 {
    Matching.DefinitionsList = "boelsverhuurbv";
