@@ -2815,14 +2815,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="70473")
 }
 
 
-
-
-else if (Document.Batch.Properties.Get("supplierid")=="2092")
-{
-   Matching.DefinitionsList = "vandoorngeldermalsenbv";
-
-}
-
 else if (Document.Batch.Properties.Get("supplierid")=="100227")
 {
    Matching.DefinitionsList = "wervin";
@@ -3509,7 +3501,54 @@ else if (Document.Batch.Properties.Get("supplierid")=="96517")
 {
    Matching.DefinitionsList = "breijercontractonderhoud";
 }
+else if (Document.Batch.Properties.Get("supplierid")=="8256")
+{
+   Matching.DefinitionsList = "sabstichting";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="100266")
+{
+   Matching.DefinitionsList = "peoplewareict";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="100306")
+{
+   Matching.DefinitionsList = "printhetzo";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="3709")
+{
+   Matching.DefinitionsList = "adenbakkerzn";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48558")
+{
+   Matching.DefinitionsList = "athenepalace";
+}
 
+else if (Document.Batch.Properties.Get("supplierid")=="1364")
+{
+   Matching.DefinitionsList = "dynniqnl";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48539")
+{
+   Matching.DefinitionsList = "stichtingnatuurcentrum";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48402")
+{
+   Matching.DefinitionsList = "derotterdambv";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="48463")
+{
+   Matching.DefinitionsList = "ipsosbv";
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="71438")
+{
+   Matching.DefinitionsList = "decossoftengbv";
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48571")
+{
+   Matching.DefinitionsList = "cvprojectbureau";
+}
 
 //===========
 else if (Document.Batch.Properties.Get("Environment") == "g-p")
