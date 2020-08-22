@@ -1,12 +1,51 @@
-for $a in //cac:InvoiceLine
-let $d := $a//cbc:Name,
-	$e := $a/cbc:LineExtensionAmount
-where $d !="" and $e !=""
-return 
+=============================== [ 1 ] ===============================
+
+for $lines in //cac:InvoiceLine
+let $linenet := $lines/cbc:LineExtensionAmount,
+	$desc := $lines//cbc:Name
+where $linenet != "" and $desc != ""
+return
 <Lines>
 {
-$d || ' ' || $e
+$desc || ' ' || $linenet
 }
 </Lines>
 
-===============================
+=============================== [ 2 ] ===============================
+
+for $tax in //cac:TaxTotal/cac:TaxSubtotal
+let $vatcode := $tax/child::*/cbc:Percent
+where $vatcode = "21"
+return remove($tax/child::*,1)
+
+=============================== [ 3 ] ===============================
+
+for $line in //cac:InvoiceLine
+let $vatcode := $line//cbc:Percent
+where sum($line/cbc:LineExtensionAmount) = $line/cbc:LineExtensionAmount
+return
+<VAT>
+{
+$vatcode
+}
+</VAT>
+
+=============================== [ 4 ] ===============================
+
+for $customer in //cac:AccountingCustomerParty/child::*
+let $att_value := $customer//cbc:ID/@*[.="NL:OIN"]/../text(),
+	$oin := "00000001001902763000",
+	$postal := distinct-values($customer//cac:PostalAddress/child::*)
+where $att_value = $oin
+return $postal
+
+===============================[ 5 ] ===============================
+
+for $name in //cac:InvoiceLine/cac:Item/cbc:Name
+let $char := string-length($name),
+	$length := "23"
+where $name[string-length()>23]
+return
+<Description name="{$name}" length="{$char}">
+</Description>
+
