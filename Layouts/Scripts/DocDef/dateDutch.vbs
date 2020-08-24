@@ -141,9 +141,6 @@ end if
 
 
 
-
-
-
 ====================  setting DueDate  ================================
 
 Dim duedate, cdate, ndate, nduedate, day, day2, month, x, y, z, year
