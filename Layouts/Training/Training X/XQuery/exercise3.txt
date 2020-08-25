@@ -1,0 +1,116 @@
+=============================== [ 1 ] ===============================
+
+for $line in /Invoice/cac:InvoiceLine
+let $currency := "EUR",
+	$amount := $line/cbc:LineExtensionAmount,
+	$id := $line/cbc:ID
+where $line/descendant::*/@*[.="EUR"]
+order by $id
+return 
+<price currency="{$currency}" amount="{$amount}">
+{
+$amount
+}
+</price>
+
+=============================== [ 2 ] ===============================
+
+for $invoice in Invoice
+let $scheme := $invoice/descendant::*/@schemeAgencyID,
+	$s_value := $scheme[.="6"]
+where $scheme = $s_value
+return 
+
+if ( $s_value = "6") then
+
+$s_value/..
+
+else
+"schemeAgencyID value is incorrect"
+
+=============================== [ 3 ] ===============================
+
+for $invoice in Invoice
+let $att := $invoice/descendant::*/@*[.="ZZZ"],
+	$supplier := $invoice/cac:AccountingSupplierParty//cbc:Name,
+	$buyer := $invoice/cac:AccountingCustomerParty//cbc:Name
+
+where $att = "ZZZ"
+return
+<Element schemeAgencyID="ZZZ">
+{
+
+if ( $att = "ZZZ" )
+then
+	$att/..
+	
+else "schemeAgencyID value is not equal to ZZZ"
+}
+<Suppliername>
+	{
+	$supplier
+	}
+</Suppliername>
+<Buyername>
+	{
+	$buyer
+	}
+</Buyername>
+</Element>
+
+=============================== [ 4 ] ===============================
+
+for $i in Invoice/cbc:Note
+let $lang := $i/@languageID
+
+return 
+
+if ( $lang = "en" )
+then
+<English>
+{
+data($i)
+}
+</English>
+
+else if ( $lang = "es" )
+then 
+<Spanish>
+{
+data($i)
+}
+</Spanish>
+
+else if ( $lang = "nl" )
+then 
+<Dutch>
+{
+data($i)
+}
+</Dutch>
+
+else
+<French>
+{
+data($i)
+}
+</French>
+
+=============================== [ 5 ] ===============================
+
+for $i in Invoice
+let $tax := $i/cac:TaxTotal//cbc:Percent
+
+return
+<result>
+<count>
+{
+count($tax)
+}
+</count>
+<pecent>
+{
+$tax
+}
+</pecent>
+</result>
