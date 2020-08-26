@@ -3650,6 +3650,62 @@ else if (Document.Batch.Properties.Get("supplierid")=="93434")
    Matching.DefinitionsList = "roelofsbv";
 }
 
+else if (Document.Batch.Properties.Get("supplierid")=="7384")
+{
+   Matching.DefinitionsList = "mansveldelektro";
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="100295")
+{
+   Matching.DefinitionsList = "irado";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="100294")
+{
+   Matching.DefinitionsList = "hetluxlab";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="100254")
+{
+   Matching.DefinitionsList = "hadexonl";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="48447")
+{
+   Matching.DefinitionsList = "creonbv";
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="32565")
+{
+   Matching.DefinitionsList = "breugdenhilberging";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="40640")
+{
+   Matching.DefinitionsList = "acesdirect";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="740")
+{
+   Matching.DefinitionsList = "nedicom";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="81634")
+{
+   Matching.DefinitionsList = "rederijtmuller";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="48527")
+{
+   Matching.DefinitionsList = "combinatieviaoptimum";
+}
+
+
+
+
+
 
 //===========
 else if (Document.Batch.Properties.Get("Environment") == "g-p")

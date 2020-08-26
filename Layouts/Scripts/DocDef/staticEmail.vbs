@@ -1,6 +1,6 @@
 Dim email
 
-email = "finance@bettyblocks.com"
+email = "info@blitterswijk.nl"
 
 if me.Field("supplieremail").Text = "" then
 
@@ -20,3 +20,5 @@ if me.Field("paymentreference").Text <> "" then
     me.Field("paymentreference").Text = payref
 end if
 
+
+info@blitterswijk.nl
