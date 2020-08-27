@@ -21,4 +21,3 @@ if me.Field("paymentreference").Text <> "" then
 end if
 
 
-info@blitterswijk.nl
