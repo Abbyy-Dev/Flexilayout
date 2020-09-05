@@ -547,11 +547,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="8785")
    Matching.DefinitionsList = "personenvervoer";
 
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48219")
-{
-   Matching.DefinitionsList = "sleutelenslotenhuis";
-
-}
 else if (Document.Batch.Properties.Get("supplierid")=="729")
 {
    Matching.DefinitionsList = "elisnederland";
@@ -580,16 +575,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="48172")
 else if (Document.Batch.Properties.Get("supplierid")=="48197")
 {
    Matching.DefinitionsList = "broodjehelena";
-
-}
-else if (Document.Batch.Properties.Get("supplierid")=="6801")
-{
-   Matching.DefinitionsList = "brezanauto";
-
-}
-else if (Document.Batch.Properties.Get("supplierid")=="48203")
-{
-   Matching.DefinitionsList = "autec";
 
 }
 else if (Document.Batch.Properties.Get("supplierid")=="48311")
@@ -634,4 +619,9 @@ else if (Document.Batch.Properties.Get("supplierid")=="56092")
 else if (Document.Batch.Properties.Get("supplierid")=="48464")
 {
    Matching.DefinitionsList = "kkec";
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="100247")
+{
+   Matching.DefinitionsList = "agrivesta";
 }

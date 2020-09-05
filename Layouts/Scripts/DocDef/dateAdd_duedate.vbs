@@ -5,7 +5,7 @@ Dim ddate, idate, ndate, cdate, year, month, y, day, day2
 
 idate = me.Field("invoicedate").Text '17-06-2020
 ndate = Mid(idate,4,2) & "/" & Mid(idate,1,2) & "/" & Right(idate,4) '06/17/2020
-ddate = me.Field("duedate").Text '30
+ddate = CInt(me.Field("duedate").Text) '30
 
 cdate = CStr(DateAdd("d",ddate,ndate)) '7/17/2020
 year = Right(cdate,4) '2020'
@@ -110,4 +110,30 @@ if me.Field("duedate").Text <> "" then
 
 	me.Field("duedate").Text = day + "-" + month + "-" + year
 	    
+end if
+
+
+============= 01-11-2019 =========================================================================
+
+Dim ddate, idate, ndate, cdate, year, month, x, y, day
+'11-06-2020
+idate = me.Field("invoicedate").Text
+ndate = Mid(idate,4,2) & "/" & Mid(idate,1,2) & "/" & Right(idate,4)
+ddate = CInt(me.Field("duedate").Text) '14
+
+'6/25/2020 - 9
+cdate = CStr(DateAdd("d",ddate,ndate))
+year = Right(cdate,4)
+month = CStr(Instr(1,cdate,"/")-1)
+x = CStr(InStr(cdate,year)-4)
+y = CStr(Instr(1,cdate,"/")+1)
+day = Mid(cdate,y,x)
+
+
+if ddate <> "30" and month = "1" and Len(day) = 2 then
+    me.Field("duedate").Text = day & "-" & "0" & Mid(cdate,1,month) & "-" & year
+elseif ddate <> "30" and month = "1" and Len(day) = 1 then
+    me.Field("duedate").Text = "0" & day & "-" & Mid(cdate,1,month) & "-" & year
+else
+    me.Field("duedate").Text = day & "-" & Mid(cdate,1,month) & "-" & year
 end if
