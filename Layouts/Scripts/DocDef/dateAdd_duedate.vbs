@@ -1,28 +1,35 @@
-=================== !!! LATEST !!! 29-10-2019  ==========================================================
+=================== !!! LATEST !!! 29-10-2019  ============ Updated 2020-09-05 ==============================================
 
-Dim ddate, idate, ndate, cdate, year, month, y, day, day2
+Dim ddate, idate, ndate, cdate, year, month, nmonth, y, day, day2
 
 
 idate = me.Field("invoicedate").Text '17-06-2020
 ndate = Mid(idate,4,2) & "/" & Mid(idate,1,2) & "/" & Right(idate,4) '06/17/2020
 ddate = CInt(me.Field("duedate").Text) '30
 
-cdate = CStr(DateAdd("d",ddate,ndate)) '7/17/2020
-year = Right(cdate,4) '2020'
-month = CStr(Instr(1,cdate,"/")-1) '7
-y = CStr(Instr(1,cdate,"/")+1) 'pos3
-day = Mid(cdate,y,1) '7/7/2020
-day2 = Mid(cdate,y,2) '7/17/2020
+cdate = CStr(DateAdd("d",ddate,ndate)) '11/27/2019 '1/27/2019
+year = Right(cdate,4) '2019'
+month = CStr(InStr(cdate,"/")) 'pos 3
 
-'17-07-2020 dd-mm-yyyy
-if me.Field("duedate").Text <> "" and Len(day2) = 2 and Len(month) = 1 then 'dd-m-yyyy
-    me.Field("duedate").Text = day2 & "-" & "0" & Mid(cdate,1,month) & "-" & year
-elseif me.Field("duedate").Text <> "" and Len(day) = 1 and Len(month) = 1 then 'd-m-yyyy
-    me.Field("duedate").Text = "0" & day & "-" & "0" & Mid(cdate,1,month) & "-" & year
-elseif me.Field("duedate").Text <> "" and Len(day) = 1 and Len(month) = 2 then 'd-mm-yyyy
-    me.Field("duedate").Text = "0" & day & "-" & Mid(cdate,1,month) & "-" & year
-elseif me.Field("duedate").Text <> "" and Len(day2) = 2 and Len(month) = 2 then 'dd-mm-yyyy
-    me.Field("duedate").Text = day & "-" & Mid(cdate,1,month) & "-" & year
+'11/27/2019
+y = CStr(Instr(cdate,"/")+1) 'pos3
+day = CStr(Mid(cdate,y,1)) '2
+day2 = CStr(Mid(cdate,y,2)) '27
+
+if me.Field("duedate").Text <> "" then
+    if month = 3 then
+      if Len(day) = 1 then
+            me.Field("duedate").Text =  day2 & "-" & Mid(cdate,1,2) & "-" & year
+        else
+            me.Field("duedate").Text = "0" & day & "-" & Mid(cdate,1,2) & "-" & year
+      end if
+    elseif month = 2 then
+      if Len(day) = 1 then
+            me.Field("duedate").Text =  day2 & "-" & Mid(cdate,1,1) & "-" & year
+      else
+            me.Field("duedate").Text = "0" & day & "-" & Mid(cdate,1,1) & "-" & year
+      end if  
+   end if
 end if
 
 ============================   5/8/2020   ==================================

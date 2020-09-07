@@ -1,0 +1,28 @@
+=[ 1 ]========================
+
+for $person in Company/Division/Person
+let $a := $person/descendant::*[position()>2]
+
+return 
+<Other>
+{
+if ( $person/@Manager != "" ) then
+
+$a
+
+else "Current division have no manager attribute."
+}
+</Other>
+
+=[ 2 ]========================
+
+for $person in //Person
+let $a := $person/Salary
+where $person/@Manager="false"
+order by $a
+return
+<Employee>
+{
+$a
+}
+</Employee>
