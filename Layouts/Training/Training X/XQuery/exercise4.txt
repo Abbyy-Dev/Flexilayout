@@ -18,11 +18,164 @@ else "Current division have no manager attribute."
 
 for $person in //Person
 let $a := $person/Salary
-where $person/@Manager="false"
-order by $a
+where $person/@Manager="false" and $a[.>8000]
+order by $a descending
 return
-<Employee>
+<Employee PhoneExt="{$person/PhoneExt}" EMail="{$person/EMail}">
 {
-$a
+$person/First
 }
 </Employee>
+
+=[ 3 ]========================
+
+for $comp in Company/Division
+let $div := round(avg($comp//Salary),2),
+	$loc := $comp//Location
+return
+<Total>
+<Average>
+{
+$div
+}
+</Average>
+{
+$loc
+}
+</Total>
+
+
+=[ 4 ]========================
+
+for $a in Company//Person
+let $mgr := $a/EMail
+where $mgr[contains(.,'mgr')]
+
+return 
+
+if ( $mgr != "" ) then
+<Person>
+{
+remove(remove($a/child::*,4),5)
+}
+</Person>
+else "Email address is from an employee"
+
+=[ 5 ]========================
+
+for $person in Company//Person
+let $degree := $person/@Degree
+
+let $nonAbbrev := 
+switch ( $degree )
+	case "BA" return "Bachelor"
+	case "MA" return "Masters"
+	case "Ph.D" return "Doctoral"
+	default return "Associate"
+
+order by $degree
+return <Person Manager="{$person/@Manager}" Degree="{$nonAbbrev}">
+{
+$person/child::*
+}
+</Person>
+
+=[ 6 ]========================
+
+for $a in Company//Person
+let $first := $a/First,
+	$last := $a/Last,
+	$email := lower-case(replace($a/EMail,"@workmgr.com|@work.com" ,"@globiq.com"))
+	
+where $a/Age >= 30
+
+return 
+<Name>
+{
+$last || ", " || $first
+}
+<Email>
+{
+$email
+}
+</Email>
+</Name>
+
+=[ 7 ]========================
+
+for $a in Company//Person
+let $msg1 := <Message>Salary is compensated</Message>,
+	$msg2 := <Message>Current salary of the employee is not compensated with their degree.</Message>
+where $a/@Degree[.='Ph.D'] and $a/@Manager = "true"
+
+return
+<Info>
+{
+if ( $a/Salary < 40000.00 ) then
+
+$a/First | $a/Last | $a/Salary | $msg2
+
+else  $a/child::* | $msg1
+}
+</Info>
+
+=[ 8 ]========================
+
+for $a in Company
+let $first := $a//First,
+	$last := $a//Last,
+	$age := $a//Age,
+	$phone := $a//PhoneExt,
+	$email := $a//EMail,
+	$salary := $a//Salary
+
+return
+<First>{
+string-join($first/text()," | ") 
+}
+</First> |
+<Last>{
+string-join($last/text()," | ")
+}
+</Last> |
+<Age>
+{
+string-join($age/text()," | ")
+}
+</Age>|
+<PhoneExt>
+{
+string-join($phone/text()," | ")
+}
+</PhoneExt> |
+<EMail>
+{
+string-join($email/text()," | ")
+}
+</EMail>|
+<Salary>
+{
+string-join($salary/text()," | ")
+}
+</Salary>
+
+=[ 9 ]========================
+
+for $a in //Division
+let $name := $a/Division-Name,
+	$location := $a/Location
+(:	$count1 := count($div[1]/Person),
+	$count2 := count($div[last()]/Person),
+	$location := $div/Location:)
+
+return
+<Division>
+{
+$name | $location
+}
+<TotalPersons>
+{
+count($a//Person)
+}
+</TotalPersons>
+</Division>
