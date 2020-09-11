@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Masterfile xmlns="http://www.globiq.com/profile">
+
+<Employee Status="Regular">
+<Name>Zerna, Ramon Jacinto G.</Name>
+<EmailAddress>r.zerna@globiq.com</EmailAddress>
+<Nickname>Boss R</Nickname>
+<Address>Pulantubig, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9056189197</Personal>
+</ContactNumber>
+<Birthday>21/03/1992</Birthday>
+<DateHired>16/06/2014</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Bacayo, Gerna Lois</Name>
+<EmailAddress>g.bacayo@globiq.com</EmailAddress>
+<Nickname>Lois</Nickname>
+<Address>Poblacion 7, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9205018666</Personal>
+<Work>9176514119</Work>
+</ContactNumber>
+<Birthday>02/11/1991</Birthday>
+<DateHired>27/07/2014</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Cuerpo, Nelly Jane</Name>
+<EmailAddress>n.cuerpo@globiq.com</EmailAddress>
+<Nickname>Nel</Nickname>
+<Address>Bantayan, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9262580688</Personal>
+</ContactNumber>
+<Birthday>07/11/1990</Birthday>
+<DateHired>26/01/2015</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Pagon, Cleff Annel</Name>
+<EmailAddress>c.pagon@globiq.com</EmailAddress>
+<Nickname>Cleff</Nickname>
+<Address>Inalad, Siaton</Address>
+<ContactNumber>
+<Personal>9269348909</Personal>
+</ContactNumber>
+<Birthday>15/12/1991</Birthday>
+<DateHired>01/02/2016</DateHired>
+</Employee>
+
+<Employee Status="Resigned">
+<Name>Balderas, Mariane</Name>
+<EmailAddress>m.balderas@globiq.com</EmailAddress>
+<Nickname>Yhan</Nickname>
+<Address>Habitat 3 Bajumpandan, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9551293900</Personal>
+</ContactNumber>
+<Birthday>19/04/1985</Birthday>
+<DateHired>01/02/2016</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Balambao, Hydeeliza</Name>
+<EmailAddress>h.balambao@globiq.com</EmailAddress>
+<Nickname>Hydz</Nickname>
+<Address>San Jose</Address>
+<ContactNumber>
+<Personal>9056988233</Personal>
+</ContactNumber>
+<Birthday>22/12/1985</Birthday>
+<DateHired>10/05/2016</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Repollo, Glenn Uy</Name>
+<EmailAddress>g.repollo@globiq.com</EmailAddress>
+<Nickname>Boss g</Nickname>
+<Address>Tanjay City</Address>
+<ContactNumber>
+<Personal>9056821443</Personal>
+</ContactNumber>
+<Birthday>01/08/1988</Birthday>
+<DateHired>01/02/2017</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Orosca, Harvey B.</Name>
+<EmailAddress>h.orosca@globiq.com</EmailAddress>
+<Nickname>Harvz</Nickname>
+<Address>Magatas, Sibulan</Address>
+<ContactNumber>
+<Personal>9756296989</Personal>
+</ContactNumber>
+<Birthday>27/01/1998</Birthday>
+<DateHired>01/02/2017</DateHired>
+</Employee>
+
+<Employee Status="Resigned">
+<Name>Mendoza, Arche D.</Name>
+<EmailAddress>a.mendoza@globiq.com</EmailAddress>
+<Nickname>Arch</Nickname>
+<Address>Ubos, Bayawan City</Address>
+<ContactNumber>
+<Personal>9358159828</Personal>
+</ContactNumber>
+<Birthday>02/03/1983</Birthday>
+<DateHired>18/04/2017</DateHired>
+</Employee>
+
+<Employee Status="Resigned">
+<Name>Piera, Rosela Q.</Name>
+<EmailAddress>r.piera@globiq.com</EmailAddress>
+<Nickname>Ron-ron</Nickname>
+<Address>Daro,Dumaguete City</Address>
+<ContactNumber>
+<Personal>9065379465</Personal>
+</ContactNumber>
+<Birthday>14/12/1979</Birthday>
+<DateHired>01/07/2017</DateHired>
+</Employee>
+
+<Employee Status="Resigned">
+<Name>Diputado, Irish</Name>
+<EmailAddress>i.diputado@globiq.com</EmailAddress>
+<Nickname>I</Nickname>
+<Address>Magatas, Sibulan</Address>
+<ContactNumber>
+<Personal>9278098491</Personal>
+<Work>9774554854</Work>
+</ContactNumber>
+<Birthday>26/11/1992</Birthday>
+<DateHired>05/10/2017</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Moralidad, Avel Niño R.</Name>
+<EmailAddress>a.moralidad@globiq.com</EmailAddress>
+<Nickname>Sir a</Nickname>
+<Address>Calindagan, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9277865277</Personal>
+<Work>9171690747</Work>
+</ContactNumber>
+<Birthday>28/01/1990</Birthday>
+<DateHired>04/06/2018</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Flores, Adelyn</Name>
+<EmailAddress>a.flores@globiq.com</EmailAddress>
+<Nickname>Adz</Nickname>
+<Address>Dumaguete City</Address>
+<ContactNumber>
+<Personal>9051360472</Personal>
+</ContactNumber>
+<Birthday>23/11/1983</Birthday>
+<DateHired>08/07/2018</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Cabalida, Larry James</Name>
+<EmailAddress>l.cabalida@globiq.com</EmailAddress>
+<Nickname>Larry j</Nickname>
+<Address>Candau-ay, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9756239046</Personal>
+</ContactNumber>
+<Birthday>04/12/1994</Birthday>
+<DateHired>08/07/2018</DateHired>
+</Employee>
+
+<Employee Status="Resigned">
+<Name>Abelgas, Christian</Name>
+<EmailAddress>c.abelgas@globiq.com</EmailAddress>
+<Nickname>Bro</Nickname>
+<Address>Motong, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9051178912</Personal>
+</ContactNumber>
+<Birthday>04/06/1984</Birthday>
+<DateHired>09/07/2018</DateHired>
+</Employee>
+
+<Employee Status="Resigned">
+<Name>Gemina, Marissa C.</Name>
+<EmailAddress>m.gemina@globiq.com</EmailAddress>
+<Nickname>Mars</Nickname>
+<Address>Dumaguete City</Address>
+<ContactNumber>
+<Personal>9752674142</Personal>
+</ContactNumber>
+<Birthday>07/10/1984</Birthday>
+<DateHired>08/08/2018</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Amores, Cristill Mae</Name>
+<EmailAddress>c.amores@globiq.com</EmailAddress>
+<Nickname>Titil</Nickname>
+<Address>Daro, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9351308493</Personal>
+</ContactNumber>
+<Birthday>10/05/1994</Birthday>
+<DateHired>08/08/2018</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Obligado, Edwin S</Name>
+<EmailAddress>e.obligado@globiq.com</EmailAddress>
+<Nickname>Ed</Nickname>
+<Address>San jose Extension, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9755935537</Personal>
+</ContactNumber>
+<Birthday>19/11/1991</Birthday>
+<DateHired>08/08/2018</DateHired>
+</Employee>
+
+<Employee Status="Terminated">
+<Name>Nocete, Mark Anthony</Name>
+<EmailAddress>m.nocete@globiq.com</EmailAddress>
+<Nickname>Mark</Nickname>
+<Address>Taclobo, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9559102211</Personal>
+</ContactNumber>
+<Birthday>04/08/1988</Birthday>
+<DateHired>25/01/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Rucas, Maribeth</Name>
+<EmailAddress>m.rucas@globiq.com</EmailAddress>
+<Nickname>Beth</Nickname>
+<Address>Poblacion, Sibulan</Address>
+<ContactNumber>
+<Personal>9361268462</Personal>
+</ContactNumber>
+<Birthday>26/10/1997</Birthday>
+<DateHired>02/02/2019</DateHired>
+</Employee>
+
+<Employee Status="Resigned">
+<Name>Venecario, Victor</Name>
+<EmailAddress>v.venecario@globiq.com</EmailAddress>
+<Nickname>Aa</Nickname>
+<Address>Bacong</Address>
+<ContactNumber>
+<Personal>9753456860</Personal>
+</ContactNumber>
+<Birthday>05/05/1996</Birthday>
+<DateHired>08/02/2019</DateHired>
+</Employee>
+
+<Employee Status="Terminated">
+<Name>Trumata, Jeef Carl L.</Name>
+<EmailAddress>jc.trumata@globiq.com</EmailAddress>
+<Nickname>Jeef</Nickname>
+<Address>Pob. District 3, Dauin</Address>
+<Birthday>05/10/1992</Birthday>
+<DateHired>15/02/2019</DateHired>
+</Employee>
+
+<Employee Status="Terminated">
+<Name>Pondoc, Hannah </Name>
+<EmailAddress>hk.pondoc@globiq.com</EmailAddress>
+<Nickname>Dumaguete City</Nickname>
+<Address>9353584612</Address>
+<ContactNumber>
+<Personal>9353584612</Personal>
+</ContactNumber>
+<Birthday>13/06/1992</Birthday>
+<DateHired>19/02/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Lago, Kyrell James</Name>
+<EmailAddress>kj.lago@globiq.com</EmailAddress>
+<Nickname>Ky</Nickname>
+<Address>Dumaguete City</Address>
+<ContactNumber>
+<Personal>9058460338</Personal>
+</ContactNumber>
+<Birthday>24/02/1988</Birthday>
+<DateHired>20/02/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Dascil, Ariel</Name>
+<EmailAddress>a.dascil@globiq.com</EmailAddress>
+<Nickname>Ayeng</Nickname>
+<Address>Batinguel, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9386339374</Personal>
+</ContactNumber>
+<Birthday>10/07/1991</Birthday>
+<DateHired>28/02/2019</DateHired>
+</Employee>
+
+<Employee Status="Terminated">
+<Name>Remata, Dave Paul</Name>
+<EmailAddress>p.remata@globiq.com</EmailAddress>
+<Nickname>Dave</Nickname>
+<Address>Bagacay, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9754241535</Personal>
+</ContactNumber>
+<Birthday>17/03/1998</Birthday>
+<DateHired>06/03/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Palomar, Joseph Lord</Name>
+<EmailAddress>j.palomar@globiq.com</EmailAddress>
+<Nickname>Jojo</Nickname>
+<Address>Bagacay, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9269323962</Personal>
+</ContactNumber>
+<Birthday>29/03/1991</Birthday>
+<DateHired>16/03/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Mapula, Aileen C.</Name>
+<EmailAddress>a.mapula@globiq.com</EmailAddress>
+<Nickname>Ai</Nickname>
+<Address>Northern Junob, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9552952809</Personal>
+</ContactNumber>
+<Birthday>01/04/1991</Birthday>
+<DateHired>19/03/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Dahunan, Diana Chell</Name>
+<EmailAddress>d.dahunan@globiq.com</EmailAddress>
+<Nickname>Chell</Nickname>
+<Address>Bagacay, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9276101028</Personal>
+</ContactNumber>
+<Birthday>12/11/1995</Birthday>
+<DateHired>28/03/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Futalan, Joshua Martin</Name>
+<EmailAddress>j.futalan@globiq.com</EmailAddress>
+<Nickname>Josh</Nickname>
+<Address>Inalad, Siaton</Address>
+<ContactNumber>
+<Personal>9050330832</Personal>
+</ContactNumber>
+<Birthday>03/01/1998</Birthday>
+<DateHired>23/04/2019</DateHired>
+</Employee>
+
+<Employee Status="Resigned">
+<Name>Bedro, Jane</Name>
+<EmailAddress>j.bedro@globiq.com</EmailAddress>
+<Nickname>Jane</Nickname>
+<Address>Tubtubon, Sibulan</Address>
+<ContactNumber>
+<Personal>9675740198</Personal>
+</ContactNumber>
+<Birthday>06/07/1997</Birthday>
+<DateHired>23/04/2019</DateHired>
+</Employee>
+
+<Employee Status="Terminated">
+<Name>Cal, Nicole Ernestine</Name>
+<EmailAddress>n.cal@globiq.com</EmailAddress>
+<Nickname>Nic</Nickname>
+<Address>Lower Candau-ay, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9977392467</Personal>
+</ContactNumber>
+<Birthday>17/02/1999</Birthday>
+<DateHired>23/04/2019</DateHired>
+</Employee>
+
+<Employee Status="Resigned">
+<Name>Hipayo, Mary Apple</Name>
+<EmailAddress>a.hipayo@globiq.com</EmailAddress>
+<Nickname>Pol</Nickname>
+<Address>Taclobo, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9777961005</Personal>
+</ContactNumber>
+<Birthday>08/02/1995</Birthday>
+<DateHired>23/04/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Magbunag, Christian Faith</Name>
+<EmailAddress>c.magbunag@globiq.com</EmailAddress>
+<Nickname>Faith</Nickname>
+<Address>Brgy. Poblacion, Sibulan</Address>
+<ContactNumber>
+<Personal>9277409967</Personal>
+</ContactNumber>
+<Birthday>03/01/1993</Birthday>
+<DateHired>16/05/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Ramos, Camille Sharmaine</Name>
+<EmailAddress>c.ramos@globiq.com</EmailAddress>
+<Nickname>Cam</Nickname>
+<Address>Fatima Village, Piapi, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9752659623</Personal>
+</ContactNumber>
+<Birthday>07/01/1995</Birthday>
+<DateHired>17/05/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Sabanal, Jenecil</Name>
+<EmailAddress>j.sabanal@globiq.com</EmailAddress>
+<Nickname>Jenjen</Nickname>
+<Address>126 Pinili St., Dumaguete City</Address>
+<ContactNumber>
+<Personal>9061247213</Personal>
+</ContactNumber>
+<Birthday>14/08/1998</Birthday>
+<DateHired>20/05/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Fortit, Mariel</Name>
+<EmailAddress>m.fortit@globiq.com</EmailAddress>
+<Nickname>Mayee</Nickname>
+<Address>Purok II, Magatas, Sibulan</Address>
+<ContactNumber>
+<Personal>9651478852</Personal>
+</ContactNumber>
+<Birthday>17/02/1998</Birthday>
+<DateHired>20/05/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Tamayo, Jeanille Ariane</Name>
+<EmailAddress>j.tamayo@globiq.com</EmailAddress>
+<Nickname>Yhane</Nickname>
+<Address>Zone 3 Brgy Looc, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9176373440</Personal>
+</ContactNumber>
+<Birthday>07/02/1983</Birthday>
+<DateHired>30/09/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Grifon, Jahve D.</Name>
+<EmailAddress>j.grifon@globiq.com</EmailAddress>
+<Nickname>Jabi</Nickname>
+<Address>Magatas, Sibulan</Address>
+<Birthday>05/01/1996</Birthday>
+<DateHired>11/11/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Monteclaro, Hanna T.</Name>
+<EmailAddress>h.monteclaro@globiq.com</EmailAddress>
+<Nickname>Dindi</Nickname>
+<Address>Cancawas, San Jose, Negros Oriental</Address>
+<ContactNumber>
+<Personal>9563503873</Personal>
+</ContactNumber>
+<Birthday>19/11/1995</Birthday>
+<DateHired>02/12/2019</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Dela Salde, Nicko</Name>
+<EmailAddress>n.salde@globiq.com</EmailAddress>
+<Nickname>Nicko</Nickname>
+<Address>Balugo, Valencia , Dumaguete City</Address>
+<ContactNumber>
+<Personal>9066625714</Personal>
+</ContactNumber>
+<Birthday>14/09/1999</Birthday>
+<DateHired>02/03/2020</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Torres, Maisa</Name>
+<EmailAddress>m.torres@globiq.com</EmailAddress>
+<Nickname>Maish</Nickname>
+<Address>Cervantes Street , Dumaguete City</Address>
+<ContactNumber>
+<Personal>9774554789</Personal>
+</ContactNumber>
+<Birthday>22/12/1989</Birthday>
+<DateHired>02/03/2020</DateHired>
+</Employee>
+
+<Employee Status="Regular">
+<Name>Yangco, Marc Rian</Name>
+<EmailAddress>m.yangco@globiq.com</EmailAddress>
+<Nickname>Marc</Nickname>
+<Address>Purok Banikanhon , Dumaguete City</Address>
+<ContactNumber>
+<Personal>9168790365</Personal>
+</ContactNumber>
+<Birthday>06/03/1997</Birthday>
+<DateHired>03/03/2020</DateHired>
+</Employee>
+
+<Employee Status="On-Probation">
+<Name>Espra, Mallori</Name>
+<EmailAddress>m.espra@globiq.com</EmailAddress>
+<Nickname>Mal</Nickname>
+<Address>Purok Mabugnawon, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9561295078</Personal>
+<Work>08/02/1995</Work>
+</ContactNumber>
+<Birthday>07/07/2020</Birthday>
+<DateHired></DateHired>
+</Employee>
+
+<Employee Status="On-Probation">
+<Name>Ramirez, Angeli</Name>
+<EmailAddress>a.ramirez@globiq.com</EmailAddress>
+<Nickname>Ange</Nickname>
+<Address>Lot 6 DCCCO Banilad, Dumaguete City</Address>
+<Birthday>16/02/1999</Birthday>
+<DateHired>07/07/2020</DateHired>
+</Employee>
+
+<Employee Status="On-Probation">
+<Name>Necio, Cyrilorry Christian</Name>
+<EmailAddress>c.necio@globiq.com</EmailAddress>
+<Nickname>Cyril</Nickname>
+<Birthday>30/10/1998</Birthday>
+<DateHired>20/07/2020</DateHired>
+</Employee>
+
+<Employee Status="On-Probation">
+<Name>Ablir, Erwin Paul</Name>
+<EmailAddress>e.ablir@globiq.com</EmailAddress>
+<Nickname>Paul</Nickname>
+<Birthday>30/08/1996</Birthday>
+<DateHired>20/07/2020</DateHired>
+</Employee>
+
+<Employee Status="On-Probation">
+<Name>Tuala, Jeny</Name>
+<EmailAddress>j.tuala@globiq.com</EmailAddress>
+<Nickname>Jen</Nickname>
+<Address>Souther Junob, Dumaguete City</Address>
+<ContactNumber>
+<Personal>9216927012</Personal>
+<Work></Work>
+</ContactNumber>
+<Birthday>14/12/1989</Birthday>
+<DateHired>20/07/2020</DateHired>
+</Employee>
+
+<Employee Status="Temporary">
+<Name>Quinicot, Hart Peter</Name>
+<EmailAddress>h.quinicot@globiq.com</EmailAddress>
+<Nickname>Hart</Nickname>
+<Address>Inalad, Siaton</Address>
+<Birthday>25/09/1990</Birthday>
+</Employee>
+
+<Employee Status="Temporary">
+<Name>Piñero,Carla</Name>
+<EmailAddress>c.piñero@globiq.com</EmailAddress>
+<Nickname>Carla</Nickname>
+<Birthday>23/09/1991</Birthday>
+</Employee>
+
+
+</Masterfile>

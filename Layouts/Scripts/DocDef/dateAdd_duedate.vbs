@@ -25,9 +25,9 @@ if me.Field("duedate").Text <> "" then
       end if
     elseif month = 2 then
       if Len(day) = 1 then
-            me.Field("duedate").Text =  day2 & "-" & Mid(cdate,1,1) & "-" & year
+            me.Field("duedate").Text = day2 & "-" & "0" & Mid(cdate,1,1) & "-" & year
       else
-            me.Field("duedate").Text = "0" & day & "-" & Mid(cdate,1,1) & "-" & year
+            me.Field("duedate").Text = "0" & day & "-" & "0"  & Mid(cdate,1,1) & "-" & year
       end if  
    end if
 end if
