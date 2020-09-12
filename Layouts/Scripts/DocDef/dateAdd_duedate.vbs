@@ -1,6 +1,6 @@
-=================== !!! LATEST !!! 29-10-2019  ============ Updated 2020-09-05 ==============================================
+=================== !!! LATEST !!! 29-10-2019  ============ Updated 2020-09-11 ==============================================
 
-Dim ddate, idate, ndate, cdate, year, month, nmonth, y, day, day2
+Dim ddate, idate, ndate, cdate, year, slash1, splus, nmonth, slash2, day, day2
 
 
 idate = me.Field("invoicedate").Text '17-06-2020
@@ -9,22 +9,27 @@ ddate = CInt(me.Field("duedate").Text) '30
 
 cdate = CStr(DateAdd("d",ddate,ndate)) '11/27/2019 '1/27/2019
 year = Right(cdate,4) '2019'
-month = CStr(InStr(cdate,"/")) 'pos 3
+slash1 = CStr(InStr(cdate,"/")) 'p3
+splus = CInt(slash1) + 1
 
-'11/27/2019
-y = CStr(Instr(cdate,"/")+1) 'pos3
-day = CStr(Mid(cdate,y,1)) '2
-day2 = CStr(Mid(cdate,y,2)) '27
+'11/12/2019 positions slash1(3) and slash2(6)
+'10/7/2019  positions slash1(3) and slash2(5)
+'1/12/2019  positions slash1(2) and slash2(5)
+'1/1/2019   positions slash1(2) and slash2(4)
+
+slash2 = CStr(InstrRev(cdate,"/")) 'pos3
+day = CStr(Mid(cdate,splus,1)) '2
+day2 = CStr(Mid(cdate,splus,2)) '27
 
 if me.Field("duedate").Text <> "" then
-    if month = 3 then
-      if Len(day) = 1 then
-            me.Field("duedate").Text =  day2 & "-" & Mid(cdate,1,2) & "-" & year
+    if slash1 = 3 then
+      if slash2 = 6 then
+            me.Field("duedate").Text = day2 & "-" & Mid(cdate,1,2) & "-" & year
         else
             me.Field("duedate").Text = "0" & day & "-" & Mid(cdate,1,2) & "-" & year
       end if
-    elseif month = 2 then
-      if Len(day) = 1 then
+    elseif slash1 = 2 then
+      if slash2 = 5 then
             me.Field("duedate").Text = day2 & "-" & "0" & Mid(cdate,1,1) & "-" & year
       else
             me.Field("duedate").Text = "0" & day & "-" & "0"  & Mid(cdate,1,1) & "-" & year
