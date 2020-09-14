@@ -1,72 +1,147 @@
+=================== !!! LATEST !!!  ============ Updated 2020-09-14 ==============================================
 Dim cdate, year, day, x, y, month
 
-'11 juni 2020
+'6 april 2020
+'16 juli 2020
+'16 februari 2020
 cdate = me.Field("invoicedate").Text
 year = Right(cdate,4)
-day = CStr(InStr(1,cdate," ")-1)
-x = CInt(InStr(1,cdate," ")+1) '3
-y = CInt(InStr(cdate,year)-5) '13-4 = 9
+
+day = CStr(InStr(1,cdate," "))
+x = CInt(InStr(1,cdate," ")+1)
+y = CInt(InStrRev(cdate,year)-5) '13-5 = 8
 month = Mid(cdate,x,y)
 
-if cdate <> "" and day = "2" then
+
+if cdate <> "" and day = "3" then
     if month = "januari" then
-       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "01" & "-" & year
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "01" & "-" & year
     elseif month = "februari" then
-       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "02" & "-" & year
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "02" & "-" & year
     elseif month = "maart" then
-       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "03" & "-" & year
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "03" & "-" & year
     elseif month = "april" then
-       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "04" & "-" & year
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "04" & "-" & year
     elseif month = "mei" then
-       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "05" & "-" & year
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "05" & "-" & year
     elseif month = "juni" then
-       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "06" & "-" & year
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "06" & "-" & year
     elseif month = "juli" then
-       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "07" & "-" & year
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "07" & "-" & year
     elseif month = "augustus" then
-       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "08" & "-" & year
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "08" & "-" & year
     elseif month = "september" then
-       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "09" & "-" & year
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "09" & "-" & year
     elseif month = "oktober" then
-       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "10" & "-" & year
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "10" & "-" & year
     elseif month = "november" then
-       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "11" & "-" & year
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "11" & "-" & year
     elseif month = "december" then
-       me.Field("invoicedate").Text = Mid(cdate,1,day) & "-" & "12" & "-" & year
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "12" & "-" & year
     else 
        me.Field("invoicedate").Text = cdate
     end if
-elseif cdate <> "" and day = "1" then
+elseif cdate <> "" and day = "2" then
     if month = "januari" then
-       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "01" & "-" & year
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "01" & "-" & year
     elseif month = "februari" then
-       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "02" & "-" & year
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "02" & "-" & year
     elseif month = "maart" then
-       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "03" & "-" & year
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "03" & "-" & year
     elseif month = "april" then
-       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "04" & "-" & year
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "04" & "-" & year
     elseif month = "mei" then
-       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "05" & "-" & year
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "05" & "-" & year
     elseif month = "juni" then
-       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "06" & "-" & year
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "06" & "-" & year
     elseif month = "juli" then
-       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "07" & "-" & year
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "07" & "-" & year
     elseif month = "augustus" then
-       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "08" & "-" & year
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "08" & "-" & year
     elseif month = "september" then
-       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "09" & "-" & year
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "09" & "-" & year
     elseif month = "oktober" then
-       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "10" & "-" & year
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "10" & "-" & year
     elseif month = "november" then
-       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "11" & "-" & year
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "11" & "-" & year
     elseif month = "december" then
-       me.Field("invoicedate").Text = "0" & Mid(cdate,1,day) & "-" & "12" & "-" & year
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "12" & "-" & year
     else 
        me.Field("invoicedate").Text = cdate
     end if
 end if
 
+=================== format 30-SEP-19 ==============================================
 
+Dim cdate, year, day, x, y, month
+
+'02-SEP-19
+cdate = me.Field("invoicedate").Text
+year = Right(cdate,2)
+
+day = CStr(InStr(1,cdate,"-"))
+x = CInt(InStr(1,cdate,"-")+1)
+y = CInt(InStrRev(cdate,year)-5) '3
+month = Mid(cdate,x,y)
+
+
+if cdate <> "" and day = "3" then
+    if month = "JAN" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "01" & "-" & "20" & year
+    elseif month = "FEB" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "02" & "-" & "20" & year
+    elseif month = "MRT" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "03" & "-" & "20" & year
+    elseif month = "APR" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "04" & "-" & "20" & year
+    elseif month = "MEI" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "05" & "-" & "20" & year
+    elseif month = "JUN" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "06" & "-" & "20" & year
+    elseif month = "JUL" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "07" & "-" & "20" & year
+    elseif month = "AUG" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "08" & "-" & "20" & year
+    elseif month = "SEP" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "09" & "-" & "20" & year
+    elseif month = "OKT" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "10" & "-" & "20" & year
+    elseif month = "NOV" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "11" & "-" & "20" & year
+    elseif month = "DEC" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "12" & "-" & "20" & year
+    else 
+       me.Field("invoicedate").Text = cdate
+    end if
+elseif cdate <> "" and day = "2" then
+    if month = "JAN" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "01" & "-" & "20" & year
+    elseif month = "FEB" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "02" & "-" & "20" & year
+    elseif month = "MRT" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "03" & "-" & "20" & year
+    elseif month = "APR" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "04" & "-" & "20" & year
+    elseif month = "MEI" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "05" & "-" & "20" & year
+    elseif month = "JUN" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "06" & "-" & "20" & year
+    elseif month = "JUL" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "07" & "-" & "20" & year
+    elseif month = "AUG" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "08" & "-" & "20" & year
+    elseif month = "SEP" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "09" & "-" & "20" & year
+    elseif month = "OKT" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "10" & "-" & "20" & year
+    elseif month = "NOV" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "11" & "-" & "20" & year
+    elseif month = "DEC" then
+       me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "12" & "-" & "20" & year
+    else 
+       me.Field("invoicedate").Text = cdate
+    end if
+end if
 
 
 =================== 3 digit month ===============
