@@ -3,13 +3,12 @@
 Dim duedate, day, month, year, day2, month2, day3, month3, day4, month4
 
 
-duedate = me.Field("duedate").Text '23-7-2020
+duedate = Replace(me.Field("duedate").Text," ","") '23-7-2020
+
 
 '6-11-2020 = 9
 day = Mid(duedate,1,1)
 month = Mid(duedate,3,2)
-
-
 
 '23-7-2020 = 9
 day2 = Mid(duedate,1,2)

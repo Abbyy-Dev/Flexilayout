@@ -1,19 +1,17 @@
 =================== !!! LATEST !!!  ============ Updated 2020-09-14 ==============================================
-Dim cdate, year, day, x, y, month
 
-'6 april 2020
-'16 juli 2020
-'16 februari 2020
-cdate = me.Field("invoicedate").Text
+Dim cdate, year, sep1, x, y, month
+
+'31 juli 2020
+'12 oktober 2020
+cdate = LCase(me.Field("invoicedate").Text)
 year = Right(cdate,4)
-
-day = CStr(InStr(1,cdate," "))
-x = CInt(InStr(1,cdate," ")+1)
-y = CInt(InStrRev(cdate,year)-5) '13-5 = 8
+sep1 = CStr(InStr(1,cdate," "))
+x = CInt(InStr(1,cdate," ")+1) 'always start after the first sep1
+y = CInt(InStrRev(cdate," ")-x) 
 month = Mid(cdate,x,y)
 
-
-if cdate <> "" and day = "3" then
+if cdate <> "" and sep1 = "3" then
     if month = "januari" then
        me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "01" & "-" & year
     elseif month = "februari" then
@@ -41,7 +39,7 @@ if cdate <> "" and day = "3" then
     else 
        me.Field("invoicedate").Text = cdate
     end if
-elseif cdate <> "" and day = "2" then
+elseif cdate <> "" and sep1 = "2" then
     if month = "januari" then
        me.Field("invoicedate").Text = "0" & Mid(cdate,1,1) & "-" & "01" & "-" & year
     elseif month = "februari" then
@@ -71,12 +69,62 @@ elseif cdate <> "" and day = "2" then
     end if
 end if
 
+=================== format 07 oktober 2020 ========= Updated 2020-09-15 ==============================================
+
+
+Dim cdate, year, sep1, x, y, month
+
+'31 juli 2020
+'12 oktober 2020
+cdate = LCase(me.Field("invoicedate").Text)
+
+year = Right(cdate,4)
+
+sep1 = CStr(InStr(1,cdate," "))
+
+x = CInt(InStr(1,cdate," ")+1) 'always start after the first sep1
+y = CInt(InStrRev(cdate," ")-x) 
+
+month = Mid(cdate,x,y)
+
+
+if cdate <> "" and sep1 = "3" then
+    if month = "januari" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "01" & "-" & year
+    elseif month = "februari" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "02" & "-" & year
+    elseif month = "maart" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "03" & "-" & year
+    elseif month = "april" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "04" & "-" & year
+    elseif month = "mei" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "05" & "-" & year
+    elseif month = "juni" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "06" & "-" & year
+    elseif month = "juli" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "07" & "-" & year
+    elseif month = "augustus" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "08" & "-" & year
+    elseif month = "september" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "09" & "-" & year
+    elseif month = "oktober" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "10" & "-" & year
+    elseif month = "november" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "11" & "-" & year
+    elseif month = "december" then
+       me.Field("invoicedate").Text = Mid(cdate,1,2) & "-" & "12" & "-" & year
+    else 
+       me.Field("invoicedate").Text = cdate
+    end if
+	
+end if
+
 =================== format 30-SEP-19 ==============================================
 
 Dim cdate, year, day, x, y, month
 
 '02-SEP-19
-cdate = me.Field("invoicedate").Text
+cdate = LCase(me.Field("invoicedate").Text)
 year = Right(cdate,2)
 
 day = CStr(InStr(1,cdate,"-"))
@@ -397,3 +445,19 @@ elseif ddate <> "30" and month = "1" and Len(day) = 1 then
 else
     me.Field("duedate").Text = day & "-" & Mid(cdate,1,month) & "-" & year
 end if
+
+======================
+
+
+mei '3
+juni '4
+juli '4
+maart '5 
+april '5
+oktober '7
+januari '7
+februari '8
+november '8
+december '8
+augustus '8
+september '9
