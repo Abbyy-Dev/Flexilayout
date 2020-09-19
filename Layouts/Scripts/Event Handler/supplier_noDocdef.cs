@@ -303,11 +303,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="43796")
 {
    Matching.DefinitionsList = "vanamerongen";
 }
-else if (Document.Batch.Properties.Get("supplierid")=="48444")
-{
-   Matching.DefinitionsList = "miekemoorvrijwerk";
-
-}
 else if (Document.Batch.Properties.Get("supplierid")=="48449")
 {
    Matching.DefinitionsList = "guerillaltd";
