@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<form:Documents xmlns:form="http://www.abbyy.com/FlexiCapture/Schemas/Export/FormData.xsd" xmlns:addData="http://www.abbyy.com/FlexiCapture/Schemas/Export/AdditionalFormData.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<_skantrae:_skantrae addData:ImagePath="00000001.pdf" xmlns:_skantrae="http://www.abbyy.com/FlexiCapture/Schemas/Export/skantrae.xsd">
+		<_section>
+			<_billofladingnr>0080899413</_billofladingnr>
+		</_section>
+	</_skantrae:_skantrae>
+</form:Documents>
