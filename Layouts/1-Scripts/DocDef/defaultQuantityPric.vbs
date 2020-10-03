@@ -23,6 +23,22 @@ if me.Field("item_price").Text = "" then
     
 end if
 
+================= default line_amount ==========================
+
+Dim price, tprice, quantity, tquantity, lineamount
+
+tprice = Replace(me.Field("item_price").Text,".","") '2500,00
+price = Replace(tprice,",",".") '2500.00
+
+tquantity = Replace(me.Field("items_ordered").Text,".","")
+quantity = Replace(tquantity,",",".")
+
+lineamount = Round(quantity * price,3)
+
+if me.Field("line_amount").Text = "" then
+    me.Field("line_amount").Text = lineamount
+end if
+
 ================= default invoicenetsum ==========================
 
 Dim dNet, tNet
@@ -30,7 +46,7 @@ Dim dNet, tNet
 vat = Replace(me.Field("vatamount").Text,",",".")
 total  = Replace(me.Field("invoicesum").Text,",",".")
 tNet = total - vat
-dNet = Round(tNet,2)
+dNet = Round(tNet,5)
 
 if me.Field("invoicenetsum").Text = "" then
 

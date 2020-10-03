@@ -48,8 +48,8 @@ elseif me.Field("invoicedate").Text <> "" and Len(invoicedate) = 10 then
 
  me.Field("invoicedate").Text  = day4 + "-" + month4 + "-" + year
  
- 
-
+else 
+	me.Field("invoicedate").Text  = invoicedate
 end if
 
 
