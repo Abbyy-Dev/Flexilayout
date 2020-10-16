@@ -1,0 +1,33 @@
+Will introduce the Dashboard. (8 sections)
+
+Log in using Alfa admin
+The landing page for both alfa and buyer admin, is the dashboard
+
+1st tile		- is the Open actions
+				- it will show number of documents open for Ledger Manual booking and for approval
+				- Clicking the open actions tile will redirect to My documents page
+			
+2nd tile(right)	- this shows the number of lines process and the latest line matching activity for the last 24hrs
+				
+2nd tile(left)	- average of overall automation rate for all documents for header and line processing
+				- Clicking this tile will redirect to page 620 which is the (Rule report) and will be explain later
+
+
+3rd tile 		- this section, will also show the list of users, online/offline within the community. Both Alfa and Buyers
+4th tile 		- leaderboard for the top performing administration with most and least lines match
+				- the reason for having this overview of users is for the admin to check and verify if there are enough people to process the documents (the manual booking)
+5th tile(right) - section, breakdown of the auto and manually booked vat or lines
+				- for a start, more manual booking than automation, eventually it will be all automated if all the rules added.
+			
+6th(right) 		- monthly data set of auto and manually bookings per administration, as you can see on the current month (September), the highest lines that were manually booked is this administration.
+
+7th 			- top users who manually add rules, and from that rule, it match this number of lines
+
+---
+				- Viewing of the dashboard data, can be viewed by, per administration by selecting the dropdown button
+				- And the visibility of the data, will depend on  the current user logged in
+
+Level
+User Buyer - role Approver
+User Alfa - role Reviewer
+
