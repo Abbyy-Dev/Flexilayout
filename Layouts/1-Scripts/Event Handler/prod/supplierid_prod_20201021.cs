@@ -4430,10 +4430,18 @@ else if (Document.Batch.Properties.Get("supplierid")=="100516")
 
 }
 
+else if (Document.Batch.Properties.Get("supplierid")=="100488")
+{
+   Matching.DefinitionsList = "sportfondsenwelzijndelftbv";
+
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="100546")
+{
+   Matching.DefinitionsList = "slagerijwisse";
 
 
-
-
+}
 
 
 
