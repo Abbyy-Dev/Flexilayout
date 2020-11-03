@@ -23,18 +23,6 @@ if me.Field("item_price").Text = "" then
     
 end if
 
-================= default vatbase ==========================
-
-Dim dVatbase
-
-dVatbase = me.Field("invoicenetsum").Text
-
-if me.Field("vatbase").Text = "" then
-
-    me.Field("vatbase").Text = dVatbase
-    
-end if
-
 ================= default line_amount ==========================
 
 Dim price, tprice, quantity, tquantity, lineamount

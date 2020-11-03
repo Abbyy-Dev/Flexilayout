@@ -4716,31 +4716,10 @@ else if (Document.Batch.Properties.Get("supplierid")=="48528")
    Matching.DefinitionsList = "teletraineducation";
 
 }
-else if (Document.Batch.Properties.Get("supplierid")=="100579")
-{
-   Matching.DefinitionsList = "geobv";
 
-}
-else if (Document.Batch.Properties.Get("supplierid")=="100564")
-{
-   Matching.DefinitionsList = "brabob";
 
-}
-else if (Document.Batch.Properties.Get("supplierid")=="100613")
-{
-   Matching.DefinitionsList = "combinatiemouriksalverdavof";
 
-}
-else if (Document.Batch.Properties.Get("supplierid")=="100544")
-{
-   Matching.DefinitionsList = "douweebuis";
 
-}
-else if (Document.Batch.Properties.Get("supplierid")=="100533")
-{
-   Matching.DefinitionsList = "frisseblikken";
-
-}
 
 
 //===========
