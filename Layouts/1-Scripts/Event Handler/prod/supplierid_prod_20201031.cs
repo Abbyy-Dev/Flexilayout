@@ -4704,12 +4704,6 @@ else if (Document.Batch.Properties.Get("supplierid")=="1988")
 
 }
 
-else if (Document.Batch.Properties.Get("supplierid")=="8634")
-{
-   Matching.DefinitionsList = "vanderheide";
-
-}
-
 
 else if (Document.Batch.Properties.Get("supplierid")=="48528")
 {
@@ -4739,6 +4733,76 @@ else if (Document.Batch.Properties.Get("supplierid")=="100544")
 else if (Document.Batch.Properties.Get("supplierid")=="100533")
 {
    Matching.DefinitionsList = "frisseblikken";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="1667")
+{
+   Matching.DefinitionsList = "vialisbv";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="100560")
+{
+   Matching.DefinitionsList = "grandonimedia";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="2523")
+{
+   Matching.DefinitionsList = "higtrafficsystems";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="100549")
+{
+   Matching.DefinitionsList = "jaeikestienstra";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="100614")
+{
+   Matching.DefinitionsList = "optics11bv";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="100607")
+{
+   Matching.DefinitionsList = "sasvanvreeswijkbv";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="8467")
+{
+   Matching.DefinitionsList = "seconedbv";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="100612")
+{
+   Matching.DefinitionsList = "tregthuys";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="5787")
+{
+   Matching.DefinitionsList = "unicabuildingservices";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="8634")
+{
+   Matching.DefinitionsList = "vanderheide";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="48299")
+{
+   Matching.DefinitionsList = "biosolve";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="32923")
+{
+   Matching.DefinitionsList = "lievensemilieubv";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="5879")
+{
+   Matching.DefinitionsList = "lievensemilieubv";
+
+}
+else if (Document.Batch.Properties.Get("supplierid")=="74366")
+{
+   Matching.DefinitionsList = "prorail";
 
 }
 
