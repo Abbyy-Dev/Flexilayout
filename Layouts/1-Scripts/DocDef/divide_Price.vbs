@@ -8,8 +8,3 @@ price = new_lamount / quantity
 if me.Field("items_ordered").Text <> "" and me.Field("line_amount").Text <> "" then
     me.Field("item_price").Text = price
 end if
-
-
-
-
-
