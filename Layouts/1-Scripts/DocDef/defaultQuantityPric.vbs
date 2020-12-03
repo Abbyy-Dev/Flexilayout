@@ -35,6 +35,14 @@ if me.Field("vatbase").Text = "" then
     
 end if
 
+================= default set deliverycountrycode ==========================
+
+if me.Field("deliverycity").Text <> "" then
+
+    me.Field("deliverycountrycode").Text = "NL"
+    
+end if
+
 ================= default line_amount ==========================
 
 Dim price, tprice, quantity, tquantity, lineamount
