@@ -164,9 +164,9 @@
 					<hr/>
 					<div id="details">
 						<h3>Details</h3>
-						<xsl:apply-templates select="cac:AllowanceCharge[cbc:ChargeIndicator='true']" mode="line"/>
+						<xsl:apply-templates select="cac:AllowanceCharge[cbc:ChargeIndicator/string()='true']" mode="line"/>
 						<xsl:apply-templates select="cac:LegalMonetaryTotal/cbc:ChargeTotalAmount" mode="line"/>
-						<xsl:apply-templates select="cac:AllowanceCharge[cbc:ChargeIndicator='false']" mode="line"/>
+						<xsl:apply-templates select="cac:AllowanceCharge[cbc:ChargeIndicator/string()='false']" mode="line"/>
 						<xsl:apply-templates select="cac:LegalMonetaryTotal/cbc:AllowanceTotalAmount" mode="line"/>
 						<xsl:apply-templates select="cac:InvoiceLine" mode="line"/>
 						<xsl:apply-templates select="cac:LegalMonetaryTotal/cbc:LineExtensionAmount" mode="line"/>

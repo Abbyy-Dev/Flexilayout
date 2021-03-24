@@ -27,6 +27,7 @@
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
+				<cbc:RegistrationName>Supplier NAME</cbc:RegistrationName>
 				<cbc:CompanyID schemeID="NL:KVK" schemeAgencyID="ZZZ">11111</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 		</cac:Party>
@@ -46,6 +47,7 @@
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
+				<cbc:RegistrationName>Buyer NAME</cbc:RegistrationName>
 				<cbc:CompanyID schemeID="NL:VAT" schemeAgencyID="ZZZ">NL00000000B01</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 		</cac:Party>
@@ -76,6 +78,13 @@
 		<cbc:LineExtensionAmount currencyID="EUR">35.53</cbc:LineExtensionAmount>
 		<cac:Item>
 			<cbc:Name>Description/Name</cbc:Name>
+			<cac:ClassifiedTaxCategory xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+				<cbc:ID>S</cbc:ID>
+				<cbc:Percent>21</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
 		</cac:Item>
 		<cac:Price>
 			<cbc:PriceAmount currencyID="EUR">17.77</cbc:PriceAmount>

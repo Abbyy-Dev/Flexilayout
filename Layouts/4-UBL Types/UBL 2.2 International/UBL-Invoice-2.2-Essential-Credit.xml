@@ -4,6 +4,7 @@
 	<cbc:ID>092650</cbc:ID>
 	<cbc:IssueDate>2021-03-05</cbc:IssueDate>
 	<cbc:InvoiceTypeCode listID="UN/ECE 1001 Subset" listAgencyID="6">384</cbc:InvoiceTypeCode>
+	<cbc:DocumentCurrencyCode listID="ISO4217" listAgencyID="6">EUR</cbc:DocumentCurrencyCode>
 	<cac:BillingReference>
 		<cac:InvoiceDocumentReference>
 			<cbc:ID>092650</cbc:ID>
