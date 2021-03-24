@@ -1,0 +1,49 @@
+Dim deliverydate, day, month, year, day2, month2, day3, month3, day4, month4, day1_sep, day2_sep
+
+
+deliverydate = Replace(me.Field("deliverydate").Text," ","") '23-7-2020
+sep1 = CStr(InStr(1,deliverydate,"-")) '2
+
+'6-11-20 = 7
+day1_sep = CStr(InStr(1,deliverydate,"-")) 'return position 2
+day = Mid(deliverydate,1,1)
+month = Mid(deliverydate,3,2)
+
+'23-7-20 = 7
+day2_sep = CStr(InStr(1,deliverydate,"-")) 'return position 3
+day2 = Mid(deliverydate,1,2)
+month2 = Mid(deliverydate,4,1)
+
+'7-6-20 = 6
+day3 = Mid(deliverydate,1,1)
+month3 = Mid(deliverydate,3,1)
+
+'10-10-20 = 8
+day4 = Mid(deliverydate,1,2)
+month4 = Mid(deliverydate,4,2)
+
+year = Right(deliverydate,2)
+
+
+
+if me.Field("deliverydate").Text <> "" and Len(deliverydate) = 7 then
+ 
+    if day1_sep = 3 then
+  
+    me.Field("deliverydate").Text = day2 + "-" + "0" + month2 + "-" + "20" + year
+   
+ else 
+   
+    me.Field("deliverydate").Text = "0" + day + "-" + month + "-" + "20" + year
+    
+    end if
+   
+elseif me.Field("deliverydate").Text <> "" and Len(deliverydate) = 6 then
+
+ me.Field("deliverydate").Text =  "0" + day3 + "-" + "0" + month3 + "-" + "20" + year
+ 
+elseif me.Field("deliverydate").Text <> "" and Len(deliverydate) = 8 then
+
+ me.Field("deliverydate").Text  = day4 + "-" + month4 + "-" + "20" + year
+
+end if

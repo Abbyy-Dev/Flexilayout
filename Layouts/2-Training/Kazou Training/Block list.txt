@@ -1,0 +1,33 @@
+supplieremail
+buyerdepartment
+deliverystreet
+deliverypostalcode
+deliverycity
+deliverydate
+invoicenum
+invoicenum_credit
+kwcredit
+invoicedate
+duedate
+note
+yourreference
+project
+ordernum
+positie
+paymentreference
+invoicenetsum
+invoicesum
+vatamount
+
+-line_grp-
+ articlenum
+ description
+ items_ordered
+ item_price
+ lineamount
+ vatcode
+
+-vat_grp-
+ vatcode
+ vatbase
+ vatamount

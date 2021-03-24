@@ -5184,6 +5184,70 @@ else if (Document.Batch.Properties.Get("supplierid")=="104117")
 }
 
 
+else if (Document.Batch.Properties.Get("supplierid")=="102566")
+{
+   Matching.DefinitionsList = "bouwwise";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="104272")
+{
+   Matching.DefinitionsList = "degetransportbv";
+
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="104182")
+{
+   Matching.DefinitionsList = "hofstraheerschelands";
+
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="9336")
+{
+   Matching.DefinitionsList = "mugingenieursbureau";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="104119")
+{
+   Matching.DefinitionsList = "privacycompany";
+
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="104184")
+{
+   Matching.DefinitionsList = "proclassbv";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="104037")
+{
+   Matching.DefinitionsList = "stadsbrouwerijmiddelburg";
+
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="104017")
+{
+   Matching.DefinitionsList = "trajeqt";
+
+}
+
+else if (Document.Batch.Properties.Get("supplierid")=="102737")
+{
+   Matching.DefinitionsList = "acclon";
+
+}
+
+
+else if (Document.Batch.Properties.Get("supplierid")=="94975")
+{
+   Matching.DefinitionsList = "hocopleidingtraining";
+
+}
+
 
 //===========
 else if (Document.Batch.Properties.Get("Environment") == "g-p")

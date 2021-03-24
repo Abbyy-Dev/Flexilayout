@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed under European Union Public Licence (EUPL) version 1.2.
+
+-->
+<Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 file://LAPTOP-A2620K9V/Users/63917/Documents/Github/Flexilayout/Layouts/4-UBL%20Types/UBL%20EN16931%201.3.4/xsd/UBL-Invoice-2.2.xsd">
+	<cbc:CustomizationID>urn:cen.eu:en16931:2017</cbc:CustomizationID>
+	<cbc:ID>12115118</cbc:ID>
+	<cbc:IssueDate>2015-01-09</cbc:IssueDate>
+	<cbc:DueDate>2015-01-09</cbc:DueDate>
+	<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+	<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+	<cbc:BuyerReference>1224</cbc:BuyerReference>
+	<cac:OrderReference>
+		<cbc:ID>22222</cbc:ID>
+	</cac:OrderReference>
+	<cac:AdditionalDocumentReference>
+		<cbc:ID>att_0_DETAILLING_RENTAL_-_010321_-_478_-_BETAALD_PER_OVERSCHRIJVING.pdf</cbc:ID>
+		<cac:Attachment>
+			<cbc:EmbeddedDocumentBinaryObject filename="att_0_DETAILLING_RENTAL_-_010321_-_478_-_BETAALD_PER_OVERSCHRIJVING.pdf" mimeCode="application/pdf">UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</cbc:EmbeddedDocumentBinaryObject>
+		</cac:Attachment>
+	</cac:AdditionalDocumentReference>
+	<cac:ProjectReference>
+		<cbc:ID>1234</cbc:ID>
+	</cac:ProjectReference>
+	<cac:AccountingSupplierParty>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>BE000000000</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name>Supplier name</cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:StreetName>Postbus 7l</cbc:StreetName>
+				<cbc:CityName>Velsen-Noord</cbc:CityName>
+				<cbc:PostalZone>1950 AB</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode>NL</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyTaxScheme>
+				<cbc:CompanyID>BE000000000</cbc:CompanyID>
+				<cac:TaxScheme>
+					<cbc:ID>VAT</cbc:ID>
+				</cac:TaxScheme>
+			</cac:PartyTaxScheme>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName>De Koksmaat</cbc:RegistrationName>
+				<cbc:CompanyID>57151520</cbc:CompanyID>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:AccountingCustomerParty>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>10202</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name>Buyer name</cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:StreetName>POSTBUS 367</cbc:StreetName>
+				<cbc:CityName>HEEMSKERK</cbc:CityName>
+				<cbc:PostalZone>1960 AJ</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode>NL</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyTaxScheme>
+				<cbc:CompanyID>BE00000000</cbc:CompanyID>
+				<cac:TaxScheme>
+					<cbc:ID>BE:VAT</cbc:ID>
+				</cac:TaxScheme>
+			</cac:PartyTaxScheme>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName>ODIN 59</cbc:RegistrationName>
+				<cbc:CompanyID>BE00000000</cbc:CompanyID>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingCustomerParty>
+	 <cac:PaymentMeans>
+      <cbc:PaymentMeansCode>31</cbc:PaymentMeansCode>
+      <cac:PayeeFinancialAccount>
+         <cbc:ID>NL00INGB0000000001</cbc:ID>
+      </cac:PayeeFinancialAccount>
+   </cac:PaymentMeans>
+	<cac:AllowanceCharge>
+		<cbc:ChargeIndicator>true</cbc:ChargeIndicator>
+		<cbc:AllowanceChargeReason>Charge</cbc:AllowanceChargeReason>
+		<cbc:Amount currencyID="EUR">10.00</cbc:Amount>
+		<cac:TaxCategory>
+			<cbc:ID>S</cbc:ID>
+			<cbc:Percent>21</cbc:Percent>
+			<cac:TaxScheme>
+				<cbc:ID>VAT</cbc:ID>
+			</cac:TaxScheme>
+		</cac:TaxCategory>
+	</cac:AllowanceCharge>
+	<cac:TaxTotal>
+		<cbc:TaxAmount currencyID="EUR">535.92</cbc:TaxAmount>
+		<cac:TaxSubtotal>
+			<cbc:TaxableAmount currencyID="EUR">2551.99</cbc:TaxableAmount>
+			<cbc:TaxAmount currencyID="EUR">535.92</cbc:TaxAmount>
+			<cac:TaxCategory>
+				<cbc:ID>S</cbc:ID>
+				<cbc:Percent>21</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID>VAT</cbc:ID>
+				</cac:TaxScheme>
+			</cac:TaxCategory>
+		</cac:TaxSubtotal>
+	</cac:TaxTotal>
+	<cac:LegalMonetaryTotal>
+		<cbc:LineExtensionAmount currencyID="EUR">2541.99</cbc:LineExtensionAmount>
+		<cbc:TaxExclusiveAmount currencyID="EUR">2551.99</cbc:TaxExclusiveAmount>
+		<cbc:TaxInclusiveAmount currencyID="EUR">3087.91</cbc:TaxInclusiveAmount>
+		<cbc:ChargeTotalAmount currencyID="EUR">10.00</cbc:ChargeTotalAmount>
+		<cbc:PayableAmount currencyID="EUR">3087.91</cbc:PayableAmount>
+	</cac:LegalMonetaryTotal>
+	<cac:InvoiceLine>
+		<cbc:ID>1</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="EUR">2541.99</cbc:LineExtensionAmount>
+		<cac:AllowanceCharge>
+			<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+			<cbc:AllowanceChargeReason>Discounted</cbc:AllowanceChargeReason>
+			<cbc:Amount currencyID="EUR">26.95</cbc:Amount>
+		</cac:AllowanceCharge>
+		<cac:Item>
+			<cbc:Name>Line description</cbc:Name>
+			<cac:ClassifiedTaxCategory>
+				<cbc:ID>S</cbc:ID>
+				<cbc:Percent>21</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID>VAT</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="EUR">2568.94</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+</Invoice>

@@ -1,0 +1,2714 @@
+<!--
+
+    Licensed under European Union Public Licence (EUPL) version 1.2.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Rechnung-Testrechnung 4 with same tax names in lines .xml - B2Brouter Deutschland - Ingent Network</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Bva+5HJG5pAAn9hCJDIgofRVUbwT5amAsbHC4KGcGmxO9j82pCqNVDY3nCZGpPZOvC7aEsWw8/D//FF/zTD7JA==" />
+<link rel='shortcut icon' href='/favicon.ico?1518097868' />
+<link rel="stylesheet" media="all" href="/stylesheets/jquery/jquery-ui-1.11.0.css?1518097868" />
+<link rel="stylesheet" media="all" href="/stylesheets/tribute-3.7.3.css?1577796450" />
+<link rel="stylesheet" media="all" href="/stylesheets/application.css?1577796450" />
+<link rel="stylesheet" media="all" href="/stylesheets/responsive.css?1577796450" />
+
+<script src="/javascripts/jquery-2.2.4-ui-1.11.0-ujs-5.2.3.js?1577796450"></script>
+<script src="/javascripts/tribute-3.7.3.min.js?1577796450"></script>
+<script src="/javascripts/application.js?1577796450"></script>
+<script src="/javascripts/responsive.js?1577796450"></script>
+<script>
+//<![CDATA[
+$(window).on('load', function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+
+<!-- page specific tags -->
+    <link rel="stylesheet" media="screen" href="/stylesheets/scm.css?1577796450" /></head>
+<body class="project-b2brouter-deutschland has-main-menu controller-attachments action-show avatars-off">
+
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/projects/b2brouter-deutschland/search" accept-charset="UTF-8" name="form-bbf47758" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" />
+</form>        </div>
+
+        <div class="flyout-menu__avatar flyout-menu__avatar--no-avatar">
+            <a class="user active" href="/users/5">oriol</a>
+        </div>
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="my-account" href="/my/account">My account</a></li><li><a class="logout" rel="nofollow" data-method="post" href="/logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a class="user active" href="/users/5">oriol</a></div>
+    <ul><li><a class="home" href="/">Home</a></li><li><a class="my-page" href="/my/page">My page</a></li><li><a class="projects" href="/projects">Projects</a></li><li><a class="help" href="https://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/projects/b2brouter-deutschland/search" accept-charset="UTF-8" name="form-1e5c6009" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="scope" />
+        
+        <label for='q'>
+          <a accesskey="4" href="/projects/b2brouter-deutschland/search">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" data-auto-complete="true" data-issues-url="/issues/auto_complete?q=" />
+</form>        <div id="project-jump" class="drdn"><span class="drdn-trigger">B2Brouter Deutschland</span><div class="drdn-content"><div class="quick-search"><input type="text" name="q" id="projects-quick-search" value="" class="autocomplete" data-automcomplete-url="/projects/autocomplete.js?jump=issues" autocomplete="off" /></div><div class="drdn-items projects selection"><strong>Recently used</strong><a title="B2Brouter Deutschland" class="selected" href="/projects/b2brouter-deutschland?jump=issues"><span style="padding-left:0px;">B2Brouter Deutschland</span></a><a title="B2Brouter" href="/projects/b2brouter?jump=issues"><span style="padding-left:0px;">B2Brouter</span></a><a title="B2Brouter UK" href="/projects/b2brouter-uk?jump=issues"><span style="padding-left:0px;">B2Brouter UK</span></a><strong>Other projects</strong><a title="_ Ingent Grup Systems SL" href="/projects/ingentgrup?jump=issues"><span style="padding-left:0px;">_ Ingent Grup Systems SL</span></a><a title="B2b Signer" href="/projects/signer?jump=issues"><span style="padding-left:0px;">B2b Signer</span></a><a title="B2Brouter Belgie" href="/projects/b2brouter-belgie?jump=issues"><span style="padding-left:0px;">B2Brouter Belgie</span></a><a title="B2Brouter France" href="/projects/b2brouter-france?jump=issues"><span style="padding-left:0px;">B2Brouter France</span></a><a title="B2Brouter Italia" href="/projects/b2brouter-italia?jump=issues"><span style="padding-left:0px;">B2Brouter Italia</span></a><a title="B2Brouter Operacions" href="/projects/b2brouter-operacions?jump=issues"><span style="padding-left:0px;">B2Brouter Operacions</span></a><a title="B2Brouter Sverige" href="/projects/b2brouter-sverige?jump=issues"><span style="padding-left:0px;">B2Brouter Sverige</span></a><a title="B2brouter.net" href="/projects/b2bnet?jump=issues"><span style="padding-left:0px;">B2brouter.net</span></a><a title="Windows client" href="/projects/b2b-windows?jump=issues"><span style="padding-left:0px;">Windows client</span></a><a title="b2bws" href="/projects/b2b-platform?jump=issues"><span style="padding-left:0px;">b2bws</span></a><a title="Bescha" href="/projects/bescha?jump=issues"><span style="padding-left:0px;">Bescha</span></a><a title="Cyprus" href="/projects/goldman-cyprus?jump=issues"><span style="padding-left:0px;">Cyprus</span></a><a title="Disseny UI" href="/projects/chesco-disseny-b2brouter?jump=issues"><span style="padding-left:0px;">Disseny UI</span></a><a title="Haltr" href="/projects/haltr?jump=issues"><span style="padding-left:0px;">Haltr</span></a><a title="Inditex - Ricoh" href="/projects/inditex?jump=issues"><span style="padding-left:0px;">Inditex - Ricoh</span></a><a title="Projectes per clients" href="/projects/gefact-sant-pau?jump=issues"><span style="padding-left:0px;">Projectes per clients</span></a><a title="SEPA en XML" href="/projects/cirprotec?jump=issues"><span style="padding-left:0px;">SEPA en XML</span></a><a title="SII" href="/projects/sii?jump=issues"><span style="padding-left:0px;">SII</span></a><a title="Continguts www.ingent.net" href="/projects/www?jump=issues"><span style="padding-left:0px;">Continguts www.ingent.net</span></a><a title="Documentació d&#39;Ingent Network" href="/projects/documentacio?jump=issues"><span style="padding-left:0px;">Documentació d&#39;Ingent Network</span></a><a title="Invinet" href="/projects/invinet?jump=issues"><span style="padding-left:0px;">Invinet</span></a><a title="AB Medica" href="/projects/ab-medica?jump=issues"><span style="padding-left:16px;">AB Medica</span></a><a title="Frans Bonhomme, SLU" href="/projects/frans-bonhomme-slu?jump=issues"><span style="padding-left:32px;">Frans Bonhomme, SLU</span></a><a title="Advania" href="/projects/advania?jump=issues"><span style="padding-left:16px;">Advania</span></a><a title="Adventure Llavorsí" href="/projects/adventure-llavorsi?jump=issues"><span style="padding-left:16px;">Adventure Llavorsí</span></a><a title="AEBALL" href="/projects/aeball?jump=issues"><span style="padding-left:16px;">AEBALL</span></a><a title="AEBALL/UPMBALL" href="/projects/aeball-upmball?jump=issues"><span style="padding-left:16px;">AEBALL/UPMBALL</span></a><a title="AGENCIA CATALANA TURISME" href="/projects/agencia-catalana-turisme?jump=issues"><span style="padding-left:16px;">AGENCIA CATALANA TURISME</span></a><a title="AGENCIA COMERCIAL ROGELIO SEGURA, S.L" href="/projects/rogelio-segura?jump=issues"><span style="padding-left:16px;">AGENCIA COMERCIAL ROGELIO SEGURA, S.L</span></a><a title="Aigües de Mataró" href="/projects/aiguees-de-mataro?jump=issues"><span style="padding-left:16px;">Aigües de Mataró</span></a><a title="Ajuntament de l&#39;Hospitalet" href="/projects/ajuntament-de-l-hospitalet?jump=issues"><span style="padding-left:16px;">Ajuntament de l&#39;Hospitalet</span></a><a title="Alberto Soler" href="/projects/alberto-soler?jump=issues"><span style="padding-left:16px;">Alberto Soler</span></a><a title="Aramark - FGC Ferrocarrils de la Generalitat de Catalunya eSender" href="/projects/aramark-fgc-ferrocarrils-de-la-generalitat-de-catalunya-esender?jump=issues"><span style="padding-left:16px;">Aramark - FGC Ferrocarrils de la Generalitat de Catalunya eSender</span></a><a title="ATM" href="/projects/atm?jump=issues"><span style="padding-left:16px;">ATM</span></a><a title="ATM Girona" href="/projects/atm-girona?jump=issues"><span style="padding-left:16px;">ATM Girona</span></a><a title="ATM Lleida" href="/projects/atm-lleida?jump=issues"><span style="padding-left:16px;">ATM Lleida</span></a><a title="ATM Tarragona" href="/projects/atm-tarragona?jump=issues"><span style="padding-left:16px;">ATM Tarragona</span></a><a title="Barna Import Medica" href="/projects/barna-import-medica?jump=issues"><span style="padding-left:16px;">Barna Import Medica</span></a><a title="Bertram-Dawson" href="/projects/bertram-dawson?jump=issues"><span style="padding-left:16px;">Bertram-Dawson</span></a><a title="Bimedica" href="/projects/bimedica?jump=issues"><span style="padding-left:16px;">Bimedica</span></a><a title="Blueplanet" href="/projects/blueplanet?jump=issues"><span style="padding-left:16px;">Blueplanet</span></a><a title="BNP PARIBAS" href="/projects/bnp-paribas?jump=issues"><span style="padding-left:16px;">BNP PARIBAS</span></a><a title="BonArea" href="/projects/bonarea?jump=issues"><span style="padding-left:16px;">BonArea</span></a><a title="Bureau Veritas" href="/projects/bureau-veritas?jump=issues"><span style="padding-left:16px;">Bureau Veritas</span></a><a title="Cardiolink" href="/projects/cardiolink?jump=issues"><span style="padding-left:16px;">Cardiolink</span></a><a title="Casalini Libri" href="/projects/casalini-libri?jump=issues"><span style="padding-left:16px;">Casalini Libri</span></a><a title="Casalini Libri SrpA" href="/projects/casalini-libri-srpa?jump=issues"><span style="padding-left:16px;">Casalini Libri SrpA</span></a><a title="Celeris" href="/projects/celeris?jump=issues"><span style="padding-left:16px;">Celeris</span></a><a title="CIMALSA" href="/projects/cimalsa?jump=issues"><span style="padding-left:16px;">CIMALSA</span></a><a title="Cirprotect" href="/projects/cirprotect?jump=issues"><span style="padding-left:16px;">Cirprotect</span></a><a title="Codabox" href="/projects/codabox?jump=issues"><span style="padding-left:16px;">Codabox</span></a><a title="Cofely - Gdsuez" href="/projects/cofely-gdsuez?jump=issues"><span style="padding-left:16px;">Cofely - Gdsuez</span></a><a title="Cofely-Engie" href="/projects/cofely-engie?jump=issues"><span style="padding-left:16px;">Cofely-Engie</span></a><a title="COMDATA" href="/projects/comdata?jump=issues"><span style="padding-left:16px;">COMDATA</span></a><a title="Consorci residus Vallès Oriental" href="/projects/consorci-residus-valles-oriental?jump=issues"><span style="padding-left:16px;">Consorci residus Vallès Oriental</span></a><a title="Consorci Sanitari de Terrassa" href="/projects/consorci-sanitari-de-terrassa?jump=issues"><span style="padding-left:16px;">Consorci Sanitari de Terrassa</span></a><a title="COOLTRA " href="/projects/cooltra?jump=issues"><span style="padding-left:16px;">COOLTRA </span></a><a title="Copiolot" href="/projects/codiolot?jump=issues"><span style="padding-left:16px;">Copiolot</span></a><a title="Das Internacional" href="/projects/das-internacional?jump=issues"><span style="padding-left:16px;">Das Internacional</span></a><a title="Demo B2B" href="/projects/demo-b2b?jump=issues"><span style="padding-left:16px;">Demo B2B</span></a><a title="Dimoldura" href="/projects/dimoldura?jump=issues"><span style="padding-left:16px;">Dimoldura</span></a><a title="Diputació de Tarragona" href="/projects/diputacio-de-tarragona?jump=issues"><span style="padding-left:16px;">Diputació de Tarragona</span></a><a title="DYNEFF" href="/projects/dyneff?jump=issues"><span style="padding-left:16px;">DYNEFF</span></a><a title="ECIS (European Comission)" href="/projects/ecis-european-comission?jump=issues"><span style="padding-left:16px;">ECIS (European Comission)</span></a><a title="EDISYS Consulting" href="/projects/edisys-consulting?jump=issues"><span style="padding-left:16px;">EDISYS Consulting</span></a><a title="Empresa Plana" href="/projects/empresa-plana?jump=issues"><span style="padding-left:16px;">Empresa Plana</span></a><a title="ERGO, SEGUROS DE VIAJE" href="/projects/ergo-seguros-de-viaje?jump=issues"><span style="padding-left:16px;">ERGO, SEGUROS DE VIAJE</span></a><a title="Federación Gremios de Editores" href="/projects/federacion-gremios-de-editores?jump=issues"><span style="padding-left:16px;">Federación Gremios de Editores</span></a><a title="Firma profesional" href="/projects/firma-profesional?jump=issues"><span style="padding-left:16px;">Firma profesional</span></a><a title="Freelab" href="/projects/freelab?jump=issues"><span style="padding-left:16px;">Freelab</span></a><a title="Geinstal" href="/projects/geinstal?jump=issues"><span style="padding-left:16px;">Geinstal</span></a><a title="Genebre" href="/projects/genebre?jump=issues"><span style="padding-left:16px;">Genebre</span></a><a title="Geocisa" href="/projects/geocisa?jump=issues"><span style="padding-left:16px;">Geocisa</span></a><a title="Govern d&#39;Andorra" href="/projects/govern-d-andorra?jump=issues"><span style="padding-left:16px;">Govern d&#39;Andorra</span></a><a title="Grupo Puentes" href="/projects/grupo-puentes?jump=issues"><span style="padding-left:16px;">Grupo Puentes</span></a><a title="Harlan" href="/projects/harlan?jump=issues"><span style="padding-left:16px;">Harlan</span></a><a title="Healthlogistics/ Prospitalia HTRAK" href="/projects/healthlogistics?jump=issues"><span style="padding-left:16px;">Healthlogistics/ Prospitalia HTRAK</span></a><a title="Hospital Sant Pau" href="/projects/hospital-sant-pau?jump=issues"><span style="padding-left:16px;">Hospital Sant Pau</span></a><a title="Houtschild" href="/projects/houtschild?jump=issues"><span style="padding-left:16px;">Houtschild</span></a><a title="ID Grup" href="/projects/id-grup?jump=issues"><span style="padding-left:16px;">ID Grup</span></a><a title="Infocat i Consulting (SECSA i XXXX)" href="/projects/infocat-i-consulting-secsa-i-xxxx?jump=issues"><span style="padding-left:16px;">Infocat i Consulting (SECSA i XXXX)</span></a><a title="Infocat i Consulting (SECSA, TRAMA DE GASLLAR)" href="/projects/infocat-i-consulting-secsa-trama-de-gasllar?jump=issues"><span style="padding-left:16px;">Infocat i Consulting (SECSA, TRAMA DE GASLLAR)</span></a><a title="Infocat i Consulting (TRAMA DE GASLLAR)" href="/projects/infocat-i-consulting-trama-de-gasllar?jump=issues"><span style="padding-left:16px;">Infocat i Consulting (TRAMA DE GASLLAR)</span></a><a title="Innova Consulting" href="/projects/innovaconsulting?jump=issues"><span style="padding-left:16px;">Innova Consulting</span></a><a title="INTERSURGICAL" href="/projects/intersurgical?jump=issues"><span style="padding-left:16px;">INTERSURGICAL</span></a><a title="Laboratorio Echevarne" href="/projects/laboratorio-echevarne?jump=issues"><span style="padding-left:16px;">Laboratorio Echevarne</span></a><a title="LAMIRSA- Laboratorios Miret S.A." href="/projects/lamirsa-laboratorios-miret-s-a?jump=issues"><span style="padding-left:16px;">LAMIRSA- Laboratorios Miret S.A.</span></a><a title="Lantania" href="/projects/lantania-new?jump=issues"><span style="padding-left:16px;">Lantania</span></a><a title="LEVI Footwear" href="/projects/levi-footwear?jump=issues"><span style="padding-left:16px;">LEVI Footwear</span></a><a title="Levi Strauss" href="/projects/levi-strauss?jump=issues"><span style="padding-left:16px;">Levi Strauss</span></a><a title="Lindamer" href="/projects/lindamer?jump=issues"><span style="padding-left:16px;">Lindamer</span></a><a title="Mancomunitat Penedés Garraf" href="/projects/mancomunitat-penedes-garraf?jump=issues"><span style="padding-left:16px;">Mancomunitat Penedés Garraf</span></a><a title="Manxa Industrial" href="/projects/manxa-industrial?jump=issues"><span style="padding-left:16px;">Manxa Industrial</span></a><a title="MATEX IBERICA" href="/projects/matex-iberica?jump=issues"><span style="padding-left:16px;">MATEX IBERICA</span></a><a title="Mercabarna" href="/projects/mercabarna?jump=issues"><span style="padding-left:16px;">Mercabarna</span></a><a title="MGS Seguros" href="/projects/mgs-seguros?jump=issues"><span style="padding-left:16px;">MGS Seguros</span></a><a title="Microport CRM srl" href="/projects/microport_crm_srl?jump=issues"><span style="padding-left:16px;">Microport CRM srl</span></a><a title="NAE Comunicación" href="/projects/nae-comunicacion?jump=issues"><span style="padding-left:16px;">NAE Comunicación</span></a><a title="Novatilu" href="/projects/novatilu?jump=issues"><span style="padding-left:16px;">Novatilu</span></a><a title="On Click" href="/projects/on-click?jump=issues"><span style="padding-left:16px;">On Click</span></a><a title="Pagero" href="/projects/pagero?jump=issues"><span style="padding-left:16px;">Pagero</span></a><a title="Panrico" href="/projects/panrico?jump=issues"><span style="padding-left:16px;">Panrico</span></a><a title="Parc Cientific de Barcelona" href="/projects/parc-cientific-de-barcelona?jump=issues"><span style="padding-left:16px;">Parc Cientific de Barcelona</span></a><a title="Partner Integrador - Clau Informàtica" href="/projects/partner-integrador-clau-informatica?jump=issues"><span style="padding-left:16px;">Partner Integrador - Clau Informàtica</span></a><a title="Partner Integrador - Telematel" href="/projects/partner-integrador-telematel?jump=issues"><span style="padding-left:16px;">Partner Integrador - Telematel</span></a><a title="Pere Virgili" href="/projects/pere-virgili?jump=issues"><span style="padding-left:16px;">Pere Virgili</span></a><a title="PHOENIX VIGILANCIA Y SEGURIDAD SA" href="/projects/phoenix-vigilancia-y-seguridad-sa?jump=issues"><span style="padding-left:16px;">PHOENIX VIGILANCIA Y SEGURIDAD SA</span></a><a title="PRBB- Parc de Recerca Biomèdica" href="/projects/prbb-parc-de-recerca-biomedica?jump=issues"><span style="padding-left:16px;">PRBB- Parc de Recerca Biomèdica</span></a><a title="Precintia" href="/projects/precintia?jump=issues"><span style="padding-left:16px;">Precintia</span></a><a title="Productos MESA" href="/projects/productos-mesa?jump=issues"><span style="padding-left:16px;">Productos MESA</span></a><a title="Projecte ESIDIS" href="/projects/projecte-esidis?jump=issues"><span style="padding-left:16px;">Projecte ESIDIS</span></a><a title="Proquimia" href="/projects/proquimia?jump=issues"><span style="padding-left:16px;">Proquimia</span></a><a title="Puigvert" href="/projects/puigvert?jump=issues"><span style="padding-left:16px;">Puigvert</span></a><a title="Ricoh" href="/projects/ricoh?jump=issues"><span style="padding-left:16px;">Ricoh</span></a><a title="RICOH SISTEMAS UNION TEMPORAL DE EMPRESAS - SAGE 200" href="/projects/ricoh-sistemas-union-temporal-de-empresas-sage-200?jump=issues"><span style="padding-left:16px;">RICOH SISTEMAS UNION TEMPORAL DE EMPRESAS - SAGE 200</span></a><a title="Serra &amp; Sulla Constructors" href="/projects/serra-de-julia-constructors?jump=issues"><span style="padding-left:16px;">Serra &amp; Sulla Constructors</span></a><a title="SIGMA" href="/projects/sigma?jump=issues"><span style="padding-left:16px;">SIGMA</span></a><a title="Sorin Group" href="/projects/sorin-group?jump=issues"><span style="padding-left:16px;">Sorin Group</span></a><a title="Suministros Hospitalarios" href="/projects/suministros-hospitalarios?jump=issues"><span style="padding-left:16px;">Suministros Hospitalarios</span></a><a title="Suport SII" href="/projects/prova?jump=issues"><span style="padding-left:16px;">Suport SII</span></a><a title="Tècnics Seguretat i Foc" href="/projects/tecnics-seguretat-i-foc?jump=issues"><span style="padding-left:16px;">Tècnics Seguretat i Foc</span></a><a title="Telefónica" href="/projects/telefonica?jump=issues"><span style="padding-left:16px;">Telefónica</span></a><a title="Telic" href="/projects/telic?jump=issues"><span style="padding-left:16px;">Telic</span></a><a title="Termcat" href="/projects/termcat?jump=issues"><span style="padding-left:16px;">Termcat</span></a><a title="THYSSENKRUPP ELEVADORES, S.L.U." href="/projects/thyssenkrupp-elevadores-s-l-u?jump=issues"><span style="padding-left:16px;">THYSSENKRUPP ELEVADORES, S.L.U.</span></a><a title="UPC" href="/projects/upc?jump=issues"><span style="padding-left:16px;">UPC</span></a><a title="VAMA" href="/projects/vama?jump=issues"><span style="padding-left:16px;">VAMA</span></a><a title="VENCA" href="/projects/venca?jump=issues"><span style="padding-left:16px;">VENCA</span></a><a title="Vesismin" href="/projects/vesismin?jump=issues"><span style="padding-left:16px;">Vesismin</span></a><a title="Water Fire" href="/projects/water-fire?jump=issues"><span style="padding-left:16px;">Water Fire</span></a><a title="XIPRE" href="/projects/xipre?jump=issues"><span style="padding-left:16px;">XIPRE</span></a><a title="Midran" href="/projects/midran?jump=issues"><span style="padding-left:0px;">Midran</span></a><a title="Validex.net service" href="/projects/validex-net-service?jump=issues"><span style="padding-left:16px;">Validex.net service</span></a><a title="Ingent R+D" href="/projects/ingentnetwork-web?jump=issues"><span style="padding-left:0px;">Ingent R+D</span></a><a title="ostrich" href="/projects/estructura?jump=issues"><span style="padding-left:16px;">ostrich</span></a></div><div class="drdn-items all-projects selection"><a href="/projects?jump=issues">All Projects</a></div></div></div>
+    </div>
+
+    <h1><span class="breadcrumbs"><a class="root" href="/projects/b2brouter?jump=issues">B2Brouter</a><span class="separator"> &raquo; </span></span><span class="current-project">B2Brouter Deutschland</span></h1>
+
+    <div id="main-menu" class="tabs">
+        <ul><li>
+<a onclick="toggleNewObjectDropdown(); return false;" id="new-object" class="new-object" href="#"> + </a>
+<ul class="menu-children"><li><a accesskey="7" class="new-issue-sub" href="/projects/b2brouter-deutschland/issues/new">New issue</a></li><li><a class="new-issue-category" href="/projects/b2brouter-deutschland/issue_categories/new">New category</a></li><li><a class="new-version" href="/projects/b2brouter-deutschland/versions/new">New version</a></li><li><a class="new-timelog" href="/projects/b2brouter-deutschland/time_entries/new">Log time</a></li><li><a class="new-wiki-page" href="/projects/b2brouter-deutschland/wiki/new">New wiki page</a></li></ul>
+</li><li><a class="overview" href="/projects/b2brouter-deutschland">Overview</a></li><li><a class="activity" href="/projects/b2brouter-deutschland/activity">Activity</a></li><li><a class="roadmap" href="/projects/b2brouter-deutschland/roadmap">Roadmap</a></li><li><a class="issues selected" href="/projects/b2brouter-deutschland/issues">Issues</a></li><li><a class="time-entries" href="/projects/b2brouter-deutschland/time_entries">Spent time</a></li><li><a class="gantt" href="/projects/b2brouter-deutschland/issues/gantt">Gantt</a></li><li><a class="calendar" href="/projects/b2brouter-deutschland/issues/calendar">Calendar</a></li><li><a class="wiki" href="/projects/b2brouter-deutschland/wiki">Wiki</a></li><li><a class="settings" href="/projects/b2brouter-deutschland/settings">Settings</a></li></ul>
+        <div class="tabs-buttons" style="display:none;">
+            <button class="tab-left" onclick="moveTabLeft(this); return false;"></button>
+            <button class="tab-right" onclick="moveTabRight(this); return false;"></button>
+        </div>
+    </div>
+</div>
+
+<div id="main" class="nosidebar">
+    <div id="sidebar">
+        
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+  <a class="icon icon-download" href="/attachments/download/8202/Rechnung-Testrechnung%204%20with%20same%20tax%20names%20in%20lines%20.xml">Download (11.2 KB)</a></div>
+
+<h2>
+  <a class="issue tracker-3 status-1 priority-4 priority-default assigned-to-me" title="Name of Tax" href="/issues/9454">Task or Support #9454</a> » Rechnung-Testrechnung 4 with same tax names in lines .xml
+</h2>
+
+<div class="attachments">
+<p>
+   <span class="author"><a class="user active" href="/users/2158">Ansgar  Mondorf</a>, 28/09/2020 10:58</span></p>
+</div>
+<div class="filecontent-container">
+  
+  &nbsp;
+  <div class="autoscroll">
+<table class="filecontent syntaxhl">
+<tbody>
+  <tr id="L1">
+    <th class="line-num">
+      <a href="#L1">1</a>
+    </th>
+    <td class="line-code">
+      <pre><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L2">
+    <th class="line-num">
+      <a href="#L2">2</a>
+    </th>
+    <td class="line-code">
+      <pre><span class="nt">&lt;Invoice</span> <span class="na">xmlns=</span><span class="s">"urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"</span> <span class="na">xmlns:cac=</span><span class="s">"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"</span> <span class="na">xmlns:cbc=</span><span class="s">"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"</span> <span class="na">xmlns:ccts=</span><span class="s">"urn:un:unece:uncefact:documentation:2"</span> <span class="na">xmlns:ext=</span><span class="s">"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"</span> <span class="na">xmlns:qdt=</span><span class="s">"urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2"</span> <span class="na">xmlns:udt=</span><span class="s">"urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2"</span><span class="nt">&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L3">
+    <th class="line-num">
+      <a href="#L3">3</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cbc:UBLVersionID&gt;</span>2.1<span class="nt">&lt;/cbc:UBLVersionID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L4">
+    <th class="line-num">
+      <a href="#L4">4</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cbc:CustomizationID&gt;</span>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2<span class="nt">&lt;/cbc:CustomizationID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L5">
+    <th class="line-num">
+      <a href="#L5">5</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cbc:ProfileID&gt;</span>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0<span class="nt">&lt;/cbc:ProfileID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L6">
+    <th class="line-num">
+      <a href="#L6">6</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cbc:ID&gt;</span>Testrechnung 4<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L7">
+    <th class="line-num">
+      <a href="#L7">7</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cbc:IssueDate&gt;</span>2020-09-28<span class="nt">&lt;/cbc:IssueDate&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L8">
+    <th class="line-num">
+      <a href="#L8">8</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cbc:DueDate&gt;</span>2020-10-28<span class="nt">&lt;/cbc:DueDate&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L9">
+    <th class="line-num">
+      <a href="#L9">9</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cbc:InvoiceTypeCode&gt;</span>380<span class="nt">&lt;/cbc:InvoiceTypeCode&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L10">
+    <th class="line-num">
+      <a href="#L10">10</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cbc:Note&gt;</span>Dies ist eine Testrechnung.; Contract date: 2020-08-26<span class="nt">&lt;/cbc:Note&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L11">
+    <th class="line-num">
+      <a href="#L11">11</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cbc:TaxPointDate&gt;</span>2020-10-14<span class="nt">&lt;/cbc:TaxPointDate&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L12">
+    <th class="line-num">
+      <a href="#L12">12</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cbc:DocumentCurrencyCode&gt;</span>EUR<span class="nt">&lt;/cbc:DocumentCurrencyCode&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L13">
+    <th class="line-num">
+      <a href="#L13">13</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cbc:AccountingCost&gt;</span>Bearbeitungskosten werden pauschal abgrechnet.<span class="nt">&lt;/cbc:AccountingCost&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L14">
+    <th class="line-num">
+      <a href="#L14">14</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cbc:BuyerReference&gt;</span>07111000000000150<span class="nt">&lt;/cbc:BuyerReference&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L15">
+    <th class="line-num">
+      <a href="#L15">15</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:InvoicePeriod&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L16">
+    <th class="line-num">
+      <a href="#L16">16</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:StartDate&gt;</span>2020-09-01<span class="nt">&lt;/cbc:StartDate&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L17">
+    <th class="line-num">
+      <a href="#L17">17</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:EndDate&gt;</span>2020-09-28<span class="nt">&lt;/cbc:EndDate&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L18">
+    <th class="line-num">
+      <a href="#L18">18</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:InvoicePeriod&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L19">
+    <th class="line-num">
+      <a href="#L19">19</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:OrderReference&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L20">
+    <th class="line-num">
+      <a href="#L20">20</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:ID&gt;</span>Bestellnummer 958578<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L21">
+    <th class="line-num">
+      <a href="#L21">21</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:OrderReference&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L22">
+    <th class="line-num">
+      <a href="#L22">22</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:ContractDocumentReference&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L23">
+    <th class="line-num">
+      <a href="#L23">23</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:ID&gt;</span>Vertragsnummer 1234<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L24">
+    <th class="line-num">
+      <a href="#L24">24</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:ContractDocumentReference&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L25">
+    <th class="line-num">
+      <a href="#L25">25</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:ProjectReference&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L26">
+    <th class="line-num">
+      <a href="#L26">26</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:ID&gt;</span>iFLOAT<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L27">
+    <th class="line-num">
+      <a href="#L27">27</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:ProjectReference&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L28">
+    <th class="line-num">
+      <a href="#L28">28</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:AccountingSupplierParty&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L29">
+    <th class="line-num">
+      <a href="#L29">29</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:Party&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L30">
+    <th class="line-num">
+      <a href="#L30">30</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:EndpointID</span> <span class="na">schemeID=</span><span class="s">"9930"</span><span class="nt">&gt;</span>DE280857971<span class="nt">&lt;/cbc:EndpointID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L31">
+    <th class="line-num">
+      <a href="#L31">31</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:PartyName&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L32">
+    <th class="line-num">
+      <a href="#L32">32</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:Name&gt;</span>TestUser Universität Koblenz-Landau<span class="nt">&lt;/cbc:Name&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L33">
+    <th class="line-num">
+      <a href="#L33">33</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:PartyName&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L34">
+    <th class="line-num">
+      <a href="#L34">34</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:PostalAddress&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L35">
+    <th class="line-num">
+      <a href="#L35">35</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:StreetName&gt;</span>Universitätsstraße 1<span class="nt">&lt;/cbc:StreetName&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L36">
+    <th class="line-num">
+      <a href="#L36">36</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:CityName&gt;</span>Koblenz<span class="nt">&lt;/cbc:CityName&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L37">
+    <th class="line-num">
+      <a href="#L37">37</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:PostalZone&gt;</span>56070<span class="nt">&lt;/cbc:PostalZone&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L38">
+    <th class="line-num">
+      <a href="#L38">38</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:CountrySubentity&gt;</span>Rheinland Pfalz<span class="nt">&lt;/cbc:CountrySubentity&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L39">
+    <th class="line-num">
+      <a href="#L39">39</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cac:Country&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L40">
+    <th class="line-num">
+      <a href="#L40">40</a>
+    </th>
+    <td class="line-code">
+      <pre>          <span class="nt">&lt;cbc:IdentificationCode&gt;</span>DE<span class="nt">&lt;/cbc:IdentificationCode&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L41">
+    <th class="line-num">
+      <a href="#L41">41</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;/cac:Country&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L42">
+    <th class="line-num">
+      <a href="#L42">42</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:PostalAddress&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L43">
+    <th class="line-num">
+      <a href="#L43">43</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:PartyTaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L44">
+    <th class="line-num">
+      <a href="#L44">44</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:CompanyID&gt;</span>DE280857971<span class="nt">&lt;/cbc:CompanyID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L45">
+    <th class="line-num">
+      <a href="#L45">45</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L46">
+    <th class="line-num">
+      <a href="#L46">46</a>
+    </th>
+    <td class="line-code">
+      <pre>          <span class="nt">&lt;cbc:ID&gt;</span>VAT<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L47">
+    <th class="line-num">
+      <a href="#L47">47</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;/cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L48">
+    <th class="line-num">
+      <a href="#L48">48</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:PartyTaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L49">
+    <th class="line-num">
+      <a href="#L49">49</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:PartyLegalEntity&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L50">
+    <th class="line-num">
+      <a href="#L50">50</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:RegistrationName&gt;</span>TestUser Universität Koblenz-Landau<span class="nt">&lt;/cbc:RegistrationName&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L51">
+    <th class="line-num">
+      <a href="#L51">51</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:CompanyID&gt;</span>DE280857971<span class="nt">&lt;/cbc:CompanyID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L52">
+    <th class="line-num">
+      <a href="#L52">52</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:PartyLegalEntity&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L53">
+    <th class="line-num">
+      <a href="#L53">53</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:Contact&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L54">
+    <th class="line-num">
+      <a href="#L54">54</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:Name&gt;</span>Ansgar Mondorf<span class="nt">&lt;/cbc:Name&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L55">
+    <th class="line-num">
+      <a href="#L55">55</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:Telephone&gt;</span>00492612872556<span class="nt">&lt;/cbc:Telephone&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L56">
+    <th class="line-num">
+      <a href="#L56">56</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:ElectronicMail&gt;</span>mondorf@uni-koblenz.de<span class="nt">&lt;/cbc:ElectronicMail&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L57">
+    <th class="line-num">
+      <a href="#L57">57</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:Contact&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L58">
+    <th class="line-num">
+      <a href="#L58">58</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:Party&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L59">
+    <th class="line-num">
+      <a href="#L59">59</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:AccountingSupplierParty&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L60">
+    <th class="line-num">
+      <a href="#L60">60</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:AccountingCustomerParty&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L61">
+    <th class="line-num">
+      <a href="#L61">61</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:Party&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L62">
+    <th class="line-num">
+      <a href="#L62">62</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:EndpointID</span> <span class="na">schemeID=</span><span class="s">"0204"</span><span class="nt">&gt;</span>07111000000000150<span class="nt">&lt;/cbc:EndpointID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L63">
+    <th class="line-num">
+      <a href="#L63">63</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:PartyName&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L64">
+    <th class="line-num">
+      <a href="#L64">64</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:Name&gt;</span>Stadtverwaltung Koblenz<span class="nt">&lt;/cbc:Name&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L65">
+    <th class="line-num">
+      <a href="#L65">65</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:PartyName&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L66">
+    <th class="line-num">
+      <a href="#L66">66</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:PostalAddress&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L67">
+    <th class="line-num">
+      <a href="#L67">67</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:StreetName&gt;</span>Willi-Hörter-Platz 2<span class="nt">&lt;/cbc:StreetName&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L68">
+    <th class="line-num">
+      <a href="#L68">68</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:CityName&gt;</span>Koblenz<span class="nt">&lt;/cbc:CityName&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L69">
+    <th class="line-num">
+      <a href="#L69">69</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:PostalZone&gt;</span>56068<span class="nt">&lt;/cbc:PostalZone&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L70">
+    <th class="line-num">
+      <a href="#L70">70</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:CountrySubentity&gt;</span>Rheinland-Pfalz<span class="nt">&lt;/cbc:CountrySubentity&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L71">
+    <th class="line-num">
+      <a href="#L71">71</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cac:Country&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L72">
+    <th class="line-num">
+      <a href="#L72">72</a>
+    </th>
+    <td class="line-code">
+      <pre>          <span class="nt">&lt;cbc:IdentificationCode&gt;</span>DE<span class="nt">&lt;/cbc:IdentificationCode&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L73">
+    <th class="line-num">
+      <a href="#L73">73</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;/cac:Country&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L74">
+    <th class="line-num">
+      <a href="#L74">74</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:PostalAddress&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L75">
+    <th class="line-num">
+      <a href="#L75">75</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:PartyTaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L76">
+    <th class="line-num">
+      <a href="#L76">76</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:CompanyID&gt;</span>DE07111000000000150<span class="nt">&lt;/cbc:CompanyID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L77">
+    <th class="line-num">
+      <a href="#L77">77</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L78">
+    <th class="line-num">
+      <a href="#L78">78</a>
+    </th>
+    <td class="line-code">
+      <pre>          <span class="nt">&lt;cbc:ID&gt;</span>ZZZ<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L79">
+    <th class="line-num">
+      <a href="#L79">79</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;/cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L80">
+    <th class="line-num">
+      <a href="#L80">80</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:PartyTaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L81">
+    <th class="line-num">
+      <a href="#L81">81</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:PartyLegalEntity&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L82">
+    <th class="line-num">
+      <a href="#L82">82</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:RegistrationName&gt;</span>Stadtverwaltung Koblenz<span class="nt">&lt;/cbc:RegistrationName&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L83">
+    <th class="line-num">
+      <a href="#L83">83</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:CompanyID</span> <span class="na">schemeID=</span><span class="s">"0204"</span><span class="nt">&gt;</span>07111000000000150<span class="nt">&lt;/cbc:CompanyID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L84">
+    <th class="line-num">
+      <a href="#L84">84</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:PartyLegalEntity&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L85">
+    <th class="line-num">
+      <a href="#L85">85</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:Contact&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L86">
+    <th class="line-num">
+      <a href="#L86">86</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:ElectronicMail&gt;</span>dominic.adler@stadt.koblenz.de<span class="nt">&lt;/cbc:ElectronicMail&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L87">
+    <th class="line-num">
+      <a href="#L87">87</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:Contact&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L88">
+    <th class="line-num">
+      <a href="#L88">88</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:Party&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L89">
+    <th class="line-num">
+      <a href="#L89">89</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:AccountingCustomerParty&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L90">
+    <th class="line-num">
+      <a href="#L90">90</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:Delivery&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L91">
+    <th class="line-num">
+      <a href="#L91">91</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:ActualDeliveryDate&gt;</span>2020-09-29<span class="nt">&lt;/cbc:ActualDeliveryDate&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L92">
+    <th class="line-num">
+      <a href="#L92">92</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:DeliveryLocation&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L93">
+    <th class="line-num">
+      <a href="#L93">93</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:ID</span> <span class="na">schemeID=</span><span class="s">"GLN"</span><span class="nt">&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L94">
+    <th class="line-num">
+      <a href="#L94">94</a>
+    </th>
+    <td class="line-code">
+      <pre>          123456700000
+</pre>
+    </td>
+  </tr>
+  <tr id="L95">
+    <th class="line-num">
+      <a href="#L95">95</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L96">
+    <th class="line-num">
+      <a href="#L96">96</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:Address&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L97">
+    <th class="line-num">
+      <a href="#L97">97</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:StreetName&gt;</span>Stadtverwaltung Koblenz<span class="nt">&lt;/cbc:StreetName&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L98">
+    <th class="line-num">
+      <a href="#L98">98</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:AdditionalStreetName&gt;</span>Willi-Hörter-Platz 1<span class="nt">&lt;/cbc:AdditionalStreetName&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L99">
+    <th class="line-num">
+      <a href="#L99">99</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:CityName&gt;</span>Koblenz<span class="nt">&lt;/cbc:CityName&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L100">
+    <th class="line-num">
+      <a href="#L100">100</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:PostalZone&gt;</span>56068<span class="nt">&lt;/cbc:PostalZone&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L101">
+    <th class="line-num">
+      <a href="#L101">101</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cac:Country&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L102">
+    <th class="line-num">
+      <a href="#L102">102</a>
+    </th>
+    <td class="line-code">
+      <pre>          <span class="nt">&lt;cbc:IdentificationCode&gt;</span>DE<span class="nt">&lt;/cbc:IdentificationCode&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L103">
+    <th class="line-num">
+      <a href="#L103">103</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;/cac:Country&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L104">
+    <th class="line-num">
+      <a href="#L104">104</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:Address&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L105">
+    <th class="line-num">
+      <a href="#L105">105</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:DeliveryLocation&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L106">
+    <th class="line-num">
+      <a href="#L106">106</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:Delivery&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L107">
+    <th class="line-num">
+      <a href="#L107">107</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:PaymentMeans&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L108">
+    <th class="line-num">
+      <a href="#L108">108</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:PaymentMeansCode</span> <span class="na">name=</span><span class="s">""</span><span class="nt">&gt;</span>30<span class="nt">&lt;/cbc:PaymentMeansCode&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L109">
+    <th class="line-num">
+      <a href="#L109">109</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:PayeeFinancialAccount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L110">
+    <th class="line-num">
+      <a href="#L110">110</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:ID&gt;</span>DE34265700240128820800<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L111">
+    <th class="line-num">
+      <a href="#L111">111</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:PayeeFinancialAccount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L112">
+    <th class="line-num">
+      <a href="#L112">112</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:PaymentMeans&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L113">
+    <th class="line-num">
+      <a href="#L113">113</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:PaymentTerms&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L114">
+    <th class="line-num">
+      <a href="#L114">114</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:Note&gt;</span>#SKONTO#TAGE=10#PROZENT=2.50#BASISBETRAG=2500.00#<span class="nt">&lt;/cbc:Note&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L115">
+    <th class="line-num">
+      <a href="#L115">115</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:PaymentTerms&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L116">
+    <th class="line-num">
+      <a href="#L116">116</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:AllowanceCharge&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L117">
+    <th class="line-num">
+      <a href="#L117">117</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:ChargeIndicator&gt;</span>false<span class="nt">&lt;/cbc:ChargeIndicator&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L118">
+    <th class="line-num">
+      <a href="#L118">118</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:AllowanceChargeReason&gt;</span>Sonderrrabatt<span class="nt">&lt;/cbc:AllowanceChargeReason&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L119">
+    <th class="line-num">
+      <a href="#L119">119</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:MultiplierFactorNumeric&gt;</span>2.50<span class="nt">&lt;/cbc:MultiplierFactorNumeric&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L120">
+    <th class="line-num">
+      <a href="#L120">120</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:Amount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>260.50<span class="nt">&lt;/cbc:Amount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L121">
+    <th class="line-num">
+      <a href="#L121">121</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:BaseAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>10420.00<span class="nt">&lt;/cbc:BaseAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L122">
+    <th class="line-num">
+      <a href="#L122">122</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:TaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L123">
+    <th class="line-num">
+      <a href="#L123">123</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:ID&gt;</span>S<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L124">
+    <th class="line-num">
+      <a href="#L124">124</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:Percent&gt;</span>16.00<span class="nt">&lt;/cbc:Percent&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L125">
+    <th class="line-num">
+      <a href="#L125">125</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L126">
+    <th class="line-num">
+      <a href="#L126">126</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:ID&gt;</span>VAT<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L127">
+    <th class="line-num">
+      <a href="#L127">127</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L128">
+    <th class="line-num">
+      <a href="#L128">128</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:TaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L129">
+    <th class="line-num">
+      <a href="#L129">129</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:TaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L130">
+    <th class="line-num">
+      <a href="#L130">130</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:ID&gt;</span>S<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L131">
+    <th class="line-num">
+      <a href="#L131">131</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:Percent&gt;</span>5.00<span class="nt">&lt;/cbc:Percent&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L132">
+    <th class="line-num">
+      <a href="#L132">132</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L133">
+    <th class="line-num">
+      <a href="#L133">133</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:ID&gt;</span>VAT<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L134">
+    <th class="line-num">
+      <a href="#L134">134</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L135">
+    <th class="line-num">
+      <a href="#L135">135</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:TaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L136">
+    <th class="line-num">
+      <a href="#L136">136</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:AllowanceCharge&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L137">
+    <th class="line-num">
+      <a href="#L137">137</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:AllowanceCharge&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L138">
+    <th class="line-num">
+      <a href="#L138">138</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:ChargeIndicator&gt;</span>true<span class="nt">&lt;/cbc:ChargeIndicator&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L139">
+    <th class="line-num">
+      <a href="#L139">139</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:AllowanceChargeReason&gt;</span>Mahngebühr<span class="nt">&lt;/cbc:AllowanceChargeReason&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L140">
+    <th class="line-num">
+      <a href="#L140">140</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:Amount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>10.00<span class="nt">&lt;/cbc:Amount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L141">
+    <th class="line-num">
+      <a href="#L141">141</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:TaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L142">
+    <th class="line-num">
+      <a href="#L142">142</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:ID&gt;</span>Z<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L143">
+    <th class="line-num">
+      <a href="#L143">143</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:Percent&gt;</span>0.00<span class="nt">&lt;/cbc:Percent&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L144">
+    <th class="line-num">
+      <a href="#L144">144</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L145">
+    <th class="line-num">
+      <a href="#L145">145</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:ID&gt;</span>VAT<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L146">
+    <th class="line-num">
+      <a href="#L146">146</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L147">
+    <th class="line-num">
+      <a href="#L147">147</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:TaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L148">
+    <th class="line-num">
+      <a href="#L148">148</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:AllowanceCharge&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L149">
+    <th class="line-num">
+      <a href="#L149">149</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:TaxTotal&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L150">
+    <th class="line-num">
+      <a href="#L150">150</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:TaxAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>1585.19<span class="nt">&lt;/cbc:TaxAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L151">
+    <th class="line-num">
+      <a href="#L151">151</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:TaxSubtotal&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L152">
+    <th class="line-num">
+      <a href="#L152">152</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:TaxableAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>9792.90<span class="nt">&lt;/cbc:TaxableAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L153">
+    <th class="line-num">
+      <a href="#L153">153</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:TaxAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>1566.86<span class="nt">&lt;/cbc:TaxAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L154">
+    <th class="line-num">
+      <a href="#L154">154</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:TaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L155">
+    <th class="line-num">
+      <a href="#L155">155</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:ID&gt;</span>S<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L156">
+    <th class="line-num">
+      <a href="#L156">156</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:Percent&gt;</span>16.00<span class="nt">&lt;/cbc:Percent&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L157">
+    <th class="line-num">
+      <a href="#L157">157</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L158">
+    <th class="line-num">
+      <a href="#L158">158</a>
+    </th>
+    <td class="line-code">
+      <pre>          <span class="nt">&lt;cbc:ID&gt;</span>VAT<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L159">
+    <th class="line-num">
+      <a href="#L159">159</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;/cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L160">
+    <th class="line-num">
+      <a href="#L160">160</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:TaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L161">
+    <th class="line-num">
+      <a href="#L161">161</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:TaxSubtotal&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L162">
+    <th class="line-num">
+      <a href="#L162">162</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:TaxSubtotal&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L163">
+    <th class="line-num">
+      <a href="#L163">163</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:TaxableAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>366.60<span class="nt">&lt;/cbc:TaxableAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L164">
+    <th class="line-num">
+      <a href="#L164">164</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:TaxAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>18.33<span class="nt">&lt;/cbc:TaxAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L165">
+    <th class="line-num">
+      <a href="#L165">165</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:TaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L166">
+    <th class="line-num">
+      <a href="#L166">166</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:ID&gt;</span>S<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L167">
+    <th class="line-num">
+      <a href="#L167">167</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:Percent&gt;</span>5.00<span class="nt">&lt;/cbc:Percent&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L168">
+    <th class="line-num">
+      <a href="#L168">168</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L169">
+    <th class="line-num">
+      <a href="#L169">169</a>
+    </th>
+    <td class="line-code">
+      <pre>          <span class="nt">&lt;cbc:ID&gt;</span>VAT<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L170">
+    <th class="line-num">
+      <a href="#L170">170</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;/cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L171">
+    <th class="line-num">
+      <a href="#L171">171</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:TaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L172">
+    <th class="line-num">
+      <a href="#L172">172</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:TaxSubtotal&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L173">
+    <th class="line-num">
+      <a href="#L173">173</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:TaxSubtotal&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L174">
+    <th class="line-num">
+      <a href="#L174">174</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:TaxableAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>10.0<span class="nt">&lt;/cbc:TaxableAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L175">
+    <th class="line-num">
+      <a href="#L175">175</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:TaxAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>0.00<span class="nt">&lt;/cbc:TaxAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L176">
+    <th class="line-num">
+      <a href="#L176">176</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:TaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L177">
+    <th class="line-num">
+      <a href="#L177">177</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:ID&gt;</span>Z<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L178">
+    <th class="line-num">
+      <a href="#L178">178</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:Percent&gt;</span>0.00<span class="nt">&lt;/cbc:Percent&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L179">
+    <th class="line-num">
+      <a href="#L179">179</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L180">
+    <th class="line-num">
+      <a href="#L180">180</a>
+    </th>
+    <td class="line-code">
+      <pre>          <span class="nt">&lt;cbc:ID&gt;</span>VAT<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L181">
+    <th class="line-num">
+      <a href="#L181">181</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;/cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L182">
+    <th class="line-num">
+      <a href="#L182">182</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:TaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L183">
+    <th class="line-num">
+      <a href="#L183">183</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:TaxSubtotal&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L184">
+    <th class="line-num">
+      <a href="#L184">184</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:TaxTotal&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L185">
+    <th class="line-num">
+      <a href="#L185">185</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:LegalMonetaryTotal&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L186">
+    <th class="line-num">
+      <a href="#L186">186</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:LineExtensionAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>10420.00<span class="nt">&lt;/cbc:LineExtensionAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L187">
+    <th class="line-num">
+      <a href="#L187">187</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:TaxExclusiveAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>10169.50<span class="nt">&lt;/cbc:TaxExclusiveAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L188">
+    <th class="line-num">
+      <a href="#L188">188</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:TaxInclusiveAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>11754.69<span class="nt">&lt;/cbc:TaxInclusiveAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L189">
+    <th class="line-num">
+      <a href="#L189">189</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:AllowanceTotalAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>260.50<span class="nt">&lt;/cbc:AllowanceTotalAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L190">
+    <th class="line-num">
+      <a href="#L190">190</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:ChargeTotalAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>10.00<span class="nt">&lt;/cbc:ChargeTotalAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L191">
+    <th class="line-num">
+      <a href="#L191">191</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:PayableAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>11754.69<span class="nt">&lt;/cbc:PayableAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L192">
+    <th class="line-num">
+      <a href="#L192">192</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:LegalMonetaryTotal&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L193">
+    <th class="line-num">
+      <a href="#L193">193</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:InvoiceLine&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L194">
+    <th class="line-num">
+      <a href="#L194">194</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:ID&gt;</span>1<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L195">
+    <th class="line-num">
+      <a href="#L195">195</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:Note&gt;</span>; Purchase Order: Bestellnummer 958578<span class="nt">&lt;/cbc:Note&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L196">
+    <th class="line-num">
+      <a href="#L196">196</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:InvoicedQuantity</span> <span class="na">unitCode=</span><span class="s">"XBX"</span><span class="nt">&gt;</span>10.0<span class="nt">&lt;/cbc:InvoicedQuantity&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L197">
+    <th class="line-num">
+      <a href="#L197">197</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:LineExtensionAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>7200.00<span class="nt">&lt;/cbc:LineExtensionAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L198">
+    <th class="line-num">
+      <a href="#L198">198</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:Item&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L199">
+    <th class="line-num">
+      <a href="#L199">199</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:Name&gt;</span>iFLOAT Testrechnung<span class="nt">&lt;/cbc:Name&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L200">
+    <th class="line-num">
+      <a href="#L200">200</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:ClassifiedTaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L201">
+    <th class="line-num">
+      <a href="#L201">201</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:ID&gt;</span>S<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L202">
+    <th class="line-num">
+      <a href="#L202">202</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:Percent&gt;</span>16.00<span class="nt">&lt;/cbc:Percent&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L203">
+    <th class="line-num">
+      <a href="#L203">203</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L204">
+    <th class="line-num">
+      <a href="#L204">204</a>
+    </th>
+    <td class="line-code">
+      <pre>          <span class="nt">&lt;cbc:ID&gt;</span>VAT<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L205">
+    <th class="line-num">
+      <a href="#L205">205</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;/cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L206">
+    <th class="line-num">
+      <a href="#L206">206</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:ClassifiedTaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L207">
+    <th class="line-num">
+      <a href="#L207">207</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:Item&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L208">
+    <th class="line-num">
+      <a href="#L208">208</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:Price&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L209">
+    <th class="line-num">
+      <a href="#L209">209</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:PriceAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>720.0<span class="nt">&lt;/cbc:PriceAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L210">
+    <th class="line-num">
+      <a href="#L210">210</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:Price&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L211">
+    <th class="line-num">
+      <a href="#L211">211</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:InvoiceLine&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L212">
+    <th class="line-num">
+      <a href="#L212">212</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:InvoiceLine&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L213">
+    <th class="line-num">
+      <a href="#L213">213</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:ID&gt;</span>2<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L214">
+    <th class="line-num">
+      <a href="#L214">214</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:Note&gt;</span>; Purchase Order: Bestellnummer 958578<span class="nt">&lt;/cbc:Note&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L215">
+    <th class="line-num">
+      <a href="#L215">215</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:InvoicedQuantity</span> <span class="na">unitCode=</span><span class="s">"XBO"</span><span class="nt">&gt;</span>50.0<span class="nt">&lt;/cbc:InvoicedQuantity&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L216">
+    <th class="line-num">
+      <a href="#L216">216</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:LineExtensionAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>376.00<span class="nt">&lt;/cbc:LineExtensionAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L217">
+    <th class="line-num">
+      <a href="#L217">217</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:Item&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L218">
+    <th class="line-num">
+      <a href="#L218">218</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:Name&gt;</span>iFLOAT Testbestellung<span class="nt">&lt;/cbc:Name&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L219">
+    <th class="line-num">
+      <a href="#L219">219</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:ClassifiedTaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L220">
+    <th class="line-num">
+      <a href="#L220">220</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:ID&gt;</span>S<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L221">
+    <th class="line-num">
+      <a href="#L221">221</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:Percent&gt;</span>5.00<span class="nt">&lt;/cbc:Percent&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L222">
+    <th class="line-num">
+      <a href="#L222">222</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L223">
+    <th class="line-num">
+      <a href="#L223">223</a>
+    </th>
+    <td class="line-code">
+      <pre>          <span class="nt">&lt;cbc:ID&gt;</span>VAT<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L224">
+    <th class="line-num">
+      <a href="#L224">224</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;/cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L225">
+    <th class="line-num">
+      <a href="#L225">225</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:ClassifiedTaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L226">
+    <th class="line-num">
+      <a href="#L226">226</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:Item&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L227">
+    <th class="line-num">
+      <a href="#L227">227</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:Price&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L228">
+    <th class="line-num">
+      <a href="#L228">228</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:PriceAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>7.52<span class="nt">&lt;/cbc:PriceAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L229">
+    <th class="line-num">
+      <a href="#L229">229</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:Price&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L230">
+    <th class="line-num">
+      <a href="#L230">230</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:InvoiceLine&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L231">
+    <th class="line-num">
+      <a href="#L231">231</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:InvoiceLine&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L232">
+    <th class="line-num">
+      <a href="#L232">232</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:ID&gt;</span>3<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L233">
+    <th class="line-num">
+      <a href="#L233">233</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:Note&gt;</span>Auf diesen Artikel bekommen Sie eine Ermäßigung.; Purchase Order: Bestellnummer 958578<span class="nt">&lt;/cbc:Note&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L234">
+    <th class="line-num">
+      <a href="#L234">234</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:InvoicedQuantity</span> <span class="na">unitCode=</span><span class="s">"EA"</span><span class="nt">&gt;</span>17.0<span class="nt">&lt;/cbc:InvoicedQuantity&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L235">
+    <th class="line-num">
+      <a href="#L235">235</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:LineExtensionAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>704.00<span class="nt">&lt;/cbc:LineExtensionAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L236">
+    <th class="line-num">
+      <a href="#L236">236</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:AllowanceCharge&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L237">
+    <th class="line-num">
+      <a href="#L237">237</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:ChargeIndicator&gt;</span>false<span class="nt">&lt;/cbc:ChargeIndicator&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L238">
+    <th class="line-num">
+      <a href="#L238">238</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:AllowanceChargeReason&gt;</span>Ermäßigung<span class="nt">&lt;/cbc:AllowanceChargeReason&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L239">
+    <th class="line-num">
+      <a href="#L239">239</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:Amount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>10.00<span class="nt">&lt;/cbc:Amount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L240">
+    <th class="line-num">
+      <a href="#L240">240</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:AllowanceCharge&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L241">
+    <th class="line-num">
+      <a href="#L241">241</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:Item&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L242">
+    <th class="line-num">
+      <a href="#L242">242</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:Name&gt;</span>iFLOAT Testskonto<span class="nt">&lt;/cbc:Name&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L243">
+    <th class="line-num">
+      <a href="#L243">243</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:StandardItemIdentification&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L244">
+    <th class="line-num">
+      <a href="#L244">244</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:ID</span> <span class="na">schemeID=</span><span class="s">"0160"</span><span class="nt">&gt;</span>12345<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L245">
+    <th class="line-num">
+      <a href="#L245">245</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:StandardItemIdentification&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L246">
+    <th class="line-num">
+      <a href="#L246">246</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:ClassifiedTaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L247">
+    <th class="line-num">
+      <a href="#L247">247</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:ID&gt;</span>S<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L248">
+    <th class="line-num">
+      <a href="#L248">248</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:Percent&gt;</span>16.00<span class="nt">&lt;/cbc:Percent&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L249">
+    <th class="line-num">
+      <a href="#L249">249</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L250">
+    <th class="line-num">
+      <a href="#L250">250</a>
+    </th>
+    <td class="line-code">
+      <pre>          <span class="nt">&lt;cbc:ID&gt;</span>VAT<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L251">
+    <th class="line-num">
+      <a href="#L251">251</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;/cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L252">
+    <th class="line-num">
+      <a href="#L252">252</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:ClassifiedTaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L253">
+    <th class="line-num">
+      <a href="#L253">253</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:Item&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L254">
+    <th class="line-num">
+      <a href="#L254">254</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:Price&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L255">
+    <th class="line-num">
+      <a href="#L255">255</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:PriceAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>42.0<span class="nt">&lt;/cbc:PriceAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L256">
+    <th class="line-num">
+      <a href="#L256">256</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:Price&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L257">
+    <th class="line-num">
+      <a href="#L257">257</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:InvoiceLine&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L258">
+    <th class="line-num">
+      <a href="#L258">258</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;cac:InvoiceLine&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L259">
+    <th class="line-num">
+      <a href="#L259">259</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:ID&gt;</span>4<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L260">
+    <th class="line-num">
+      <a href="#L260">260</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:Note&gt;</span>Auf diesen Artikel bekommen Sie eine Zusatzgebühr.<span class="nt">&lt;/cbc:Note&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L261">
+    <th class="line-num">
+      <a href="#L261">261</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:InvoicedQuantity</span> <span class="na">unitCode=</span><span class="s">"HUR"</span><span class="nt">&gt;</span>40.0<span class="nt">&lt;/cbc:InvoicedQuantity&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L262">
+    <th class="line-num">
+      <a href="#L262">262</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cbc:LineExtensionAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>2140.00<span class="nt">&lt;/cbc:LineExtensionAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L263">
+    <th class="line-num">
+      <a href="#L263">263</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:AllowanceCharge&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L264">
+    <th class="line-num">
+      <a href="#L264">264</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:ChargeIndicator&gt;</span>true<span class="nt">&lt;/cbc:ChargeIndicator&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L265">
+    <th class="line-num">
+      <a href="#L265">265</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:AllowanceChargeReason&gt;</span>Gebühr<span class="nt">&lt;/cbc:AllowanceChargeReason&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L266">
+    <th class="line-num">
+      <a href="#L266">266</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:MultiplierFactorNumeric&gt;</span>7.00<span class="nt">&lt;/cbc:MultiplierFactorNumeric&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L267">
+    <th class="line-num">
+      <a href="#L267">267</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:Amount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>140.00<span class="nt">&lt;/cbc:Amount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L268">
+    <th class="line-num">
+      <a href="#L268">268</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:BaseAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>2000.00<span class="nt">&lt;/cbc:BaseAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L269">
+    <th class="line-num">
+      <a href="#L269">269</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:AllowanceCharge&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L270">
+    <th class="line-num">
+      <a href="#L270">270</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:Item&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L271">
+    <th class="line-num">
+      <a href="#L271">271</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:Name&gt;</span>iFLOAT Testgebühr<span class="nt">&lt;/cbc:Name&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L272">
+    <th class="line-num">
+      <a href="#L272">272</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cac:ClassifiedTaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L273">
+    <th class="line-num">
+      <a href="#L273">273</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:ID&gt;</span>S<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L274">
+    <th class="line-num">
+      <a href="#L274">274</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cbc:Percent&gt;</span>16.00<span class="nt">&lt;/cbc:Percent&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L275">
+    <th class="line-num">
+      <a href="#L275">275</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L276">
+    <th class="line-num">
+      <a href="#L276">276</a>
+    </th>
+    <td class="line-code">
+      <pre>          <span class="nt">&lt;cbc:ID&gt;</span>VAT<span class="nt">&lt;/cbc:ID&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L277">
+    <th class="line-num">
+      <a href="#L277">277</a>
+    </th>
+    <td class="line-code">
+      <pre>        <span class="nt">&lt;/cac:TaxScheme&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L278">
+    <th class="line-num">
+      <a href="#L278">278</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;/cac:ClassifiedTaxCategory&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L279">
+    <th class="line-num">
+      <a href="#L279">279</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:Item&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L280">
+    <th class="line-num">
+      <a href="#L280">280</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;cac:Price&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L281">
+    <th class="line-num">
+      <a href="#L281">281</a>
+    </th>
+    <td class="line-code">
+      <pre>      <span class="nt">&lt;cbc:PriceAmount</span> <span class="na">currencyID=</span><span class="s">"EUR"</span><span class="nt">&gt;</span>50.0<span class="nt">&lt;/cbc:PriceAmount&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L282">
+    <th class="line-num">
+      <a href="#L282">282</a>
+    </th>
+    <td class="line-code">
+      <pre>    <span class="nt">&lt;/cac:Price&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L283">
+    <th class="line-num">
+      <a href="#L283">283</a>
+    </th>
+    <td class="line-code">
+      <pre>  <span class="nt">&lt;/cac:InvoiceLine&gt;</span>
+</pre>
+    </td>
+  </tr>
+  <tr id="L284">
+    <th class="line-num">
+      <a href="#L284">284</a>
+    </th>
+    <td class="line-code">
+      <pre><span class="nt">&lt;/Invoice&gt;</span>
+</pre>
+    </td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+
+</div>
+
+<span class="pagination filepreview">
+  <ul class="pages"><li class="previous page"><a href="/attachments/8201/clipboard-202009281054-1v0lq.png">« Previous</a></li><li class="page"><a href="/attachments/8197/clipboard-202009281029-tb7my.png">1</a></li><li class="spacer"><span>&hellip;</span></li><li class="page"><a href="/attachments/8200/clipboard-202009281052-sibue.png">4</a></li><li class="page"><a href="/attachments/8201/clipboard-202009281054-1v0lq.png">5</a></li><li class="current"><span>6</span></li><li class="page"><a href="/attachments/8203/Rechnung-Testrechnung%204%20with%20different%20tax%20names%20in%20line.xml">7</a></li><li class="page"><a href="/attachments/8204/clipboard-202009281114-hrptj.png">8</a></li><li class="next page"><a href="/attachments/8203/Rechnung-Testrechnung%204%20with%20different%20tax%20names%20in%20line.xml">Next »</a></li></ul><span><span class="items">(6-6/8)</span> </span>
+</span>
+
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<div id="footer">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2019 Jean-Philippe Lang
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+</div>
+</div>
+
+</body>
+</html>
