@@ -85,7 +85,9 @@
 		</cac:DeliveryLocation>
 	</cac:Delivery>
 	<cac:PaymentMeans>
-		<cbc:PaymentMeansCode listID="UNCL4461">30</cbc:PaymentMeansCode>
+		<cbc:PaymentMeansCode listID="UNCL4461">31</cbc:PaymentMeansCode>
+		<cbc:PaymentDueDate>2021-03-11</cbc:PaymentDueDate>
+		<cbc:PaymentChannelCode>IBAN</cbc:PaymentChannelCode>
 		<cbc:PaymentID>00001/11125</cbc:PaymentID>
 		<cac:PayeeFinancialAccount>
 			<cbc:ID schemeID="IBAN">NL01RABO0000001</cbc:ID>
@@ -147,6 +149,13 @@
 			<cac:SellersItemIdentification>
 				<cbc:ID>10A</cbc:ID>
 			</cac:SellersItemIdentification>
+			<cac:ClassifiedTaxCategory xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+				<cbc:ID>S</cbc:ID>
+				<cbc:Percent>21</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
 		</cac:Item>
 		<cac:Price>
 			<cbc:PriceAmount currencyID="EUR">87.46</cbc:PriceAmount>

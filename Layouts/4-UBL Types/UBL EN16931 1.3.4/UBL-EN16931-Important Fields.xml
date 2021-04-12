@@ -83,8 +83,11 @@
 	 <cac:PaymentMeans>
       <cbc:PaymentMeansCode>31</cbc:PaymentMeansCode>
       <cac:PayeeFinancialAccount>
-         <cbc:ID>NL00INGB0000000001</cbc:ID>
-      </cac:PayeeFinancialAccount>
+			<cbc:ID>NL00INGB0000000001</cbc:ID>
+			<cac:FinancialInstitutionBranch>
+				<cbc:ID>MIDLGB22XXX</cbc:ID>
+			</cac:FinancialInstitutionBranch>
+		</cac:PayeeFinancialAccount>
    </cac:PaymentMeans>
 	<cac:AllowanceCharge>
 		<cbc:ChargeIndicator>true</cbc:ChargeIndicator>

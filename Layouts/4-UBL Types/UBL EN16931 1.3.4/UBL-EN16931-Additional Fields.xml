@@ -28,7 +28,7 @@
 	<cac:AccountingSupplierParty>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID>BE000000000</cbc:ID>
+				<cbc:ID>BE0000000123</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
 				<cbc:Name>Supplier name</cbc:Name>
@@ -42,7 +42,7 @@
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:CompanyID>BE000000000</cbc:CompanyID>
+				<cbc:CompanyID>BE0000000123</cbc:CompanyID>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>
 				</cac:TaxScheme>
@@ -59,7 +59,7 @@
 	<cac:AccountingCustomerParty>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID>10202</cbc:ID>
+				<cbc:ID>12345678</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
 				<cbc:Name>Buyer name</cbc:Name>
@@ -73,14 +73,14 @@
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:CompanyID>BE00000000</cbc:CompanyID>
+				<cbc:CompanyID>BE0000000123</cbc:CompanyID>
 				<cac:TaxScheme>
 					<cbc:ID>BE:VAT</cbc:ID>
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
-				<cbc:RegistrationName>ODIN 59</cbc:RegistrationName>
-				<cbc:CompanyID>BE00000000</cbc:CompanyID>
+				<cbc:RegistrationName>Buyer Name</cbc:RegistrationName>
+				<cbc:CompanyID>BE0000000123</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 		</cac:Party>
 	</cac:AccountingCustomerParty>
@@ -99,9 +99,12 @@
 	</cac:Delivery>
 	<cac:PaymentMeans>
 		<cbc:PaymentMeansCode>31</cbc:PaymentMeansCode>
-		<cbc:PaymentID>Payment reference</cbc:PaymentID>
+		<cbc:InstructionNote>Payment reference</cbc:InstructionNote>
 		<cac:PayeeFinancialAccount>
-			<cbc:ID>NL0000000000</cbc:ID>
+			<cbc:ID>NL00RABO0000000123</cbc:ID>
+			<cac:FinancialInstitutionBranch>
+				<cbc:ID>KREDBEBB</cbc:ID>
+			</cac:FinancialInstitutionBranch>
 		</cac:PayeeFinancialAccount>
 	</cac:PaymentMeans>
 	<cac:PaymentTerms>

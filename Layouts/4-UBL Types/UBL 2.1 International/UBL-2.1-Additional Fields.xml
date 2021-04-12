@@ -17,7 +17,7 @@
 	<cac:AccountingSupplierParty>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="NL:KVK">123456</cbc:ID>
+				<cbc:ID schemeID="NL:KVK">12345678</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
 				<cbc:Name>Supplier name</cbc:Name>
@@ -31,14 +31,14 @@
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:CompanyID>BE000000000</cbc:CompanyID>
+				<cbc:CompanyID>NL000000000B01</cbc:CompanyID>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
 				<cbc:RegistrationName>Supplier NAME</cbc:RegistrationName>
-				<cbc:CompanyID schemeID="NL:KVK">123456</cbc:CompanyID>
+				<cbc:CompanyID schemeID="NL:KVK">12345678</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 			<cac:Contact>
 				<cbc:ElectronicMail>supplier@email.com</cbc:ElectronicMail>
@@ -48,7 +48,7 @@
 	<cac:AccountingCustomerParty>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="NL:OIN">00000000000001</cbc:ID>
+				<cbc:ID schemeID="NL:OIN">00000000000000001234</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
 				<cbc:Name>Buyer name</cbc:Name>
@@ -63,14 +63,14 @@
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:CompanyID>BE00000000</cbc:CompanyID>
+				<cbc:CompanyID schemeID="NL:VAT" schemeAgencyID="ZZZ">NL000000000B01</cbc:CompanyID>
 				<cac:TaxScheme>
-					<cbc:ID>BE:VAT</cbc:ID>
+					<cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</cbc:ID>
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
 				<cbc:RegistrationName>Buyer NAME</cbc:RegistrationName>
-				<cbc:CompanyID schemeID="NL:VAT">BE0000000001</cbc:CompanyID>
+				<cbc:CompanyID schemeID="NL:VAT">NL000000000B01</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 		</cac:Party>
 	</cac:AccountingCustomerParty>
@@ -89,11 +89,17 @@
 	</cac:Delivery>
 	<cac:PaymentMeans>
 		<cbc:PaymentMeansCode>31</cbc:PaymentMeansCode>
+		<cbc:PaymentDueDate>2021-03-04</cbc:PaymentDueDate>
 		<cbc:PaymentChannelCode>IBAN</cbc:PaymentChannelCode>
 		<cbc:PaymentID>Payment reference</cbc:PaymentID>
 		<cac:PayeeFinancialAccount>
-			<cbc:ID schemeID="IBAN">NL57RABO0100000001</cbc:ID>
-		</cac:PayeeFinancialAccount>
+         <cbc:ID schemeID="IBAN">NL00RABO0000000123</cbc:ID>
+         <cac:FinancialInstitutionBranch>
+            <cac:FinancialInstitution>
+               <cbc:ID schemeID="BIC">AXBZA</cbc:ID>
+            </cac:FinancialInstitution>
+         </cac:FinancialInstitutionBranch>
+      </cac:PayeeFinancialAccount>
 	</cac:PaymentMeans>
 	<cac:PaymentTerms>
 		<cbc:Note>Payment note</cbc:Note>
@@ -113,18 +119,7 @@
 	<cac:TaxTotal>
 		<cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
 		<cac:TaxSubtotal>
-			<cbc:TaxableAmount currencyID="EUR">500.00</cbc:TaxableAmount>
-			<cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
-			<cac:TaxCategory>
-				<cbc:ID schemeID="UNCL5305" schemeAgencyID="6">S</cbc:ID>
-				<cbc:Percent>0</cbc:Percent>
-				<cac:TaxScheme>
-					<cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</cbc:ID>
-				</cac:TaxScheme>
-			</cac:TaxCategory>
-		</cac:TaxSubtotal>
-		<cac:TaxSubtotal>
-			<cbc:TaxableAmount currencyID="EUR">10.00</cbc:TaxableAmount>
+			<cbc:TaxableAmount currencyID="EUR">510.00</cbc:TaxableAmount>
 			<cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
 			<cac:TaxCategory>
 				<cbc:ID schemeID="UNCL5305" schemeAgencyID="6">S</cbc:ID>
@@ -146,14 +141,14 @@
 	<cac:InvoiceLine>
 		<cbc:ID>1</cbc:ID>
 		<cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
-		<cbc:LineExtensionAmount currencyID="EUR">500</cbc:LineExtensionAmount>
+		<cbc:LineExtensionAmount currencyID="EUR">100</cbc:LineExtensionAmount>
 		<cac:AllowanceCharge>
 			<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
 			<cbc:AllowanceChargeReason>Discounted</cbc:AllowanceChargeReason>
 			<cbc:Amount currencyID="EUR">26.95</cbc:Amount>
 		</cac:AllowanceCharge>
 		<cac:Item>
-			<cbc:Name>Desription here</cbc:Name>
+			<cbc:Name>Line Desription 1</cbc:Name>
 			<cac:SellersItemIdentification>
 				<cbc:ID>a14a</cbc:ID>
 			</cac:SellersItemIdentification>
@@ -166,7 +161,54 @@
 			</cac:ClassifiedTaxCategory>
 		</cac:Item>
 		<cac:Price>
-			<cbc:PriceAmount currencyID="EUR">526.95</cbc:PriceAmount>
+			<cbc:PriceAmount currencyID="EUR">126.95</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+	<cac:InvoiceLine>
+		<cbc:ID>2</cbc:ID>
+		<cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="EUR">150</cbc:LineExtensionAmount>
+		<cac:AllowanceCharge>
+			<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+			<cbc:AllowanceChargeReason>Discounted</cbc:AllowanceChargeReason>
+			<cbc:Amount currencyID="EUR">50</cbc:Amount>
+		</cac:AllowanceCharge>
+		<cac:Item>
+			<cbc:Name>Line Desription 2</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID>1111ABC</cbc:ID>
+			</cac:SellersItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:ID schemeID="UN/ECE 5305" schemeAgencyID="6">S</cbc:ID>
+				<cbc:Percent>0</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="EUR">200</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+	<cac:InvoiceLine>
+		<cbc:ID>3</cbc:ID>
+		<cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="EUR">250</cbc:LineExtensionAmount>
+		<cac:Item>
+			<cbc:Name>Line Desription 3</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID>1111XXX</cbc:ID>
+			</cac:SellersItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:ID schemeID="UN/ECE 5305" schemeAgencyID="6">S</cbc:ID>
+				<cbc:Percent>0</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="EUR">250</cbc:PriceAmount>
 		</cac:Price>
 	</cac:InvoiceLine>
 </Invoice>

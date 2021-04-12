@@ -12,11 +12,6 @@
 	<cac:OrderReference>
 		<cbc:ID>11111</cbc:ID>
 	</cac:OrderReference>
-	<cac:BillingReference>
-		<cac:InvoiceDocumentReference>
-			<cbc:ID>12345</cbc:ID>
-		</cac:InvoiceDocumentReference>
-	</cac:BillingReference>
 	<cac:ProjectReference>
 		<cbc:ID>12111</cbc:ID>
 	</cac:ProjectReference>
@@ -74,6 +69,19 @@
 			</cac:PartyLegalEntity>
 		</cac:Party>
 	</cac:AccountingCustomerParty>
+	<cac:PaymentMeans>
+      <cbc:PaymentMeansCode listID="UNCL4461">31</cbc:PaymentMeansCode>
+      <cbc:PaymentDueDate>2021-03-29</cbc:PaymentDueDate>
+      <cbc:PaymentChannelCode>IBAN</cbc:PaymentChannelCode>
+      <cac:PayeeFinancialAccount>
+			<cbc:ID schemeID="IBAN">NL00INGB0000000001</cbc:ID>
+			<cac:FinancialInstitutionBranch>
+				<cac:FinancialInstitution>
+					<cbc:ID schemeID="BIC">XXXX222BBBAA</cbc:ID>
+				</cac:FinancialInstitution>
+			</cac:FinancialInstitutionBranch>
+		</cac:PayeeFinancialAccount>
+   </cac:PaymentMeans>
 	<cac:AllowanceCharge>
 		<cbc:ChargeIndicator>true</cbc:ChargeIndicator>
 		<cbc:AllowanceChargeReason>Charge</cbc:AllowanceChargeReason>

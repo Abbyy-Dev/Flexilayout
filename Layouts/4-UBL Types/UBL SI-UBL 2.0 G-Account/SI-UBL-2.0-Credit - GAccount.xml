@@ -4,7 +4,7 @@
 	<cbc:ID>202021</cbc:ID>
 	<cbc:IssueDate>2021-01-20</cbc:IssueDate>
 	<cbc:DueDate>2021-02-20</cbc:DueDate>
-	<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+	<cbc:InvoiceTypeCode>384</cbc:InvoiceTypeCode>
 	<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
 	<cac:BillingReference>
 		<cac:InvoiceDocumentReference>
