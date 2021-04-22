@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<form:Documents xmlns:form="http://www.abbyy.com/FlexiCapture/Schemas/Export/FormData.xsd" xmlns:addData="http://www.abbyy.com/FlexiCapture/Schemas/Export/AdditionalFormData.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<_cifferrignosrl:_cifferrignosrl addData:ImagePath="00000001.pdf" xmlns:_cifferrignosrl="http://www.abbyy.com/FlexiCapture/Schemas/Export/cifferrignosrl.xsd">
+		<_section>
+			<_invoicenum>316</_invoicenum>
+			<_invoicenum_credit/>
+			<_kwcredit/>
+			<_invoicedate>29-01-2021</_invoicedate>
+			<_invoicesum>10729,59</_invoicesum>
+			<_line_grp>
+				<_line_amount>76,00</_line_amount>
+				<_item_price>16,00000</_item_price>
+				<_description>KIT MODIFICA CINGHIA+PULEGGIA DIAM.80 X CIAO-PX-FL2</_description>
+				<_items_ordered>1</_items_ordered>
+				<_allowancecharge>-8</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>228,00</_line_amount>
+				<_item_price>16,00000</_item_price>
+				<_description>KIT MODIFICA CINGHIA+PULEGGIA DIAM.70 X CIAO-PX-FL2</_description>
+				<_items_ordered>3.0</_items_ordered>
+				<_allowancecharge>-240</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>37,05</_line_amount>
+				<_item_price>2,60000</_item_price>
+				<_description>PULEGGIA POSTERIORE CIAO SENZA VARIATORE RIDOTTA</_description>
+				<_items_ordered>. 80 30</_items_ordered>
+				<_allowancecharge>50</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>104,50</_line_amount>
+				<_item_price>2,20000</_item_price>
+				<_description>CONFEZIONE 100 PZ. SFERA 7/32" (ø mm.5,50)</_description>
+				<_items_ordered>100</_items_ordered>
+				<_allowancecharge>-110</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>342,00</_line_amount>
+				<_item_price>3,60000</_item_price>
+				<_description>DEFLETTORE NUDO TESTA PIAGGIO SI</_description>
+				<_items_ordered>200</_items_ordered>
+				<_allowancecharge>-360</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>71,25</_line_amount>
+				<_item_price>0,30000</_item_price>
+				<_description>MOLLA X RITEGNI FIANCATINE TUTTI TIPI CIAO-BRAVO-SI'</_description>
+				<_items_ordered>500</_items_ordered>
+				<_allowancecharge>-75</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>185,25</_line_amount>
+				<_item_price>1,30000</_item_price>
+				<_description>GUARNIZIONE SCARICO SCOOTER PIAGGIO-GILERA 125 C</_description>
+				<_items_ordered>300</_items_ordered>
+				<_allowancecharge>-195</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>272,65</_line_amount>
+				<_item_price>8,20000</_item_price>
+				<_description>CP. GANASCE FRENO ANTERIORE/POSTERIORE SCOOTER</_description>
+				<_items_ordered>70</_items_ordered>
+				<_allowancecharge>-287</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>987,00</_line_amount>
+				<_item_price>2,82000</_item_price>
+				<_description>TARGHETTA "VESPA" LATERALE GRANDE ADESIVA RESINA</_description>
+				<_items_ordered>A3</_items_ordered>
+				<_allowancecharge/>
+			</_line_grp>
+			<_duedate>29-01-2021</_duedate>
+		</_section>
+	</_cifferrignosrl:_cifferrignosrl>
+</form:Documents>

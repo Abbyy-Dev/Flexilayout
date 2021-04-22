@@ -1,33 +1,38 @@
-supplieremail*
-buyerdepartment*
-deliverystreet*
-deliverypostalcode*
-deliverycountrycode
-deliverycity*
-deliverydate-
-kwcredit-
-invoicenum-
-invoicenum_credit*
-kwcredit*
-invoicedate*
-duedate*
-note
-yourreference*
-project-
-ordernum-
-positie-
-paymentreference*
-invoicenetsum*
-invoicesum*
-vatamount*
+Templates / Docdef - Created as of: (20210421)
 
--line_grp- *
- description *
- items_ordered *
- lineamount *
+2021-04-13
+elektroraadexpertisebv
+gubbelssloopenasbestsaneringbv
+vandenmanackertransportinfrabv
+pluimen
 
- vatcode*
--vat_grp-*
- vatcode*
- vatbase*
- vatamount*
+2021-04-14
+mobilitysensingbv
+pegamentobv
+
+2021-04-16
+vanderpeijlholdingbv
+vanloenenconsultancybv
+totalprojectservicebv
+triamfloatbv
+tritontransporttechniekbv
+vanrumptspecialisten
+
+2021-04-19
+sjaakhoekstraadvies
+processfive
+primagaznederlandbv
+springcobv
+stichtinggooisnatuurreservaat
+stichtingproduktiviteitkwaliteitmanagementindemetaal
+ptstructuraldesignandanalysisbv
+
+2021-04-20
+alpheiosbv
+breinkorf
+awpservicesnl
+
+2021-04-21
+deseedykstertoer
+vandebijlheiermanbv
+omikroneurope

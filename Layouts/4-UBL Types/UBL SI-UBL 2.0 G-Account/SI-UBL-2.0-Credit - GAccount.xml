@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 file://LAPTOP-A2620K9V/Users/63917/Documents/Github/Flexilayout/Layouts/4-UBL%20Types/UBL%20SI-UBL%202.0%20G-Account/xsd/UBL-Invoice-2.2.xsd">
 	<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:nen.nl:nlcius:v1.0#conformant#urn:fdc:nen.nl:gaccount:v1.0</cbc:CustomizationID>
-	<cbc:ID>202021</cbc:ID>
+	<cbc:ID>INVOICE NUMBER</cbc:ID>
 	<cbc:IssueDate>2021-01-20</cbc:IssueDate>
 	<cbc:DueDate>2021-02-20</cbc:DueDate>
 	<cbc:InvoiceTypeCode>384</cbc:InvoiceTypeCode>
 	<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
 	<cac:BillingReference>
 		<cac:InvoiceDocumentReference>
-			<cbc:ID>202025</cbc:ID>
+			<cbc:ID>CREDIT INVOICE NUMBER</cbc:ID>
 		</cac:InvoiceDocumentReference>
 	</cac:BillingReference>
 	<cac:AdditionalDocumentReference>
@@ -19,19 +19,19 @@
 	</cac:AdditionalDocumentReference>
 	<cac:AccountingSupplierParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="0106">22222222</cbc:EndpointID>
+			<cbc:EndpointID schemeID="0106">12345678</cbc:EndpointID>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="0106">22222222</cbc:ID>
+				<cbc:ID schemeID="0106">12345678</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
-				<cbc:Name>Supplier NAME</cbc:Name>
+				<cbc:Name>SENDER NAME</cbc:Name>
 			</cac:PartyName>
 			<cac:PostalAddress>
 				<cbc:StreetName>STREET</cbc:StreetName>
 				<cbc:CityName>CITY</cbc:CityName>
 				<cbc:PostalZone>POSTAL CODE</cbc:PostalZone>
 				<cac:Country>
-					<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+					<cbc:IdentificationCode>NL</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
@@ -41,26 +41,26 @@
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
-				<cbc:RegistrationName>Supplier NAME</cbc:RegistrationName>
-				<cbc:CompanyID schemeID="0106">22222222</cbc:CompanyID>
+				<cbc:RegistrationName>SENDER NAME</cbc:RegistrationName>
+				<cbc:CompanyID schemeID="0106">12345678</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 		</cac:Party>
 	</cac:AccountingSupplierParty>
 	<cac:AccountingCustomerParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="0106">11111111</cbc:EndpointID>
+			<cbc:EndpointID schemeID="0106">12345678</cbc:EndpointID>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="0106">22222222</cbc:ID>
+				<cbc:ID schemeID="0106">12345678</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
-				<cbc:Name>BUYER NAME</cbc:Name>
+				<cbc:Name>CUSTOMER NAME</cbc:Name>
 			</cac:PartyName>
 			<cac:PostalAddress>
 				<cbc:StreetName>STREET</cbc:StreetName>
 				<cbc:CityName>CITY</cbc:CityName>
 				<cbc:PostalZone>POSTAL CODE</cbc:PostalZone>
 				<cac:Country>
-					<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+					<cbc:IdentificationCode>NL</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
@@ -70,8 +70,8 @@
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
-				<cbc:RegistrationName>BUYER NAME</cbc:RegistrationName>
-				<cbc:CompanyID schemeID="0106">KVK</cbc:CompanyID>
+				<cbc:RegistrationName>CUSTOMER NAME</cbc:RegistrationName>
+				<cbc:CompanyID schemeID="0106">12345678</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 		</cac:Party>
 	</cac:AccountingCustomerParty>
@@ -124,7 +124,7 @@
 		<cbc:InvoicedQuantity unitCode="C62">2</cbc:InvoicedQuantity>
 		<cbc:LineExtensionAmount currencyID="EUR">140</cbc:LineExtensionAmount>
 		<cac:Item>
-			<cbc:Name>DESCRIPTION / ARTICLE NAME 1</cbc:Name>
+			<cbc:Name>DESCRIPTION</cbc:Name>
 			<cac:ClassifiedTaxCategory xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
 				<cbc:ID>S</cbc:ID>
 				<cbc:Percent>21</cbc:Percent>

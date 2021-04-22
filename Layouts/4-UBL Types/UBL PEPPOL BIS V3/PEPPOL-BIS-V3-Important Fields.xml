@@ -4,18 +4,18 @@
     xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
     <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
     <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
-    <cbc:ID>12345</cbc:ID>
+    <cbc:ID>INVOICE NUMBER</cbc:ID>
     <cbc:IssueDate>2017-11-13</cbc:IssueDate>
     <cbc:DueDate>2017-12-01</cbc:DueDate>
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:AccountingCost>4025:123:4343</cbc:AccountingCost>
-    <cbc:BuyerReference>0150abc</cbc:BuyerReference>
+    <cbc:AccountingCost>ACCOUNTING COST</cbc:AccountingCost>
+    <cbc:BuyerReference>YOUR REFERENCE</cbc:BuyerReference>
 	<cac:OrderReference>
-		<cbc:ID>11111</cbc:ID>
+		<cbc:ID>ORDER NUMBER</cbc:ID>
 	</cac:OrderReference>
 	<cac:ProjectReference>
-		<cbc:ID>147852</cbc:ID>
+		<cbc:ID>PROJECT NUMBER</cbc:ID>
 	</cac:ProjectReference>
     <cac:AccountingSupplierParty>
         <cac:Party>
@@ -23,12 +23,12 @@
                 <cbc:ID>99887766</cbc:ID>
             </cac:PartyIdentification>
             <cac:PartyName>
-                <cbc:Name>SupplierTradingName Ltd.</cbc:Name>
+                <cbc:Name>SENDER NAME</cbc:Name>
             </cac:PartyName>
             <cac:PostalAddress>
-                <cbc:StreetName>Main street 1</cbc:StreetName>
-                <cbc:CityName>London</cbc:CityName> 
-                <cbc:PostalZone>GB 123 EW</cbc:PostalZone>
+                <cbc:StreetName>STREET</cbc:StreetName>
+                <cbc:CityName>CITY</cbc:CityName> 
+                <cbc:PostalZone>POSTAL CODE</cbc:PostalZone>
                 <cac:Country>
                     <cbc:IdentificationCode>GB</cbc:IdentificationCode>
                 </cac:Country>
@@ -40,8 +40,8 @@
                 </cac:TaxScheme>
             </cac:PartyTaxScheme>
             <cac:PartyLegalEntity>
-                <cbc:RegistrationName>SupplierOfficialName Ltd</cbc:RegistrationName>
-                <cbc:CompanyID>GB983294</cbc:CompanyID>
+                <cbc:RegistrationName>SENDER NAME</cbc:RegistrationName>
+                <cbc:CompanyID>99887766</cbc:CompanyID>
             </cac:PartyLegalEntity>
         </cac:Party>
     </cac:AccountingSupplierParty>
@@ -51,12 +51,12 @@
                 <cbc:ID>FR23342</cbc:ID>
             </cac:PartyIdentification>
             <cac:PartyName>
-                <cbc:Name>BuyerTradingName AS</cbc:Name>
+                <cbc:Name>CUSTOMER NAME</cbc:Name>
             </cac:PartyName>
             <cac:PostalAddress>
-                <cbc:StreetName>Hovedgatan 32</cbc:StreetName>                
-                <cbc:CityName>Stockholm</cbc:CityName>
-                <cbc:PostalZone>456 34</cbc:PostalZone>
+                <cbc:StreetName>STREET</cbc:StreetName>                
+                <cbc:CityName>CITY</cbc:CityName>
+                <cbc:PostalZone>POSTAL CODE</cbc:PostalZone>
                 <cac:Country>
                     <cbc:IdentificationCode>SE</cbc:IdentificationCode>
                 </cac:Country>
@@ -68,8 +68,8 @@
                 </cac:TaxScheme>
             </cac:PartyTaxScheme>
             <cac:PartyLegalEntity>
-                <cbc:RegistrationName>Buyer Official Name</cbc:RegistrationName>
-                <cbc:CompanyID schemeID="0183">39937423947</cbc:CompanyID>
+                <cbc:RegistrationName>CUSTOMER NAME</cbc:RegistrationName>
+                <cbc:CompanyID schemeID="0183">SE4598375937</cbc:CompanyID>
             </cac:PartyLegalEntity>
           </cac:Party>
     </cac:AccountingCustomerParty>
@@ -86,7 +86,7 @@
    </cac:PaymentMeans>
     <cac:AllowanceCharge>
         <cbc:ChargeIndicator>true</cbc:ChargeIndicator>
-        <cbc:AllowanceChargeReason>Insurance</cbc:AllowanceChargeReason>
+        <cbc:AllowanceChargeReason>CHARGE REASON</cbc:AllowanceChargeReason>
         <cbc:Amount currencyID="EUR">25</cbc:Amount>
         <cac:TaxCategory>
             <cbc:ID>S</cbc:ID>
@@ -123,12 +123,12 @@
 		<cbc:LineExtensionAmount currencyID= "EUR">2800</cbc:LineExtensionAmount>
 		<cac:AllowanceCharge>
 			<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
-			<cbc:AllowanceChargeReason>Discounted</cbc:AllowanceChargeReason>
+			<cbc:AllowanceChargeReason>DISCOUNTED</cbc:AllowanceChargeReason>
 			<cbc:Amount currencyID="EUR">26.95</cbc:Amount>
 		</cac:AllowanceCharge>
 		<cac:Item>
-            <cbc:Description>Description of item</cbc:Description>
-            <cbc:Name>item name</cbc:Name>
+            <cbc:Description>DESCRIPTION 1</cbc:Description>
+            <cbc:Name>ITEM NAME 1</cbc:Name>
             <cac:ClassifiedTaxCategory>
                 <cbc:ID>S</cbc:ID>
                 <cbc:Percent>21</cbc:Percent>
@@ -146,8 +146,8 @@
 		<cbc:InvoicedQuantity unitCode="DAY">-3</cbc:InvoicedQuantity>
 		<cbc:LineExtensionAmount currencyID="EUR">-1500</cbc:LineExtensionAmount>
 		<cac:Item>
-			<cbc:Description>Description 2</cbc:Description>
-			<cbc:Name>item name 2</cbc:Name>
+			<cbc:Description>DESCRIPTION 2</cbc:Description>
+			<cbc:Name>ITEM NAME 2</cbc:Name>
         <cac:ClassifiedTaxCategory>
             <cbc:ID>S</cbc:ID>
             <cbc:Percent>21</cbc:Percent>

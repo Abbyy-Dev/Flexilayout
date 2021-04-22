@@ -1,0 +1,835 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<form:Documents xmlns:form="http://www.abbyy.com/FlexiCapture/Schemas/Export/FormData.xsd" xmlns:addData="http://www.abbyy.com/FlexiCapture/Schemas/Export/AdditionalFormData.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<_rijomotorholland:_rijomotorholland addData:ImagePath="00000001.pdf" xmlns:_rijomotorholland="http://www.abbyy.com/FlexiCapture/Schemas/Export/rijomotorholland.xsd">
+		<_section>
+			<_invoicenum>20210389</_invoicenum>
+			<_invoicenum_credit/>
+			<_kwcredit/>
+			<_invoicedate>24-03-2021</_invoicedate>
+			<_invoicesum>26140,78</_invoicesum>
+			<_line_grp>
+				<_line_amount>73,80</_line_amount>
+				<_item_price>36,90</_item_price>
+				<_description>krukas Aprilia RS50 Top Racing</_description>
+				<_items_ordered>2</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>16,65</_line_amount>
+				<_item_price>5,55</_item_price>
+				<_description>achterremkabel tfl Beta Ark</_description>
+				<_items_ordered>3</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>52,00</_line_amount>
+				<_item_price>5,20</_item_price>
+				<_description>schakelpedaal Senda R 2000</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>36,25</_line_amount>
+				<_item_price>7,25</_item_price>
+				<_description>jiffy Honda SFX 50</_description>
+				<_items_ordered>5</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>7,75</_line_amount>
+				<_item_price>1,55</_item_price>
+				<_description>luchtfilterelement Scoopy nt</_description>
+				<_items_ordered>5</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>595,04</_line_amount>
+				<_item_price>37,19</_item_price>
+				<_description>krukas MB/T/X Top R.</_description>
+				<_items_ordered>16</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>42,00</_line_amount>
+				<_item_price>4,20</_item_price>
+				<_description>gaskabel tfl Honda X8R</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>127,00</_line_amount>
+				<_item_price>6,35</_item_price>
+				<_description>buddydek MT zwart</_description>
+				<_items_ordered>20</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>27,60</_line_amount>
+				<_item_price>6,90</_item_price>
+				<_description>buddydek MTX ot zwart</_description>
+				<_items_ordered>4</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>267,50</_line_amount>
+				<_item_price>5,35</_item_price>
+				<_description>swingas Kreidler</_description>
+				<_items_ordered>50</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>2103,60</_line_amount>
+				<_item_price>35,06</_item_price>
+				<_description>krukas Kreidler 5v std Top R.</_description>
+				<_items_ordered>60</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>115,50</_line_amount>
+				<_item_price>23,10</_item_price>
+				<_description>uitl. Kreidler 28mm 6.3 knik</_description>
+				<_items_ordered>5</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>413,52</_line_amount>
+				<_item_price>17,23</_item_price>
+				<_description>uitl. Kreidler sig. 32mm z/nok</_description>
+				<_items_ordered>24</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>486,00</_line_amount>
+				<_item_price>20,25</_item_price>
+				<_description>uitl. Kreidler sig. 32mm z las</_description>
+				<_items_ordered>24</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>82,65</_line_amount>
+				<_item_price>5,51</_item_price>
+				<_description>bocht kreidler 32/32 ot</_description>
+				<_items_ordered>15</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>165,30</_line_amount>
+				<_item_price>5,51</_item_price>
+				<_description>bocht Kreidler 32/32 nt</_description>
+				<_items_ordered>30</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>12,00</_line_amount>
+				<_item_price>2,40</_item_price>
+				<_description>km tellerkabel Kymco Filly</_description>
+				<_items_ordered>5</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>82,40</_line_amount>
+				<_item_price>20,60</_item_price>
+				<_description>achterdr. Kymco Like chroom</_description>
+				<_items_ordered>4</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>54,75</_line_amount>
+				<_item_price>3,65</_item_price>
+				<_description>benz.kraan Peugeot Fox</_description>
+				<_items_ordered>15</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>31,00</_line_amount>
+				<_item_price>1,55</_item_price>
+				<_description>luchtf.elem. Sp.fight 3, Vi 08</_description>
+				<_items_ordered>20</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>39,75</_line_amount>
+				<_item_price>2,65</_item_price>
+				<_description>km tellerkabel Peug. Tweet</_description>
+				<_items_ordered>15</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>11,25</_line_amount>
+				<_item_price>2,25</_item_price>
+				<_description>km tellerkabel Squab</_description>
+				<_items_ordered>5</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>9,00</_line_amount>
+				<_item_price>1,80</_item_price>
+				<_description>voorremkabel tfl Peu. Fox 2003</_description>
+				<_items_ordered/>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>83,00</_line_amount>
+				<_item_price>8,30</_item_price>
+				<_description>buddydek Peug. V-clic carb.</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>104,00</_line_amount>
+				<_item_price>10,40</_item_price>
+				<_description>buddydek Peugeot Kisbee zwart</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>54,00</_line_amount>
+				<_item_price>1,80</_item_price>
+				<_description>stickerset Peugeot 2 dlg wit</_description>
+				<_items_ordered>30</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>22,00</_line_amount>
+				<_item_price>2,20</_item_price>
+				<_description>stickerset Speedfight 2 zw/ro</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>207,50</_line_amount>
+				<_item_price>8,30</_item_price>
+				<_description>buddydek Speedfight carbon</_description>
+				<_items_ordered>25</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>288,75</_line_amount>
+				<_item_price>19,25</_item_price>
+				<_description>achterdr. Peug. Kisbee glans zw.</_description>
+				<_items_ordered>15</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>231,00</_line_amount>
+				<_item_price>3,85</_item_price>
+				<_description>ophangsteun Puch MV</_description>
+				<_items_ordered>60</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>610,00</_line_amount>
+				<_item_price>6,10</_item_price>
+				<_description>koppelingshendel Puch Maxi</_description>
+				<_items_ordered>100</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>1110,00</_line_amount>
+				<_item_price>111,00</_item_price>
+				<_description>cili.+kop Puch Condor 74cc Gil</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>72,50</_line_amount>
+				<_item_price>7,25</_item_price>
+				<_description>jiffy Zip ET2 / ET4 zwart</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>1086,72</_line_amount>
+				<_item_price>33,96</_item_price>
+				<_description>krukas Puch 3/4v Top R.</_description>
+				<_items_ordered>32</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>26,75</_line_amount>
+				<_item_price>5,35</_item_price>
+				<_description>km. aandr. Run./NRG/MC2/Ty nt</_description>
+				<_items_ordered>5</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>33,75</_line_amount>
+				<_item_price>6,75</_item_price>
+				<_description>uitlaatbocht Runner / Stalker</_description>
+				<_items_ordered>5</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>95,25</_line_amount>
+				<_item_price>6,35</_item_price>
+				<_description>buddydek Piag. Fly zwart</_description>
+				<_items_ordered>15</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>8,30</_line_amount>
+				<_item_price>8,30</_item_price>
+				<_description>buddydek Piaggio DNA carbon</_description>
+				<_items_ordered>1</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>190,50</_line_amount>
+				<_item_price>6,35</_item_price>
+				<_description>buddydek Piag. Zip 4T zwart</_description>
+				<_items_ordered>30</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>40,00</_line_amount>
+				<_item_price>2,00</_item_price>
+				<_description>stickerset Gilera 2 dlg wit</_description>
+				<_items_ordered>20</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>95,25</_line_amount>
+				<_item_price>6,35</_item_price>
+				<_description>buddydek Typhoon zwart</_description>
+				<_items_ordered>15</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>69,90</_line_amount>
+				<_item_price>23,30</_item_price>
+				<_description>achterdrager Piag. Zip 4T chr.</_description>
+				<_items_ordered>3</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>20,58</_line_amount>
+				<_item_price>1,47</_item_price>
+				<_description>luchtfilterelem. Rieju RR/Spike</_description>
+				<_items_ordered>14</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>34,00</_line_amount>
+				<_item_price>3,40</_item_price>
+				<_description>koppelingskabel tfl Rieju RS2</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>16,60</_line_amount>
+				<_item_price>8,30</_item_price>
+				<_description>buddydek Rieju RR carbon</_description>
+				<_items_ordered>2</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>530,40</_line_amount>
+				<_item_price>22,10</_item_price>
+				<_description>uitl. Sachs 5v 32mm chr.</_description>
+				<_items_ordered>24</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>181,00</_line_amount>
+				<_item_price>9,05</_item_price>
+				<_description>bocht Hercules 28mm L chr.</_description>
+				<_items_ordered>20</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>63,50</_line_amount>
+				<_item_price>6,35</_item_price>
+				<_description>buddydek Suzuki TSX blauw</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>35,50</_line_amount>
+				<_item_price>3,55</_item_price>
+				<_description>km.tel.kabel tfl Sym Fiddle II</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>30,00</_line_amount>
+				<_item_price>3,75</_item_price>
+				<_description>km.tel.kab. tfl Orbit II/Cello</_description>
+				<_items_ordered>8</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>54,50</_line_amount>
+				<_item_price>5,45</_item_price>
+				<_description>acht.remk. tfl Orb.II/Fid.III</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>95,25</_line_amount>
+				<_item_price>6,35</_item_price>
+				<_description>buddydek Sym Mio zwart</_description>
+				<_items_ordered>15</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>41,50</_line_amount>
+				<_item_price>8,30</_item_price>
+				<_description>buddydek Fiddle II carbon</_description>
+				<_items_ordered>5</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>95,25</_line_amount>
+				<_item_price>6,35</_item_price>
+				<_description>buddydek Fid. II 2010 zwart</_description>
+				<_items_ordered>15</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>14,70</_line_amount>
+				<_item_price>1,47</_item_price>
+				<_description>luchtfilterelement TGB</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>176,25</_line_amount>
+				<_item_price>7,05</_item_price>
+				<_description>zijst. Tomos Qua., Flexer zw.</_description>
+				<_items_ordered>25</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>38,25</_line_amount>
+				<_item_price>2,55</_item_price>
+				<_description>achterremkab tfl Tomos Rev. TS</_description>
+				<_items_ordered>15</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>11,00</_line_amount>
+				<_item_price>2,75</_item_price>
+				<_description>binnendemper Tomos Speedy</_description>
+				<_items_ordered>4</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>498,96</_line_amount>
+				<_item_price>18,48</_item_price>
+				<_description>uitl. Tomos std. Euro2 chr.</_description>
+				<_items_ordered>27</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>102,00</_line_amount>
+				<_item_price>1,70</_item_price>
+				<_description>remgreep Tomos A3 rechts zwart</_description>
+				<_items_ordered>60</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>448,28</_line_amount>
+				<_item_price>16,01</_item_price>
+				<_description>buddy Tomos A3/A35 zwart</_description>
+				<_items_ordered>28</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>20,85</_line_amount>
+				<_item_price>6,95</_item_price>
+				<_description>jiffy Tomos A3/A35 chroom</_description>
+				<_items_ordered>3</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>811,80</_line_amount>
+				<_item_price>22,55</_item_price>
+				<_description>comp uitl. Tomos A3 krul Tecno</_description>
+				<_items_ordered>36</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>138,60</_line_amount>
+				<_item_price>11,55</_item_price>
+				<_description>achterdrager Tomos met spijl</_description>
+				<_items_ordered>12</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>25,00</_line_amount>
+				<_item_price>0,25</_item_price>
+				<_description>vkw borg 3h/v Zundapp</_description>
+				<_items_ordered>100</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>40,00</_line_amount>
+				<_item_price>0,20</_item_price>
+				<_description>slangklem 9mm 1" 25-40 W2</_description>
+				<_items_ordered>200</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>98,40</_line_amount>
+				<_item_price>0,41</_item_price>
+				<_description>holle k Dom. D3</_description>
+				<_items_ordered>240</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>97,20</_line_amount>
+				<_item_price>9,72</_item_price>
+				<_description>MP1449 Peugeot 39,88 AB</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>29,16</_line_amount>
+				<_item_price>9,72</_item_price>
+				<_description>MP1449 Peugeot 39,92 DE</_description>
+				<_items_ordered>3</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>110,88</_line_amount>
+				<_item_price>13,86</_item_price>
+				<_description>MP0803 Zundapp 2T 39,00 AB</_description>
+				<_items_ordered>8</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>34,56</_line_amount>
+				<_item_price>11,52</_item_price>
+				<_description>MP1392 Tom. eur2/Colibri 38,00</_description>
+				<_items_ordered>3</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>224,30</_line_amount>
+				<_item_price>112,15</_item_price>
+				<_description>cil.kit Sport 4-t Nar. 52,4 mm</_description>
+				<_items_ordered>2</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>61,80</_line_amount>
+				<_item_price>20,60</_item_price>
+				<_description>variateurset BW's/F12 Top R.</_description>
+				<_items_ordered>3</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>145,00</_line_amount>
+				<_item_price>1,45</_item_price>
+				<_description>benzinefilter 6mm alu.</_description>
+				<_items_ordered>100</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>27,90</_line_amount>
+				<_item_price>1,55</_item_price>
+				<_description>luchtfilterelement ch/lx napoli</_description>
+				<_items_ordered>18</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>4,80</_line_amount>
+				<_item_price>1,60</_item_price>
+				<_description>aandr.wiel oliepomp CPI/Keeway</_description>
+				<_items_ordered>3</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>357,00</_line_amount>
+				<_item_price>1,70</_item_price>
+				<_description>km tellerkabel VDO 55cm</_description>
+				<_items_ordered>210</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>52,50</_line_amount>
+				<_item_price>1,75</_item_price>
+				<_description>km tellerkabel Miranda 75cm</_description>
+				<_items_ordered>30</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>36,00</_line_amount>
+				<_item_price>1,80</_item_price>
+				<_description>km tellerkabel VDO 65cm grijs</_description>
+				<_items_ordered>20</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>36,00</_line_amount>
+				<_item_price>1,80</_item_price>
+				<_description>km tellerkabel VDO 70cm grijs</_description>
+				<_items_ordered>20</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>23,50</_line_amount>
+				<_item_price>4,70</_item_price>
+				<_description>buddyhoes zwart L zwart</_description>
+				<_items_ordered>5</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>190,50</_line_amount>
+				<_item_price>6,35</_item_price>
+				<_description>buddyhoes zwart XL zwart</_description>
+				<_items_ordered>30</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>81,00</_line_amount>
+				<_item_price>16,20</_item_price>
+				<_description>zadel triangel rood/zwart</_description>
+				<_items_ordered>5</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>161,00</_line_amount>
+				<_item_price>8,05</_item_price>
+				<_description>buddydek AGM VX, Riva, RL zw.</_description>
+				<_items_ordered>20</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>40,25</_line_amount>
+				<_item_price>8,05</_item_price>
+				<_description>buddydek AGM VX, Riva, RL bruin</_description>
+				<_items_ordered>5</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>127,20</_line_amount>
+				<_item_price>10,60</_item_price>
+				<_description>stuur Motocross chroom</_description>
+				<_items_ordered>12</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>189,00</_line_amount>
+				<_item_price>6,30</_item_price>
+				<_description>stuur M klein zwart</_description>
+				<_items_ordered>30</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>1117,50</_line_amount>
+				<_item_price>7,45</_item_price>
+				<_description>gashendelset M84 zwart</_description>
+				<_items_ordered>150</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>205,50</_line_amount>
+				<_item_price>6,85</_item_price>
+				<_description>versn.hendel 2sp. zwart</_description>
+				<_items_ordered>30</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>35,00</_line_amount>
+				<_item_price>1,75</_item_price>
+				<_description>chokehevel aluminium zwart</_description>
+				<_items_ordered>20</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>33,00</_line_amount>
+				<_item_price>3,30</_item_price>
+				<_description>voorspatbord wit</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>15,75</_line_amount>
+				<_item_price>3,15</_item_price>
+				<_description>handkappen zwart HP</_description>
+				<_items_ordered>5</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>57,50</_line_amount>
+				<_item_price>5,75</_item_price>
+				<_description>remkl.zuigerset Brembo V 30x17</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>174,00</_line_amount>
+				<_item_price>5,80</_item_price>
+				<_description>remkl.zuigerset AJP A 25x13</_description>
+				<_items_ordered>30</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>120,60</_line_amount>
+				<_item_price>6,03</_item_price>
+				<_description>remkl.zuigerset AJP 25x27</_description>
+				<_items_ordered>20</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>1,95</_line_amount>
+				<_item_price>1,95</_item_price>
+				<_description>nademperklem Ovaal</_description>
+				<_items_ordered>1</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>158,40</_line_amount>
+				<_item_price>13,20</_item_price>
+				<_description>uitl. Cross 28mm zwart</_description>
+				<_items_ordered>12</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>316,80</_line_amount>
+				<_item_price>13,20</_item_price>
+				<_description>uitl. Cross 28mm chroom</_description>
+				<_items_ordered>24</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>792,00</_line_amount>
+				<_item_price>13,20</_item_price>
+				<_description>uitl. Cross 32mm chroom</_description>
+				<_items_ordered>60</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>109,50</_line_amount>
+				<_item_price>2,19</_item_price>
+				<_description>kent.plaat houder 100x175 wit</_description>
+				<_items_ordered>50</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>675,00</_line_amount>
+				<_item_price>2,70</_item_price>
+				<_description>lichtschakelaar 3 stand. chr.</_description>
+				<_items_ordered>250</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>248,75</_line_amount>
+				<_item_price>9,95</_item_price>
+				<_description>dubbele USB lader eBee</_description>
+				<_items_ordered>25</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>144,75</_line_amount>
+				<_item_price>9,65</_item_price>
+				<_description>koplamp rond zw/chr. 14.5cm</_description>
+				<_items_ordered>15</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>158,88</_line_amount>
+				<_item_price>9,93</_item_price>
+				<_description>duokussen schuin wit</_description>
+				<_items_ordered>16</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>137,40</_line_amount>
+				<_item_price>11,45</_item_price>
+				<_description>uitl. Ciao Mix 40km 22mm</_description>
+				<_items_ordered>12</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>149,60</_line_amount>
+				<_item_price>14,96</_item_price>
+				<_description>zadel Citta orgineel zwart</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>26,90</_line_amount>
+				<_item_price>13,45</_item_price>
+				<_description>buddydek Vespa GTS va. 2014 carbon</_description>
+				<_items_ordered>2</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>271,08</_line_amount>
+				<_item_price>22,59</_item_price>
+				<_description>comp. uitlaat Ciao krul Tecno</_description>
+				<_items_ordered>12</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>185,40</_line_amount>
+				<_item_price>15,45</_item_price>
+				<_description>uitlaat Ciao std chroom</_description>
+				<_items_ordered>12</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>45,50</_line_amount>
+				<_item_price>4,55</_item_price>
+				<_description>achterlicht Citta inbouw</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>74,50</_line_amount>
+				<_item_price>7,45</_item_price>
+				<_description>jiffy Yamaha Neo's 2007 zwart</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>25,40</_line_amount>
+				<_item_price>6,35</_item_price>
+				<_description>buddydek Yamaha BW's zwart</_description>
+				<_items_ordered>4</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>656,64</_line_amount>
+				<_item_price>41,04</_item_price>
+				<_description>krukas Zundapp 2/3/4 vol TR</_description>
+				<_items_ordered>16</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>143,75</_line_amount>
+				<_item_price>28,75</_item_price>
+				<_description>voetschakelas Zundapp 4v</_description>
+				<_items_ordered>5</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>105,00</_line_amount>
+				<_item_price>2,10</_item_price>
+				<_description>uitl. klem Zundapp 60mm chr.</_description>
+				<_items_ordered>50</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>427,20</_line_amount>
+				<_item_price>17,80</_item_price>
+				<_description>uitl. Zundapp 32mm geforc. KS</_description>
+				<_items_ordered>24</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>57,50</_line_amount>
+				<_item_price>5,75</_item_price>
+				<_description>bocht Zundapp 32/32 1 knik</_description>
+				<_items_ordered>10</_items_ordered>
+				<_vatcode>21,00</_vatcode>
+			</_line_grp>
+			<_ordernum>23103</_ordernum>
+			<_duedate>07-04-2021</_duedate>
+			<_vatamount>4536,83</_vatamount>
+			<_invoicenetsum>21603,95</_invoicenetsum>
+		</_section>
+	</_rijomotorholland:_rijomotorholland>
+</form:Documents>

@@ -2,7 +2,7 @@
 <Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 file://LAPTOP-A2620K9V/Users/63917/Documents/Github/Flexilayout/Layouts/4-UBL%20Types/UBL%20PEPPOL%20BIS%20V3/xsd/UBL-Invoice-2.2.xsd">
 	<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
 	<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
-	<cbc:ID>Snippet1</cbc:ID>
+	<cbc:ID>INVOICE NUMBER</cbc:ID>
 	<cbc:IssueDate>2017-11-13</cbc:IssueDate>
 	<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
 	<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
@@ -12,7 +12,7 @@
 				<cbc:ID>99887766</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
-				<cbc:Name>SupplierTradingName Ltd.</cbc:Name>
+				<cbc:Name>SENDER NAME</cbc:Name>
 			</cac:PartyName>
 			<cac:PartyTaxScheme>
 				<cbc:CompanyID>GB1232434</cbc:CompanyID>
@@ -21,18 +21,18 @@
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
-				<cbc:RegistrationName>SupplierOfficialName Ltd</cbc:RegistrationName>
-				<cbc:CompanyID>GB983294</cbc:CompanyID>
+				<cbc:RegistrationName>SENDER NAME</cbc:RegistrationName>
+				<cbc:CompanyID>GB1232434</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 		</cac:Party>
 	</cac:AccountingSupplierParty>
 	<cac:AccountingCustomerParty>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="0002">FR23342</cbc:ID>
+				<cbc:ID schemeID="0002">SE4598375937</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
-				<cbc:Name>BuyerTradingName AS</cbc:Name>
+				<cbc:Name>CUSTOMER NAME</cbc:Name>
 			</cac:PartyName>
 			<cac:PartyTaxScheme>
 				<cbc:CompanyID>SE4598375937</cbc:CompanyID>
@@ -41,8 +41,8 @@
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
-				<cbc:RegistrationName>Buyer Official Name</cbc:RegistrationName>
-				<cbc:CompanyID schemeID="0183">39937423947</cbc:CompanyID>
+				<cbc:RegistrationName>CUSTOMER NAME</cbc:RegistrationName>
+				<cbc:CompanyID schemeID="0183">SE4598375937</cbc:CompanyID>
 			</cac:PartyLegalEntity>
  		</cac:Party>
 	</cac:AccountingCustomerParty>
@@ -70,7 +70,7 @@
 		<cbc:ID>1</cbc:ID>
 		<cbc:LineExtensionAmount currencyID="EUR">2800</cbc:LineExtensionAmount>
 		<cac:Item>
-			<cbc:Name>item name</cbc:Name>
+			<cbc:Name>ITEM NAME</cbc:Name>
 			<cac:ClassifiedTaxCategory>
 				<cbc:ID>S</cbc:ID>
 				<cbc:Percent>21</cbc:Percent>

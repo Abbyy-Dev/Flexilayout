@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<form:Documents xmlns:form="http://www.abbyy.com/FlexiCapture/Schemas/Export/FormData.xsd" xmlns:addData="http://www.abbyy.com/FlexiCapture/Schemas/Export/AdditionalFormData.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<_dcafamnv:_dcafamnv addData:ImagePath="00000001.pdf" xmlns:_dcafamnv="http://www.abbyy.com/FlexiCapture/Schemas/Export/dcafamnv.xsd">
+		<_section>
+			<_invoicenum>00271352</_invoicenum>
+			<_invoicenum_credit/>
+			<_kwcredit/>
+			<_invoicedate>03-03-2021</_invoicedate>
+			<_invoicesum>13743,67</_invoicesum>
+			<_line_grp>
+				<_line_amount>1942,45</_line_amount>
+				<_item_price>7,33</_item_price>
+				<_description>NITRO NTX5L-BS AGM open with acid pack
+85071020 kg: 530,00 Country: CN</_description>
+				<_items_ordered>265,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge/>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>144,15</_line_amount>
+				<_item_price>28,83</_item_price>
+				<_description>CTEK XS 0.8 ACCULADER 12V-0,8 Amp
+85044055 kg: 3,50 Country: SE</_description>
+				<_items_ordered>5,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge/>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>673,75</_line_amount>
+				<_item_price>5,39</_item_price>
+				<_description>NITRO NT4L SLA AGM GEL closed
+85071020 kg: 175,00 Country: CN</_description>
+				<_items_ordered>125,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge/>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>319,30</_line_amount>
+				<_item_price>10,30</_item_price>
+				<_description>NITRO NTX7A SLA GEL AGM closed
+85071020 kg: 80,60 Country: CN</_description>
+				<_items_ordered>31,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge/>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>122,60</_line_amount>
+				<_item_price>14,76</_item_price>
+				<_description>YUASA 6N4-2A-7 open without acid
+85071020 kg: 12,00 Country: TW</_description>
+				<_items_ordered>20,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-17260.34</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>90,28</_line_amount>
+				<_item_price>92,60</_item_price>
+				<_description>SHIDO LTX12-BS Lithium Ion
+85076000 kg: 1,98 Country: CN</_description>
+				<_items_ordered>2,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-64.82</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>229,17</_line_amount>
+				<_item_price>78,35</_item_price>
+				<_description>SHIDO LTX7A-BS Lithium Ion
+85076000 kg: 4,62 Country: CN</_description>
+				<_items_ordered>6,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-164.53</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>112,33</_line_amount>
+				<_item_price>78,01</_item_price>
+				<_description>NITRO NB16AL-A2 WA open with acid pack
+85071020 kg: 21,20 Country: CN</_description>
+				<_items_ordered>4,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-124.82</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>55,72</_line_amount>
+				<_item_price>77,39</_item_price>
+				<_description>NITRO NB16B-A1 WA open with acid pack
+85071020 kg: 11,28 Country: CN</_description>
+				<_items_ordered>2,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-61.91</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>107,94</_line_amount>
+				<_item_price>37,48</_item_price>
+				<_description>NITRO NB7-A WA open with acid pack
+85071020 kg: 24,88 Country: CN</_description>
+				<_items_ordered>8,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-119.94</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>178,80</_line_amount>
+				<_item_price>41,39</_item_price>
+				<_description>NITRO NB9L-B WA open with acid pack
+85071020 kg: 37,20 Country: CN</_description>
+				<_items_ordered>12,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-198.67</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>142,73</_line_amount>
+				<_item_price>66,08</_item_price>
+				<_description>NITRO NT14B-4 SLA AGM GEL closed
+85071020 kg: 27,60 Country: CN</_description>
+				<_items_ordered>6,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-158.59</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>81,91</_line_amount>
+				<_item_price>37,92</_item_price>
+				<_description>NITRO NT7B-BS AGM open with acid pack
+85071020 kg: 13,86 Country: CN</_description>
+				<_items_ordered>6,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-91.01</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>300,48</_line_amount>
+				<_item_price>46,37</_item_price>
+				<_description>NITRO NT9B-4 SLA AGM GEL closed
+85071020 kg: 61,20 Country: CN</_description>
+				<_items_ordered>18,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-333.86</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>685,45</_line_amount>
+				<_item_price>52,89</_item_price>
+				<_description>NITRO NTX12-BS AGM open with acid pack
+85071020 kg: 151,20 Country: CN</_description>
+				<_items_ordered>36,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-761.62</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>703,18</_line_amount>
+				<_item_price>61,04</_item_price>
+				<_description>NITRO NTX14-BS AGM open with acid pack
+85071020 kg: 147,20 Country: CN</_description>
+				<_items_ordered>32,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-781.31</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>245,26</_line_amount>
+				<_item_price>85,16</_item_price>
+				<_description>NITRO NTX16-BS AGM open with acid pack
+85071020 kg: 45,44 Country: CN</_description>
+				<_items_ordered>8,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-272.51</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>606,74</_line_amount>
+				<_item_price>56,18</_item_price>
+				<_description>NITRO NTZ12S SLA AGM GEL closed
+85071020 kg: 111,00 Country: CN</_description>
+				<_items_ordered>30,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-674.16</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>127,20</_line_amount>
+				<_item_price>58,89</_item_price>
+				<_description>NITRO NTZ14S SLA AGM GEL closed
+85071020 kg: 23,40 Country: CN</_description>
+				<_items_ordered>6,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-141.34</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>397,80</_line_amount>
+				<_item_price>26,52</_item_price>
+				<_description>Shido dual charger 1A EU
+85044055 kg: 6,00 Country: CN</_description>
+				<_items_ordered>15,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge/>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>1441,50</_line_amount>
+				<_item_price>28,83</_item_price>
+				<_description>CTEK XS 0.8 BATTERY CHARGER 12V-0,8 Amp
+85044055 kg: 35,00 Country: SE</_description>
+				<_items_ordered>50,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge/>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>211,43</_line_amount>
+				<_item_price>16,97</_item_price>
+				<_description>YUASA YB4L-B open without acid
+85071020 kg: 36,00 Country: ID</_description>
+				<_items_ordered>30,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-29767.08</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>442,54</_line_amount>
+				<_item_price>66,60</_item_price>
+				<_description>YUASA YTX12-BS AGM open with acid pack
+85071020 kg: 64,00 Country: TW</_description>
+				<_items_ordered>16,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-62305.63</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>701,28</_line_amount>
+				<_item_price>84,43</_item_price>
+				<_description>YUASA YTX14-BS AGM open with acid pack
+85071020 kg: 100,00 Country: TW</_description>
+				<_items_ordered>20,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-98732.44</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>123,68</_line_amount>
+				<_item_price>29,78</_item_price>
+				<_description>YUASA YTX4L-BS AGM open with acid pack
+85071020 kg: 17,84 Country: ID</_description>
+				<_items_ordered>10,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-17412.37</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>227,92</_line_amount>
+				<_item_price>54,88</_item_price>
+				<_description>YUASA YTX5L-BS AGM open with acid pack
+85071020 kg: 20,00 Country: ID</_description>
+				<_items_ordered>10,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-32088.34</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>960,34</_line_amount>
+				<_item_price>57,81</_item_price>
+				<_description>YUASA YTX7A-BS AGM open with acid pack
+85071020 kg: 120,00 Country: TW</_description>
+				<_items_ordered>40,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-135206.03</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>1190,87</_line_amount>
+				<_item_price>57,35</_item_price>
+				<_description>YUASA YTX7L-BS AGM open with acid pack
+85071020 kg: 150,00 Country: TW</_description>
+				<_items_ordered>50,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-167662.72</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>959,87</_line_amount>
+				<_item_price>55,03</_item_price>
+				<_description>YUASA YTX9-BS AGM open with acid pack
+85071020 kg: 126,00 Country: TW</_description>
+				<_items_ordered>42,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge>-135139.37</_allowancecharge>
+			</_line_grp>
+			<_line_grp>
+				<_line_amount>217,00</_line_amount>
+				<_item_price>217,00</_item_price>
+				<_description>Transport cost</_description>
+				<_items_ordered>1,00</_items_ordered>
+				<_vatcode>0</_vatcode>
+				<_allowancecharge/>
+			</_line_grp>
+			<_duedate>02-04-2021</_duedate>
+			<_invoicenetsum>13468,79</_invoicenetsum>
+		</_section>
+	</_dcafamnv:_dcafamnv>
+</form:Documents>

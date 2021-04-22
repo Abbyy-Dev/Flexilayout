@@ -6,14 +6,14 @@
 -->
 <Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 file://LAPTOP-A2620K9V/Users/63917/Documents/Github/Flexilayout/Layouts/4-UBL%20Types/UBL%20EN16931%201.3.4/xsd/UBL-Invoice-2.2.xsd">
 	<cbc:CustomizationID>urn:cen.eu:en16931:2017</cbc:CustomizationID>
-	<cbc:ID>12115118</cbc:ID>
+	<cbc:ID>INVOICE NUMBER</cbc:ID>
 	<cbc:IssueDate>2015-01-09</cbc:IssueDate>
 	<cbc:DueDate>2015-01-09</cbc:DueDate>
 	<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
 	<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-	<cbc:BuyerReference>1224</cbc:BuyerReference>
+	<cbc:BuyerReference>YOUR REFERENCE</cbc:BuyerReference>
 	<cac:OrderReference>
-		<cbc:ID>22222</cbc:ID>
+		<cbc:ID>ORDER NUMBER</cbc:ID>
 	</cac:OrderReference>
 	<cac:AdditionalDocumentReference>
 		<cbc:ID>att_0_DETAILLING_RENTAL_-_010321_-_478_-_BETAALD_PER_OVERSCHRIJVING.pdf</cbc:ID>
@@ -22,32 +22,32 @@
 		</cac:Attachment>
 	</cac:AdditionalDocumentReference>
 	<cac:ProjectReference>
-		<cbc:ID>1234</cbc:ID>
+		<cbc:ID>PROJECT NUMBER</cbc:ID>
 	</cac:ProjectReference>
 	<cac:AccountingSupplierParty>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID>BE000000000</cbc:ID>
+				<cbc:ID>57151520</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
-				<cbc:Name>Supplier name</cbc:Name>
+				<cbc:Name>SENDER NAME</cbc:Name>
 			</cac:PartyName>
 			<cac:PostalAddress>
-				<cbc:StreetName>Postbus 7l</cbc:StreetName>
-				<cbc:CityName>Velsen-Noord</cbc:CityName>
-				<cbc:PostalZone>1950 AB</cbc:PostalZone>
+				<cbc:StreetName>STREET</cbc:StreetName>
+				<cbc:CityName>CITY</cbc:CityName>
+				<cbc:PostalZone>POSTAL CODE</cbc:PostalZone>
 				<cac:Country>
-					<cbc:IdentificationCode>NL</cbc:IdentificationCode>
+					<cbc:IdentificationCode>BE</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:CompanyID>BE000000000</cbc:CompanyID>
+				<cbc:CompanyID>BE0000000123</cbc:CompanyID>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
-				<cbc:RegistrationName>De Koksmaat</cbc:RegistrationName>
+				<cbc:RegistrationName>SENDER NAME</cbc:RegistrationName>
 				<cbc:CompanyID>57151520</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 		</cac:Party>
@@ -55,28 +55,28 @@
 	<cac:AccountingCustomerParty>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID>10202</cbc:ID>
+				<cbc:ID>BE0000000123</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
-				<cbc:Name>Buyer name</cbc:Name>
+				<cbc:Name>CUSTOMER NAME</cbc:Name>
 			</cac:PartyName>
 			<cac:PostalAddress>
-				<cbc:StreetName>POSTBUS 367</cbc:StreetName>
-				<cbc:CityName>HEEMSKERK</cbc:CityName>
-				<cbc:PostalZone>1960 AJ</cbc:PostalZone>
+				<cbc:StreetName>STREET</cbc:StreetName>
+				<cbc:CityName>CITY</cbc:CityName>
+				<cbc:PostalZone>POSTAL CODE</cbc:PostalZone>
 				<cac:Country>
-					<cbc:IdentificationCode>NL</cbc:IdentificationCode>
+					<cbc:IdentificationCode>BE</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:CompanyID>BE00000000</cbc:CompanyID>
+				<cbc:CompanyID>BE0000000123</cbc:CompanyID>
 				<cac:TaxScheme>
-					<cbc:ID>BE:VAT</cbc:ID>
+					<cbc:ID>VAT</cbc:ID>
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
-				<cbc:RegistrationName>ODIN 59</cbc:RegistrationName>
-				<cbc:CompanyID>BE00000000</cbc:CompanyID>
+				<cbc:RegistrationName>CUSTOMER NAME</cbc:RegistrationName>
+				<cbc:CompanyID>BE0000000123</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 		</cac:Party>
 	</cac:AccountingCustomerParty>
@@ -91,7 +91,7 @@
    </cac:PaymentMeans>
 	<cac:AllowanceCharge>
 		<cbc:ChargeIndicator>true</cbc:ChargeIndicator>
-		<cbc:AllowanceChargeReason>Charge</cbc:AllowanceChargeReason>
+		<cbc:AllowanceChargeReason>CHARGE REASON</cbc:AllowanceChargeReason>
 		<cbc:Amount currencyID="EUR">10.00</cbc:Amount>
 		<cac:TaxCategory>
 			<cbc:ID>S</cbc:ID>
@@ -128,11 +128,11 @@
 		<cbc:LineExtensionAmount currencyID="EUR">2541.99</cbc:LineExtensionAmount>
 		<cac:AllowanceCharge>
 			<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
-			<cbc:AllowanceChargeReason>Discounted</cbc:AllowanceChargeReason>
+			<cbc:AllowanceChargeReason>DISCOUNTED</cbc:AllowanceChargeReason>
 			<cbc:Amount currencyID="EUR">26.95</cbc:Amount>
 		</cac:AllowanceCharge>
 		<cac:Item>
-			<cbc:Name>Line description</cbc:Name>
+			<cbc:Name>DESCRIPTION</cbc:Name>
 			<cac:ClassifiedTaxCategory>
 				<cbc:ID>S</cbc:ID>
 				<cbc:Percent>21</cbc:Percent>

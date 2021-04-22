@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 file://LAPTOP-A2620K9V/Users/63917/Documents/Github/Flexilayout/Layouts/4-UBL%20Types/UBL%20SI-UBL%202.0%20G-Account/xsd/UBL-Invoice-2.2.xsd">
 	<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:nen.nl:nlcius:v1.0#conformant#urn:fdc:nen.nl:gaccount:v1.0</cbc:CustomizationID>
-	<cbc:ID>202021</cbc:ID>
+	<cbc:ID>INVOICE NUMBER</cbc:ID>
 	<cbc:IssueDate>2021-01-20</cbc:IssueDate>
 	<cbc:DueDate>2021-02-20</cbc:DueDate>
 	<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
@@ -15,10 +15,10 @@
 	<cac:AccountingSupplierParty>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="0106">22222222</cbc:ID>
+				<cbc:ID schemeID="0106">12345678</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
-				<cbc:Name>SELLER NAME</cbc:Name>
+				<cbc:Name>SENDER NAME</cbc:Name>
 			</cac:PartyName>
 			<cac:PostalAddress>
 				<cbc:StreetName>STREET</cbc:StreetName>
@@ -29,24 +29,24 @@
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:CompanyID>NL00000395B01</cbc:CompanyID>
+				<cbc:CompanyID>BE0000000123</cbc:CompanyID>
 				<cac:TaxScheme>
 					<cbc:ID>VAT</cbc:ID>
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
-				<cbc:RegistrationName>SELLER NAME</cbc:RegistrationName>
-				<cbc:CompanyID schemeID="0106">22222222</cbc:CompanyID>
+				<cbc:RegistrationName>SENDER NAME</cbc:RegistrationName>
+				<cbc:CompanyID schemeID="0106">12345678</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 		</cac:Party>
 	</cac:AccountingSupplierParty>
 	<cac:AccountingCustomerParty>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="0106">22222222</cbc:ID>
+				<cbc:ID schemeID="0106">12345678</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
-				<cbc:Name>BUYER NAME</cbc:Name>
+				<cbc:Name>CUSTOMER NAME</cbc:Name>
 			</cac:PartyName>
 			<cac:PostalAddress>
 				<cbc:StreetName>STREET</cbc:StreetName>
@@ -57,13 +57,13 @@
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:CompanyID>NL00000222B01</cbc:CompanyID>
+				<cbc:CompanyID>BE0000000123</cbc:CompanyID>
 				<cac:TaxScheme>
 					<cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
-				<cbc:RegistrationName>BUYER NAME</cbc:RegistrationName>
+				<cbc:RegistrationName>CUSTOMER NAME</cbc:RegistrationName>
 				<cbc:CompanyID schemeID="0106">KVK</cbc:CompanyID>
 			</cac:PartyLegalEntity>
 		</cac:Party>
@@ -117,7 +117,7 @@
 		<cbc:InvoicedQuantity unitCode="C62">2</cbc:InvoicedQuantity>
 		<cbc:LineExtensionAmount currencyID="EUR">638.00</cbc:LineExtensionAmount>
 		<cac:Item>
-			<cbc:Name>DESCRIPTION / ARTICLE NAME 1</cbc:Name>
+			<cbc:Name>DESCRIPTION</cbc:Name>
 			<cac:ClassifiedTaxCategory xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
 				<cbc:ID>S</cbc:ID>
 				<cbc:Percent>21</cbc:Percent>
